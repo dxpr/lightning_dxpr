@@ -1,0 +1,10 @@
+{
+    "name": "dxpr/lightning-dxpr",
+    "type": "drupal-profile",
+    "description": "A fast and feature-rich Drupal distribution based on Lightning profile.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "acquia/lightning": "^4.0",
+        "drupal/bootstrap": "^3.0"
+    }
+}
