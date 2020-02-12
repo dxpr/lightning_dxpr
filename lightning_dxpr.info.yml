@@ -3,6 +3,10 @@ type: profile
 version: 8.x-dev
 description: 'A fast and feature-rich Drupal distribution based on Lightning profile.'
 core: '8.x'
+
+distribution:
+  name: DXPR
+
 install:
   - webform
 
