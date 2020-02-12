@@ -9,6 +9,7 @@ distribution:
 
 install:
   - webform
+  - webform_ui
 
 themes:
   - bootstrap
@@ -25,3 +26,5 @@ exclude:
   - lightning_banner_block
   - lightning_landing_page
   - lightning_map_block
+  - bartik
+  - claro
