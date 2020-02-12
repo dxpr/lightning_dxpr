@@ -5,6 +5,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "acquia/lightning": "^4.0",
-        "drupal/bootstrap": "^3.0"
+        "drupal/bootstrap": "^3.0",
+        "drupal/webform": "^5.0"
     }
 }
