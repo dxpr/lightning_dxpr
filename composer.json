@@ -1,5 +1,5 @@
 {
-    "name": "dxpr/lightning-dxpr",
+    "name": "dxpr/lightning_dxpr",
     "type": "drupal-profile",
     "description": "A fast and feature-rich Drupal distribution based on Lightning profile.",
     "license": "GPL-2.0-or-later",
