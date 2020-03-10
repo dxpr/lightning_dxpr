@@ -18,8 +18,8 @@ install:
   - webform_ui
 
 themes:
-  - bootstrap
   - glazed
+  - bootstrap
   - seven
 
 exclude:
@@ -35,3 +35,4 @@ exclude:
   - bartik
   - claro
   - layout_builder
+  - layout_discovery
