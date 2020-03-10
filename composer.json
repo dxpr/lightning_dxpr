@@ -38,6 +38,6 @@
         "drupal/glazed_helper": "^1.0",
         "drupal/webform": "^5.0",
         "jjroelofs/glazed": "dev-master",
-        "jjroelofs/glazed_builder": "dev-master",
+        "jjroelofs/glazed_builder": "dev-master"
     }
 }
