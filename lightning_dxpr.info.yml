@@ -4,18 +4,24 @@ version: 8.x-dev
 description: 'A fast and feature-rich Drupal distribution based on Lightning profile.'
 core: '8.x'
 
+base profile: lightning
+
 distribution:
   name: DXPR
 
 install:
+  - field_group
+  - glazed_builder
+  - glazed_builder_page
+  - glazed_helper
   - webform
   - webform_ui
 
 themes:
   - bootstrap
+  - glazed
   - seven
 
-base profile: lightning
 exclude:
   - lightning_api
   - lightning_contact_form
@@ -28,3 +34,4 @@ exclude:
   - lightning_map_block
   - bartik
   - claro
+  - layout_builder

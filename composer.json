@@ -3,9 +3,41 @@
     "type": "drupal-profile",
     "description": "A fast and feature-rich Drupal distribution based on Lightning profile.",
     "license": "GPL-2.0-or-later",
+    "repositories": {
+        "glazed": {
+            "type": "package",
+            "package": {
+                "name": "jjroelofs/glazed",
+                "type": "drupal-theme",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/jjroelofs/glazed",
+                    "type": "git",
+                    "reference": "origin/8.x"
+                }
+            }
+        },
+        "glazed_builder": {
+            "type": "package",
+            "package": {
+                "name": "jjroelofs/glazed_builder",
+                "type": "drupal-module",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/jjroelofs/glazed_builder",
+                    "type": "git",
+                    "reference": "origin/8.x"
+                }
+            }
+        }
+    },
     "require": {
         "acquia/lightning": "^4.0",
         "drupal/bootstrap": "^3.0",
-        "drupal/webform": "^5.0"
+        "drupal/field_group": "^3.0",
+        "drupal/glazed_helper": "^1.0",
+        "drupal/webform": "^5.0",
+        "jjroelofs/glazed": "dev-master",
+        "jjroelofs/glazed_builder": "dev-master",
     }
 }
