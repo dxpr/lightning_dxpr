@@ -20,7 +20,7 @@ install:
 themes:
   - glazed
   - bootstrap
-  - seven
+  - claro
 
 exclude:
   - lightning_api
@@ -33,6 +33,6 @@ exclude:
   - lightning_landing_page
   - lightning_map_block
   - bartik
-  - claro
+  - seven
   - layout_builder
   - layout_discovery
