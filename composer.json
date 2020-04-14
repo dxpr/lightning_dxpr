@@ -8,6 +8,8 @@
         "drupal/bootstrap": "^3.0",
         "drupal/field_group": "^3.0",
         "drupal/glazed_helper": "^1.0",
+        "drupal/better_normalizers": "1.0-beta3",
+        "drupal/default_content": "1.0-alpha6",
         "drupal/webform": "^5.0",
         "jjroelofs/glazed": "dev-master",
         "jjroelofs/glazed_builder": "dev-master"
