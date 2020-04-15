@@ -10,10 +10,13 @@ distribution:
   name: DXPR
 
 install:
+  - color
   - field_group
   - glazed_builder
   - glazed_builder_page
   - glazed_helper
+  - search
+  - tokenuuid
   - webform
   - webform_ui
 
@@ -25,8 +28,6 @@ themes:
 exclude:
   - lightning_api
   - lightning_contact_form
-  - lightning_page
-  - lightning_roles
   - lightning_search
   - lightning_layout
   - lightning_banner_block

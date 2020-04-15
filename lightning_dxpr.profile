@@ -34,36 +34,19 @@ function lightning_dxpr_install_tasks(&$install_state) {
 function lightning_dxpr_module_install(array &$install_state) {
 
   $batch = [];
-  if (count($install_state['lightning_dxpr_additional_modules']) > 0) {
+  $operations = [];
+  $modules = ['default_content', 'better_normalizers', 'dxpr_test_content'];
 
-    $modules = $install_state['lightning_dxpr_additional_modules'];
-    array_unshift($modules, 'lightning_dxpr_core');
-
-    // Default content module installs content by implementing
-    // hook_modules_installed(). Since CMS modules have no dependency on Default
-    // content we need to make sure the module is installed before them.
-    // We also install admin_toolbar here because we don't want a dependency on that
-    if ($install_state['lightning_dxpr_demo_content']) {
-      array_unshift($modules, 'default_content', 'better_normalizers');
-    }
-
-    $operations = [];
-    foreach ($modules as $module) {
-      $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
-    }
-
-    // Uninstall Default content and Better normalizers modules as they only
-    // needed on installation process.
-    if ($install_state['lightning_dxpr_demo_content']) {
-      $operations[] = ['lightning_dxpr_cleanup_batch', []];
-    }
-
-    $batch = [
-      'operations' => $operations,
-      'title' => t('Installing additional modules'),
-      'error_message' => t('The installation has encountered an error.'),
-    ];
+  foreach ($modules as $module) {
+    $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
   }
+  $operations[] = ['lightning_dxpr_cleanup_batch', []];
+
+  $batch = [
+    'operations' => $operations,
+    'title' => t('Installing additional modules'),
+    'error_message' => t('The installation has encountered an error.'),
+  ];
 
   return $batch;
 }
@@ -96,7 +79,7 @@ function lightning_dxpr_install_module_batch($module, &$context) {
       }
     }
   }
-
+  drush_print(t('Installed %module_name module.', ['%module_name' => $module]));
   $context['results'][] = $module;
   $context['message'] = t('Installed %module_name module.', ['%module_name' => $module]);
 }
