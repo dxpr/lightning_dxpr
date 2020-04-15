@@ -59,27 +59,6 @@ function lightning_dxpr_module_install(array &$install_state) {
 function lightning_dxpr_install_module_batch($module, &$context) {
   // CMS Modules are not available yet.
   Drupal::service('module_installer')->install([$module], TRUE);
-
-  // We're doing this here because during hook_install it fails due to demo content loading
-  // after installation (when default_content module steps in).
-  if (strpos($module, '_demo') > 0) {
-    $module_path = drupal_get_path('module', $module);
-    if ($path = file_get_contents($module_path . '/front-path.txt')) {
-      if ($nid = Drupal::database()->query("SELECT nid FROM {node} WHERE uuid = '" . $path . "'")->fetchField()) {
-        Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/' . $nid)->save(TRUE);
-      }
-      else {
-        $front_page = Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['uuid' => $path]);
-        if ($front_page) {
-          Drupal::configFactory()->getEditable('system.site')->set('page.front', $path)->save(TRUE);
-        }
-        else {
-          Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save(TRUE);
-        }
-      }
-    }
-  }
-  drush_print(t('Installed %module_name module.', ['%module_name' => $module]));
   $context['results'][] = $module;
   $context['message'] = t('Installed %module_name module.', ['%module_name' => $module]);
 }
@@ -96,6 +75,24 @@ function lightning_dxpr_cleanup_batch(&$context) {
   $entities = $entity_storage->loadMultiple($result);
   foreach ($entities as $entity) {
     \Drupal::service('pathauto.generator')->updateEntityAlias($entity, 'update');
+  }
+
+  // We're doing this here because during hook_install it fails due to demo content loading
+  // after installation (when default_content module steps in).
+  $module_path = drupal_get_path('module', 'dxpr_test_content');
+  if ($path = file_get_contents($module_path . '/front-path.txt')) {
+    if ($nid = Drupal::database()->query("SELECT nid FROM {node} WHERE uuid = '" . $path . "'")->fetchField()) {
+      Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/' . $nid)->save(TRUE);
+    }
+    else {
+      $front_page = Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['uuid' => $path]);
+      if ($front_page) {
+        Drupal::configFactory()->getEditable('system.site')->set('page.front', $path)->save(TRUE);
+      }
+      else {
+        Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save(TRUE);
+      }
+    }
   }
 
   $context['message'] = t('Cleanup.');
