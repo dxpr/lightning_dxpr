@@ -10,7 +10,7 @@
         "drupal/default_content": "1.0-alpha6",
         "drupal/field_group": "^3.0",
         "drupal/glazed_helper": "^1.0",
-        "drupal/token_uuid": "^1.0",
+        "drupal/tokenuuid": "^1.0",
         "drupal/webform": "^5.0",
         "jjroelofs/dxpr_test_content": "dev-master",
         "jjroelofs/glazed": "dev-master",
