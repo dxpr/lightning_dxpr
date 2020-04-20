@@ -13,7 +13,7 @@
         "drupal/tokenuuid": "^1.0",
         "drupal/webform": "^5.0",
         "jjroelofs/dxpr_test_content": "dev-master",
-        "jjroelofs/glazed": "dev-master",
-        "jjroelofs/glazed_builder": "dev-master"
+        "jjroelofs/glazed": "^1.0",
+        "jjroelofs/glazed_builder": "^1.0"
     }
 }
