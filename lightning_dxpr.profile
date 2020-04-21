@@ -13,6 +13,11 @@
 function lightning_dxpr_install_tasks(&$install_state) {
 
   $tasks = [
+    'lightning_dxpr_demo_select' => [
+      'display_name' => t('Select Demo'),
+      'type' => 'form',
+      'function' => 'Drupal\lightning_dxpr\Form\DemoSelectForm',
+    ],
     'lightning_dxpr_module_install' => [
       'display_name' => t('Install additional modules'),
       'type' => 'batch',
@@ -32,23 +37,23 @@ function lightning_dxpr_install_tasks(&$install_state) {
  *   A batch array to execute.
  */
 function lightning_dxpr_module_install(array &$install_state) {
-
   $batch = [];
-  $operations = [];
-  $modules = ['default_content', 'better_normalizers', 'dxpr_test_content'];
+  if ($install_state['demo_select'] !== 'none') {
+    $operations = [];
+    $modules = ['default_content', 'better_normalizers', $install_state['demo_select']];
 
-  foreach ($modules as $module) {
-    $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
+    foreach ($modules as $module) {
+      $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
+    }
+    $operations[] = ['lightning_dxpr_cleanup_batch', []];
+
+    $batch = [
+      'operations' => $operations,
+      'title' => t('Installing additional modules'),
+      'error_message' => t('The installation has encountered an error.'),
+    ];
+    return $batch;
   }
-  $operations[] = ['lightning_dxpr_cleanup_batch', []];
-
-  $batch = [
-    'operations' => $operations,
-    'title' => t('Installing additional modules'),
-    'error_message' => t('The installation has encountered an error.'),
-  ];
-
-  return $batch;
 }
 
 /**
