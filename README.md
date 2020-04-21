@@ -19,6 +19,8 @@ By default the installation profile will install "Test Demo" content and configu
 ## To install the Logistics Demo or the Basic Demo or Showcase Demo:
 
 `lightning_dxpr_demo_select.demo_select=logistics_demo`
+
 `lightning_dxpr_demo_select.demo_select=basic_demo`
+
 `lightning_dxpr_demo_select.demo_select=showcase_demo`
 
