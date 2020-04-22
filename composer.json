@@ -13,7 +13,7 @@
         "drupal/sooperthemes_gridstack": "^1.0",
         "drupal/tokenuuid": "^1.0",
         "drupal/webform": "^5.0",
-        "jjroelofs/glazed": "dev-master",
-        "jjroelofs/glazed_builder": "dev-master"
+        "jjroelofs/glazed": "8.x",
+        "jjroelofs/glazed_builder": "8.x"
     }
 }
