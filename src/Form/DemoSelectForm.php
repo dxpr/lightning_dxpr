@@ -28,11 +28,12 @@ class DemoSelectForm extends FormBase {
     $form['demo_select'] = [
       '#type' => 'radio',
       '#title' => t('Install demo content and configuration'),
-      '#default_value' => 'dxpr_test_content',
+      '#default_value' => 'dxpr_test_demo',
       '#options' => array(
-        'dxpr_main_demo' => $this->t('DXPR.com Showcase demo site'),
-        'dxpr_test_content' => $this->t('Test Content'),
-        'logistics_demo' => $this->t('Logistics demo site'),
+        'dxpr_basic_demo' => $this->t('Basic demo site'),
+        'dxpr_logistics_demo' => $this->t('Logistics demo site'),
+        'dxpr_main_demo' => $this->t('Showcase demo site'),
+        'dxpr_test_demo' => $this->t('Test Content'),
         'none' => $this
           ->t('No'),
       ),

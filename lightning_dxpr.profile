@@ -37,6 +37,12 @@ function lightning_dxpr_install_tasks(&$install_state) {
  *   A batch array to execute.
  */
 function lightning_dxpr_module_install(array &$install_state) {
+  // Installed separately here so that it can detect and connect any pre-
+  // installed media browsers
+  Drupal::service('module_installer')->install(['glazed_builder'], TRUE);
+  Drupal::service('module_installer')->install(['glazed_builder_page'], TRUE);
+  Drupal::service('module_installer')->install(['glazed_builder_block'], TRUE);
+
   $batch = [];
   if ($install_state['demo_select'] !== 'none') {
     $operations = [];
@@ -45,7 +51,7 @@ function lightning_dxpr_module_install(array &$install_state) {
     foreach ($modules as $module) {
       $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
     }
-    $operations[] = ['lightning_dxpr_cleanup_batch', []];
+    $operations[] = ['lightning_dxpr_cleanup_batch', [$install_state['demo_select']]];
 
     $batch = [
       'operations' => $operations,
@@ -71,7 +77,7 @@ function lightning_dxpr_install_module_batch($module, &$context) {
 /**
  * Implements callback_batch_operation().
  */
-function lightning_dxpr_cleanup_batch(&$context) {
+function lightning_dxpr_cleanup_batch($module, &$context) {
   Drupal::service('module_installer')->uninstall(['default_content', 'better_normalizers'], FALSE);
 
   // Update url aliases with menu tokens (only needed for alises that reflect menu structure)
@@ -84,7 +90,7 @@ function lightning_dxpr_cleanup_batch(&$context) {
 
   // We're doing this here because during hook_install it fails due to demo content loading
   // after installation (when default_content module steps in).
-  $module_path = drupal_get_path('module', 'dxpr_test_content');
+  $module_path = drupal_get_path('module', $module);
   if ($path = file_get_contents($module_path . '/front-path.txt')) {
     if ($nid = Drupal::database()->query("SELECT nid FROM {node} WHERE uuid = '" . $path . "'")->fetchField()) {
       Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/' . $nid)->save(TRUE);
