@@ -1,0 +1,156 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/company\/work-us?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c3e3d28e-7574-4622-b29c-68f6d2536e7f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-07T15:48:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Work for Us",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-13T15:46:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-07T15:48:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/company\/work-us",
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"eu78edtq\" class=\"az-element az-section\" style=\"padding-top: 5%; padding-bottom: 5%; background-color: rgb(238, 238, 238); background-repeat: no-repeat; background-size: cover; background-position: 50% 78px; background-attachment: fixed;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"eu78edtq\" data-azb=\"az_section\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"20\" data-azat-parallax_mode=\"fixed\" data-azat-style=\"padding-top:5%;padding-bottom:5%;background-color:#eeeeee;background-repeat: no-repeat;background-size: cover;background-position:center center;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ce5ifdl4\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"lhq7lk02\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-well well glazed-util-color-gray\" style=\"margin-bottom:0px;background-color:#ffffff;\" data-az-id=\"zisqnyv0\" data-azb=\"az_well\" data-azat-el_class=\"glazed-util-color-gray\" data-azat-style=\"margin-bottom:0px;background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ftz819na\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Why Work at Glazed Logistics?<\/h4><p>Our global network and high level of service gives you the best speed and reliability. Contact us to learn more.<\/p><\/div><\/div><\/div><div class=\"az-element az-well well glazed-util-background-accent1\" style=\"padding-bottom:16px;\" data-az-id=\"fsgvgumq\" data-azb=\"az_well\" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"padding-bottom:16px;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><hr class=\"az-element az-separator pull-right\" style=\"margin-top:0px;border: none;\" data-az-id=\"ce2j8v79\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"pull-right\" data-azat-style=\"margin-top:0px;\"><div class=\"az-element az-text glazed-util-clear-both\" style=\"margin-bottom:9px;\" data-az-id=\"xx8tre6q\" data-azb=\"az_text\" data-azat-el_class=\"glazed-util-clear-both\" data-azat-style=\"margin-bottom:9px;\" data-azcnt=\"true\"><h3 style=\"text-align: right;\">First Class<br>Careers<\/h3><p><br><\/p><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"57qwjlwd\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"tzdh91di\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-40.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-40.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"41gays15\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ag4xce8n\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Drive For Us<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"m2cc64ks\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"tlvjxpoj\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"v8ps57uj\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-24.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-24.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"i5ivqcnf\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"9qef8eva\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Sea Unit Jobs<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"fw6z5jjo\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"6ruu927d\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"f3wpffmw\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-9.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-9.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"1a0efdjg\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"fmifgtqx\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Air Unit Jobs<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"04fjeupb\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><\/div><\/div><\/div><div id=\"teyiggls\" class=\"az-element az-section\" style=\"padding-top:5%;padding-bottom:5%;\" data-az-id=\"teyiggls\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"u02o0v5h\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"8ucq1n8z\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><hr class=\"az-element az-separator\" style=\"margin-top:0px;margin-bottom:10px;border: none;\" data-az-id=\"4w9k97zd\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:0px;margin-bottom:10px;\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"adbnrzkp\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Company Facts<\/h2><ul><li><p class=\"lead\">Our global network and high level of service gives you the best speed and reliability.<\/p><\/li><li><p class=\"lead\">We are a company that understands how important you are.<\/p><\/li><li><p class=\"lead\">We are a company that develops talent and appreciates ambition.<\/p><\/li><\/ul><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"glbyrpmo\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><hr class=\"az-element az-separator\" style=\"margin-top:0px;margin-bottom:10px;border: none;\" data-az-id=\"lil9syx5\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:0px;margin-bottom:10px;\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"pldiupcc\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Our Work Culture<\/h2><\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"8ynognjp\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=NiuE04G5t-E&amp;showinfo=0\" data-azat-play=\"yes\"><iframe src=\"\/\/www.youtube.com\/embed\/NiuE04G5t-E?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><i class=\"az-video-icon bg-primary glyphicon glyphicon-play fa-2x undefined\"><\/i><\/div><\/div><\/div><\/div><\/div><script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "processed": "<div id=\"eu78edtq\" class=\"az-element az-section\" style=\"padding-top: 5%; padding-bottom: 5%; background-color: rgb(238, 238, 238); background-repeat: no-repeat; background-size: cover; background-position: 50% 78px; background-attachment: fixed;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"eu78edtq\" data-azb=\"az_section\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"20\" data-azat-parallax_mode=\"fixed\" data-azat-style=\"padding-top:5%;padding-bottom:5%;background-color:#eeeeee;background-repeat: no-repeat;background-size: cover;background-position:center center;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ce5ifdl4\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"lhq7lk02\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-well well glazed-util-color-gray\" style=\"margin-bottom:0px;background-color:#ffffff;\" data-az-id=\"zisqnyv0\" data-azb=\"az_well\" data-azat-el_class=\"glazed-util-color-gray\" data-azat-style=\"margin-bottom:0px;background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ftz819na\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Why Work at Glazed Logistics?<\/h4><p>Our global network and high level of service gives you the best speed and reliability. Contact us to learn more.<\/p><\/div><\/div><\/div><div class=\"az-element az-well well glazed-util-background-accent1\" style=\"padding-bottom:16px;\" data-az-id=\"fsgvgumq\" data-azb=\"az_well\" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"padding-bottom:16px;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><hr class=\"az-element az-separator pull-right\" style=\"margin-top:0px;border: none;\" data-az-id=\"ce2j8v79\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"pull-right\" data-azat-style=\"margin-top:0px;\" \/><div class=\"az-element az-text glazed-util-clear-both\" style=\"margin-bottom:9px;\" data-az-id=\"xx8tre6q\" data-azb=\"az_text\" data-azat-el_class=\"glazed-util-clear-both\" data-azat-style=\"margin-bottom:9px;\" data-azcnt=\"true\"><h3 style=\"text-align: right;\">First Class<br \/>Careers<\/h3><p><br \/><\/p><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"57qwjlwd\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"tzdh91di\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-40.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-40.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\" \/><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"41gays15\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ag4xce8n\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Drive For Us<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"m2cc64ks\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"tlvjxpoj\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"v8ps57uj\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-24.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-24.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\" \/><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"i5ivqcnf\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"9qef8eva\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Sea Unit Jobs<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"fw6z5jjo\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"6ruu927d\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"f3wpffmw\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-9.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_photo\/public\/2018-01\/logistics-9.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\" \/><\/div><div class=\"az-element az-well well clearfix glazed-util-color-gray\" style=\"background-color:#ffffff;\" data-az-id=\"1a0efdjg\" data-azb=\"az_well\" data-azat-el_class=\"clearfix glazed-util-color-gray\" data-azat-style=\"background-color:#ffffff;\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"fmifgtqx\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Air Unit Jobs<\/h4><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><\/div><div class=\"az-element az-button pull-right\" data-az-id=\"04fjeupb\" data-azb=\"az_button\" data-azat-title=\"APPLY NOW\" data-azat-link=\"\/contact-us\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-el_class=\"pull-right\" data-azat-style=\"color:#ffffff;\"><a href=\"\/contact-us\" type=\"button\" class=\"btn btn-primary  \" style=\"color:#ffffff;\" target=\"_self\">APPLY NOW<\/a><\/div><\/div><\/div><\/div><\/div><\/div><\/div><div id=\"teyiggls\" class=\"az-element az-section\" style=\"padding-top:5%;padding-bottom:5%;\" data-az-id=\"teyiggls\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"u02o0v5h\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"8ucq1n8z\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><hr class=\"az-element az-separator\" style=\"margin-top:0px;margin-bottom:10px;border: none;\" data-az-id=\"4w9k97zd\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:0px;margin-bottom:10px;\" \/><div class=\"az-element az-text\" style=\"\" data-az-id=\"adbnrzkp\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Company Facts<\/h2><ul><li><p class=\"lead\">Our global network and high level of service gives you the best speed and reliability.<\/p><\/li><li><p class=\"lead\">We are a company that understands how important you are.<\/p><\/li><li><p class=\"lead\">We are a company that develops talent and appreciates ambition.<\/p><\/li><\/ul><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"glbyrpmo\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><hr class=\"az-element az-separator\" style=\"margin-top:0px;margin-bottom:10px;border: none;\" data-az-id=\"lil9syx5\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:0px;margin-bottom:10px;\" \/><div class=\"az-element az-text\" style=\"\" data-az-id=\"pldiupcc\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Our Work Culture<\/h2><\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"8ynognjp\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=NiuE04G5t-E&amp;showinfo=0\" data-azat-play=\"yes\"><iframe src=\"\/\/www.youtube.com\/embed\/NiuE04G5t-E?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><i class=\"az-video-icon bg-primary glyphicon glyphicon-play fa-2x undefined\"><\/i><\/div><\/div><\/div><\/div><\/div><script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_glazed_hide_regions": [
+        {
+            "value": "sidebar_first",
+            "lang": "en"
+        },
+        {
+            "value": "sidebar_second",
+            "lang": "en"
+        }
+    ]
+}

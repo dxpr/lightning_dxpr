@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - glazed
+id: customersupport
+theme: glazed
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:1ee78061-e4c4-4f28-a5a5-3ce0013fede1'
+settings:
+  id: 'block_content:1ee78061-e4c4-4f28-a5a5-3ce0013fede1'
+  label: 'Customer Support'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/solutions/*\r\n/company/*\r\n/about-us"
+    negate: false
+    context_mapping: {  }

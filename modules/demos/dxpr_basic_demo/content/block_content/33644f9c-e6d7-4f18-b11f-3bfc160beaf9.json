@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
+        }
+    },
+    "uuid": [
+        {
+            "value": "33644f9c-e6d7-4f18-b11f-3bfc160beaf9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_block"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-05-17T16:01:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "info": [
+        {
+            "value": "Basic Footer",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-05-17T16:01:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"gbjb7y5ynu\" data-azat-style=\"padding-top:30px;padding-bottom:39px;\" data-azb=\"az_section\" id=\"gbjb7y5ynu\" style=\"padding-top:30px;padding-bottom:39px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row   az-row--sm\" data-az-id=\"gb4o49zgnn\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gbqcnnrsmg\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gbrv968hii\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p style=\"text-align: center;\"><small>Copyright SooperThemes 2018<\/small><\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gbbwbgch43\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gbjkjimzjc\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p style=\"text-align: center;\"><small>Powered by Drupal and Glazed theme<\/small><\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gb3zqdov5u\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gb3lr6ka5k\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p style=\"text-align: center;\"><small><a href=\"#\">Privacy policy<\/a> | <a href=\"#\">Terms of use<\/a><\/small><\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" data-az-id=\"gbjb7y5ynu\" data-azat-style=\"padding-top:30px;padding-bottom:39px;\" data-azb=\"az_section\" id=\"gbjb7y5ynu\" style=\"padding-top:30px;padding-bottom:39px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row   az-row--sm\" data-az-id=\"gb4o49zgnn\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gbqcnnrsmg\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gbrv968hii\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<p style=\"text-align: center;\"><small>Copyright SooperThemes 2018<\/small><\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gbbwbgch43\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gbjkjimzjc\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<p style=\"text-align: center;\"><small>Powered by Drupal and Glazed theme<\/small><\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column    col-sm-4\" data-az-id=\"gb3zqdov5u\" data-azat-style=\"margin-bottom:0px;\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"gb3lr6ka5k\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<p style=\"text-align: center;\"><small><a href=\"#\">Privacy policy<\/a> | <a href=\"#\">Terms of use<\/a><\/small><\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

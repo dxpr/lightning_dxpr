@@ -1,0 +1,14 @@
+<?php
+
+function dxpr_logistics_demo_install() {
+  // override existing configuration objects
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_logistics_demo.glazed.settings');
+  $settings = \Drupal::configFactory()->getEditable('glazed.settings');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+
+  // generate themesettings css and color module css
+  require_once(drupal_get_path('theme', 'glazed') . '/glazed_callbacks.inc');
+  glazed_color_module_css_write('glazed');
+  glazed_css_cache_build('glazed');
+}
