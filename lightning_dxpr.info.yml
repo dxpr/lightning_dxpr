@@ -12,8 +12,6 @@ distribution:
 install:
   - color
   - field_group
-  - glazed_builder
-  - glazed_builder_page
   - glazed_helper
   - search
   - tokenuuid

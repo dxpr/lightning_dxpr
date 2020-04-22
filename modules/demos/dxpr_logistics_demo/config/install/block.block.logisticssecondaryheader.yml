@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed
+id: logisticssecondaryheader
+theme: glazed
+region: secondary_header
+weight: 0
+provider: null
+plugin: 'block_content:01eed2a6-b0ac-48b5-83f8-925ffdfd0005'
+settings:
+  id: 'block_content:01eed2a6-b0ac-48b5-83f8-925ffdfd0005'
+  label: 'logistics secondary header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

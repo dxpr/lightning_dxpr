@@ -1,0 +1,130 @@
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: request_a_quote
+title: 'Request a Quote'
+description: ''
+category: ''
+elements: "flexbox:\n  '#type': webform_flexbox\n  country_of_departure:\n    '#type': select\n    '#title': 'Country of Departure'\n    '#title_display': attribute\n    '#options': country_names\n    '#empty_option': 'Country of Departure'\n  country_of_delivery:\n    '#type': select\n    '#title': 'Country of Delivery'\n    '#title_display': attribute\n    '#options': country_names\n    '#empty_option': 'Country of Delivery'\nflexbox_01:\n  '#type': webform_flexbox\n  city_of_arrival:\n    '#type': textfield\n    '#title': 'City of Arrival'\n    '#title_display': invisible\n    '#placeholder': 'City of Arrival'\n  city_of_departure:\n    '#type': textfield\n    '#title': 'City of Departure'\n    '#title_display': invisible\n    '#placeholder': 'City of Departure'\nflexbox_02:\n  '#type': webform_flexbox\n  package_type:\n    '#type': select\n    '#title': 'Package Type'\n    '#title_display': invisible\n    '#options':\n      box: Box\n      truck: Truckload\n      container: 'Shipping Container'\n      liquid: Liquid\n      danger: 'Dangerous Materials'\n    '#empty_option': 'Select Package Type'\n  weight:\n    '#type': textfield\n    '#title': Weight\n    '#title_display': invisible\n    '#placeholder': Weight\nflexbox_03:\n  '#type': webform_flexbox\n  dimensions:\n    '#type': textfield\n    '#title': Dimensions\n    '#title_display': invisible\n    '#placeholder': Dimensions\n  insured_value:\n    '#type': textfield\n    '#title': 'Insured Value'\n    '#title_display': invisible\n    '#placeholder': 'Insured Value'\nflexbox_04:\n  '#type': webform_flexbox\n  your_name:\n    '#type': textfield\n    '#title': 'Your Name'\n    '#title_display': invisible\n    '#placeholder': 'Your Name'\n  company_name:\n    '#type': textfield\n    '#title': 'Company Name'\n    '#title_display': invisible\n    '#placeholder': 'Company Name'\nflexbox_05:\n  '#type': webform_flexbox\n  your_email:\n    '#type': email\n    '#title': 'Your Email'\n    '#title_display': invisible\n    '#placeholder': 'Your Email'\n  your_phone_number:\n    '#type': tel\n    '#title': 'Your Phone Number'\n    '#title_display': invisible\n    '#placeholder': 'Your Phone Number'\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_login: false
+  form_login_message: ''
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  submission_login: false
+  submission_login_message: ''
+  submission_exception_message: ''
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

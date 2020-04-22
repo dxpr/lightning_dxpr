@@ -1,0 +1,72 @@
+name: Glazed Logistics Demo
+type: module
+version: 8.x-1.0
+description: Glazed Logistics Demo by Sooperthemes.
+core: 8.x
+package: Sooperthemes
+dependencies:
+  - drupal:contact
+  - drupal:system
+  - glazed_builder_block:glazed_builder_block
+  - glazed_builder_page:glazed_builder_page
+  - sooperthemes_gridstack:sooperthemes_gridstack
+  - glazed_helper:glazed_helper
+  - webform:webform
+  - webform:webform_ui
+  - webform_bootstrap:webform_bootstrap
+config:
+  install:
+    - glazed.settings
+    - color.theme.glazed
+    - webform:webform.webform.package_tracking
+    - webform:webform.webform.request_a_quote
+    - block.block.customersupport
+    - block.block.mainnavigation
+    - block.block.bigfooter
+    - block.block.logisticssecondaryheader
+    - views.view.glazed_landscaping
+default_content:
+  node:
+    - 35ba88f2-6a72-4828-a9b8-48dd7f89c174
+    - 6ed22aa0-18eb-450c-8697-1b8aa3df0a13
+    - bf22969c-93ce-42b4-bfb9-df83f012698e
+    - 62c16136-6d86-4ea6-a367-c5aae7f6c4cf
+    - c7d4862a-104c-485f-ac98-afc25930268b
+    - e255ac12-ec06-4bb2-8dff-602444376849
+    - ee5ccceb-839e-41d0-abba-273874e6bea6
+    - 352a71af-7f19-40fd-bf91-b4a089cd9ccc
+    - 04e7e811-eb14-46d1-874e-0ef3c1cc7066
+    - c1a0b07c-dc71-487b-a2a3-9477fbc85b17
+    - 24ce79d2-e953-4070-a276-38be875b07b5
+    - 418d0398-dcd0-4775-b063-9a589e9336bc
+    - 62fc3d10-7e82-4d12-95e7-0a9f9769c0b5
+    - 92b6f98f-2b50-42fd-b95d-6f0d1746ee29
+    - 8af87540-4459-4090-93cf-6d4944e2e08f
+    - c577912c-2eb6-4dc9-b01f-bb66f7958e3d
+    - ab834fe0-10fe-4d2a-b11e-951300aeecec
+    - c3e3d28e-7574-4622-b29c-68f6d2536e7f
+    - 40df2a1b-5bb1-440f-ad9d-5130ad7550cd
+    - 8b93d227-948d-413f-80b4-531f1c8732c5
+    - a6c19302-97cc-46d0-97b0-09ffe2fe8ff7
+  block_content:
+    - 01eed2a6-b0ac-48b5-83f8-925ffdfd0005
+    - 1ee78061-e4c4-4f28-a5a5-3ce0013fede1
+    - a95c0252-e36c-449a-88bf-332f46365ad8
+  menu_link_content:
+    - 501c2e66-d0c8-4fc0-a504-f1c215eb7e8e
+    - e865e848-4c10-42b1-b1fa-8257d38130dc
+    - 315f6ce3-3d5c-417c-92f5-81733a275737
+    - ff709cd5-c0c0-46e7-b7bb-24af169250af
+    - 6fbc05e8-bf07-4dad-b4fb-a633d285433f
+    - aef61bff-1b45-4638-ba25-88fe99a146d1
+    - bca75192-4fcf-4b76-8db4-154b28af6fff
+    - 07531d91-fe4f-42ea-95f1-3f5a5b563f9b
+    - 7bdab2b0-71e2-4c29-a47b-7639e5dc2950
+    - 0b1a67f4-ab1b-4e2a-ad0e-3666a79d60ac
+    - c504c18a-bacc-4a28-aefe-50f722036bad
+    - 52b61502-ecc2-4341-8260-181a8dc181ef
+    - 1915047f-839c-4f13-b0a8-2d70a34db09c
+    - d8febc90-d935-4045-88c1-73f3711c4e98
+    - 9098ec94-06a9-45b8-a575-dac77f502c8c
+    - 666180e6-021b-4f63-ad30-fca1b3c14ef2
+    - f9cb42e5-15f0-46d2-a68b-08ffa6b79cda

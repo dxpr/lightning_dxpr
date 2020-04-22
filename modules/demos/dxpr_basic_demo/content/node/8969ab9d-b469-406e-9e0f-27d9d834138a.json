@@ -1,0 +1,230 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/basic?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1494185728463-86366f396213_0.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8969ab9d-b469-406e-9e0f-27d9d834138a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-05-22T13:15:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "70844eb2-28d2-49eb-b87d-e59b574aa6df"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "70844eb2-28d2-49eb-b87d-e59b574aa6df"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "138ee594-a863-457e-b43c-f4462789795b"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "800e12d6-15f0-4954-a5a8-98351af5fd57"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3d674de-fd2b-4653-81fa-172ada5b4c97"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1494185728463-86366f396213_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "82bed240-4536-4e7a-80f8-2f5319e44177"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Basic",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-05-17T15:53:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-05-22T13:15:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/basic",
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"gbjeq0dvmy\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"gbjeq0dvmy\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb2kaswihq\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb8nqt7rre\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbofygd9p1\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg\" data-azat-height=\"\"><img class=\"\" src=\"-base-url-\/-files-directory-\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbg7ylxzi3\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbpqzj9fta\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Lorem ipsum dolor sit amet.<\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.<\/p><p class=\"lead\">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p><\/div><\/div><\/div><\/div><\/div><div id=\"gbrbugc11t\" class=\"az-element az-section\" style=\"padding-top:20px;\" data-az-id=\"gbrbugc11t\" data-azb=\"az_section\" data-azat-style=\"padding-top:20px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbarfzturd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbe2cc1vh9\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbaub5tr4o\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg?itok=vcSNiRXh\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg?itok=vcSNiRXh\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gb7uqs1tnu\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum<\/h2>Consectetur adipisicing elit, sed do eiusmod tempoar incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbiowkfc6w\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbtwo295vf\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg?itok=ofFT4RFV\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg?itok=ofFT4RFV\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gbiyisgs55\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum dolor<\/h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbgku5nrrl\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gb8vi3asrv\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1494185728463-86366f396213_0.jpg?itok=_fFz58m1\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1494185728463-86366f396213_0.jpg?itok=_fFz58m1\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gbj30c6ns1\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum dolor sit<\/h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "processed": "<div id=\"gbjeq0dvmy\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"gbjeq0dvmy\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb2kaswihq\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb8nqt7rre\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbofygd9p1\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg\" data-azat-height=\"\"><img class=\"\" src=\"-base-url-\/-files-directory-\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\" \/><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbg7ylxzi3\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbpqzj9fta\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Lorem ipsum dolor sit amet.<\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.<\/p><p class=\"lead\">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p><\/div><\/div><\/div><\/div><\/div><div id=\"gbrbugc11t\" class=\"az-element az-section\" style=\"padding-top:20px;\" data-az-id=\"gbrbugc11t\" data-azb=\"az_section\" data-azat-style=\"padding-top:20px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbarfzturd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbe2cc1vh9\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbaub5tr4o\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg?itok=vcSNiRXh\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1508013861974-9f6347163ebe_0.jpg?itok=vcSNiRXh\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\" \/><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gb7uqs1tnu\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum<\/h2>Consectetur adipisicing elit, sed do eiusmod tempoar incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbiowkfc6w\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbtwo295vf\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg?itok=ofFT4RFV\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1487190296540-b92a6b829973_0.jpg?itok=ofFT4RFV\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\" \/><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gbiyisgs55\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum dolor<\/h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"gbgku5nrrl\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gb8vi3asrv\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1494185728463-86366f396213_0.jpg?itok=_fFz58m1\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img class=\"\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_2_3_banner\/public\/2018-05\/photo-1494185728463-86366f396213_0.jpg?itok=_fFz58m1\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\" \/><\/div><div class=\"az-element az-text\" style=\"margin-bottom:20px;\" data-az-id=\"gbj30c6ns1\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:20px;\" data-azcnt=\"true\"><h2>Lorem ipsum dolor sit<\/h2>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/div><\/div><\/div><\/div><\/div>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

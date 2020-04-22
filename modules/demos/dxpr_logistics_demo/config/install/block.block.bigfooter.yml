@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed
+id: bigfooter
+theme: glazed
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:a95c0252-e36c-449a-88bf-332f46365ad8'
+settings:
+  id: 'block_content:a95c0252-e36c-449a-88bf-332f46365ad8'
+  label: 'Big Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
