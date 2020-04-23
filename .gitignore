@@ -1,0 +1,26 @@
+.idea
+deploy.sh
+node_modules
+doc
+
+# SASS Cache
+*.sass-cache*
+
+# OS specific stuff
+.DS_Store
+Thumbs.db
+
+# Auto generated files.
+/css/*
+/glazed_builder/css/*
+/glazed_builder/glazed_builder.js
+/glazed_builder/glazed_builder.min.js
+/glazed_builder/glazed_elements.js
+/glazed_builder/glazed_elements.min.js
+/glazed_builder/glazed_frontend.min.js
+/glazed_builder/glazed_param_types.js
+/glazed_builder/glazed_param_types.min.js
+
+.build-done
+out
+
