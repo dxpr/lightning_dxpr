@@ -26,17 +26,29 @@ config:
     - block.block.logisticssecondaryheader
     - views.view.glazed_landscaping
 default_content:
+  media:
+    - 126da10a-ed0c-4cf1-b32c-09aba2f5099f
+    - 1eedc18e-324c-41eb-af0f-563b53c8eb68
+    - 1f2c2bd9-2078-4d9d-8b16-0e2bb86bb3ab
+    - 386e7575-968f-461a-bc9e-b5063538064d
+    - 490489dd-cb77-4aaf-b53a-476efb7ea13f
+    - 6f800613-444d-4c18-8260-51e4ab65d33a
+    - 88cdaa12-062a-4a47-9f7d-c87092c7bb9a
+    - 90fc3b36-ab54-4e2b-96d5-2449352c43e2
+    - 9c3bcfdf-22c9-49fb-977c-48880528df02
+    - c125f698-42d8-4f3b-8095-f455cdbac2c5
+    - c156fa98-e4b3-42b7-b4a6-182320d83da2
+    - c7528d53-8d5f-4f19-af55-058b39fdcc4f
+    - c7dd550f-fd36-4064-9ae6-7aace104c742
+    - e5c75a78-d208-4438-9d99-95c6f43830ae
+    - e96883b4-b925-4378-9ea4-3017db25bba2
+    - f92334c8-1e3a-45bd-aa4e-8dbf15e7f397
+    - fd3324ef-32a2-4405-9cf0-fa286c7f664e
   node:
     - 35ba88f2-6a72-4828-a9b8-48dd7f89c174
     - 6ed22aa0-18eb-450c-8697-1b8aa3df0a13
-    - bf22969c-93ce-42b4-bfb9-df83f012698e
-    - 62c16136-6d86-4ea6-a367-c5aae7f6c4cf
-    - c7d4862a-104c-485f-ac98-afc25930268b
-    - e255ac12-ec06-4bb2-8dff-602444376849
-    - ee5ccceb-839e-41d0-abba-273874e6bea6
     - 352a71af-7f19-40fd-bf91-b4a089cd9ccc
     - 04e7e811-eb14-46d1-874e-0ef3c1cc7066
-    - c1a0b07c-dc71-487b-a2a3-9477fbc85b17
     - 24ce79d2-e953-4070-a276-38be875b07b5
     - 418d0398-dcd0-4775-b063-9a589e9336bc
     - 62fc3d10-7e82-4d12-95e7-0a9f9769c0b5
@@ -64,9 +76,7 @@ default_content:
     - 7bdab2b0-71e2-4c29-a47b-7639e5dc2950
     - 0b1a67f4-ab1b-4e2a-ad0e-3666a79d60ac
     - c504c18a-bacc-4a28-aefe-50f722036bad
-    - 52b61502-ecc2-4341-8260-181a8dc181ef
     - 1915047f-839c-4f13-b0a8-2d70a34db09c
     - d8febc90-d935-4045-88c1-73f3711c4e98
     - 9098ec94-06a9-45b8-a575-dac77f502c8c
     - 666180e6-021b-4f63-ad30-fca1b3c14ef2
-    - f9cb42e5-15f0-46d2-a68b-08ffa6b79cda

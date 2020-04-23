@@ -128,7 +128,7 @@ page_title_align: left
 page_title_height: '150'
 page_title_animate: '0'
 page_title_image: {  }
-page_title_image_path: 'public://2018-01/logistics-6.jpg'
+page_title_image_path: 'public://2020-04/logistics-6-min.jpg'
 page_title_image_opacity: '0.5'
 page_title_image_style: cover
 page_title_image_mode: normal
@@ -191,11 +191,6 @@ hidden_regions:
 portfolio_details: top
 portfolio_sidebar: '4'
 portfolio_images: stack
-favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'https://localhost/buildr/1515856948/profiles/cms/themes/glazed/favicon.ico'
-  use_default: 1
 schemas:
   bootstrap: 8000
   glazed: 8000

@@ -19,14 +19,24 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_page_title_backgrou": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/logistics-15_0.jpg",
+                "href": "",
                 "lang": "en"
             }
         ]
     },
+    "nid": [
+        {
+            "value": 15
+        }
+    ],
     "uuid": [
         {
             "value": "62fc3d10-7e82-4d12-95e7-0a9f9769c0b5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 39
         }
     ],
     "langcode": [
@@ -42,7 +52,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-02-01T14:11:09+00:00",
+            "value": "2020-04-23T13:38:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -59,7 +69,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ]
             }
@@ -76,7 +86,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ],
                 "lang": "en"
@@ -86,7 +96,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/logistics-15_0.jpg"
+                        "href": ""
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -94,14 +104,14 @@
                 },
                 "uuid": [
                     {
-                        "value": "68b9bbf8-d592-427d-a72c-dd5818c78278"
+                        "value": "d5b85157-d53e-49a9-ad2c-04dd7df60186"
                     }
                 ],
                 "lang": "en",
                 "alt": "",
                 "title": "",
-                "width": "1920",
-                "height": "1280"
+                "width": "1200",
+                "height": "800"
             }
         ]
     },
@@ -126,7 +136,7 @@
     ],
     "changed": [
         {
-            "value": "2018-02-01T14:11:09+00:00",
+            "value": "2020-04-23T13:38:51+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -155,9 +165,19 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Sea Freight | Site-Install",
+                "canonical_url": "http:\/\/default\/solutions\/sea-freight",
+                "description": "Access The Greatest Harbors\n\nFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.\n\nA small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.\n\n\n\n\n\n\n\t\n\tRMA administration, mechanized credit compromise, review, repair and resource recovery"
+            }
+        }
+    ],
     "path": [
         {
             "alias": "\/solutions\/sea-freight",
+            "pid": 41,
             "langcode": "en",
             "lang": "en"
         }
@@ -166,7 +186,7 @@
         {
             "value": "<div class=\"az-element az-section  \" data-az-id=\"b56\" data-azb=\"az_section\" id=\"b56\" style=\"\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-text\" data-az-id=\"b57\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2>Access The Greatest Harbors<\/h2>\r\n\r\n<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\r\n\r\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p>\r\n<\/div>\r\n\r\n<div class=\"az-element az-row row\" data-az-id=\"b58\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"b59\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"b60\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<ul>\r\n\t<li>\r\n\t<p class=\"lead\">RMA administration, mechanized credit compromise, review, repair and resource recovery<\/p>\r\n\t<\/li>\r\n\t<li>\r\n\t<p class=\"lead\">Forward-stocking area systems for proficient store replenishment<\/p>\r\n\t<\/li>\r\n\t<li>\r\n\t<p class=\"lead\">Direct-to-customer e-business satisfaction<\/p>\r\n\t<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"b61\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"b62\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<ul>\r\n\t<li>\r\n\t<p class=\"lead\">Import DCs \u2013 high-volume, cross-dock focuses near ports that strip holders<\/p>\r\n\t<\/li>\r\n\t<li>\r\n\t<p class=\"lead\">Course merchandise to provincial DCs, stores or consumers<\/p>\r\n\t<\/li>\r\n\t<li>\r\n\t<p class=\"lead\">Reverse coordinations focus administration<\/p>\r\n\t<\/li>\r\n<\/ul>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-text\" data-az-id=\"b63\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2>Meet Our Modern Vessels<\/h2>\r\n\r\n<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p>\r\n\r\n<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p>\r\n\r\n<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n",
             "format": "full_html",
-            "processed": "<div class=\"az-element az-section  \" data-az-id=\"b56\" data-azb=\"az_section\" id=\"b56\" style=\"\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-text\" data-az-id=\"b57\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2>Access The Greatest Harbors<\/h2>\n\n<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\n\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p>\n<\/div>\n\n<div class=\"az-element az-row row\" data-az-id=\"b58\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"b59\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"b60\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<ul>\n\t<li>\n\t<p class=\"lead\">RMA administration, mechanized credit compromise, review, repair and resource recovery<\/p>\n\t<\/li>\n\t<li>\n\t<p class=\"lead\">Forward-stocking area systems for proficient store replenishment<\/p>\n\t<\/li>\n\t<li>\n\t<p class=\"lead\">Direct-to-customer e-business satisfaction<\/p>\n\t<\/li>\n<\/ul>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"b61\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"b62\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<ul>\n\t<li>\n\t<p class=\"lead\">Import DCs \u2013 high-volume, cross-dock focuses near ports that strip holders<\/p>\n\t<\/li>\n\t<li>\n\t<p class=\"lead\">Course merchandise to provincial DCs, stores or consumers<\/p>\n\t<\/li>\n\t<li>\n\t<p class=\"lead\">Reverse coordinations focus administration<\/p>\n\t<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-text\" data-az-id=\"b63\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2>Meet Our Modern Vessels<\/h2>\n\n<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p>\n\n<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p>\n\n<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p>\n<\/div>\n<\/div>\n<\/div>\n",
+            "processed": "<h2>Access The Greatest Harbors<\/h2>\n\n<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\n\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p>\n\n\n\n\n\n<ul>\n\t<li>\n\t<p>RMA administration, mechanized credit compromise, review, repair and resource recovery<\/p>\n\t<\/li>\n\t<li>\n\t<p>Forward-stocking area systems for proficient store replenishment<\/p>\n\t<\/li>\n\t<li>\n\t<p>Direct-to-customer e-business satisfaction<\/p>\n\t<\/li>\n<\/ul>\n\n\n\n\n\n<ul>\n\t<li>\n\t<p>Import DCs \u2013 high-volume, cross-dock focuses near ports that strip holders<\/p>\n\t<\/li>\n\t<li>\n\t<p>Course merchandise to provincial DCs, stores or consumers<\/p>\n\t<\/li>\n\t<li>\n\t<p>Reverse coordinations focus administration<\/p>\n\t<\/li>\n<\/ul>\n\n\n\n\n\n<h2>Meet Our Modern Vessels<\/h2>\n\n<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p>\n\n<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p>\n\n<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p>",
             "summary": "",
             "lang": "en"
         }

@@ -18,9 +18,19 @@
             }
         ]
     },
+    "nid": [
+        {
+            "value": 5
+        }
+    ],
     "uuid": [
         {
             "value": "35ba88f2-6a72-4828-a9b8-48dd7f89c174"
+        }
+    ],
+    "vid": [
+        {
+            "value": 5
         }
     ],
     "langcode": [
@@ -53,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ]
             }
@@ -70,7 +80,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ],
                 "lang": "en"
@@ -127,9 +137,18 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "secondary header block | Site-Install",
+                "canonical_url": "http:\/\/default\/secondary-header-block"
+            }
+        }
+    ],
     "path": [
         {
             "alias": "\/secondary-header-block",
+            "pid": 31,
             "langcode": "en",
             "lang": "en"
         }
@@ -138,7 +157,7 @@
         {
             "value": "<div id=\"ve9ek3ad\" class=\"az-element az-section az-element--hide-controls\" style=\"\" data-az-id=\"ve9ek3ad\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-element--hide-controls\" style=\"\" data-az-id=\"jmn99cp9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"p7yreozm\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><ul class=\"az-element st-social stbe-social-links\" style=\"\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" data-az-id=\"21w8th4k\" data-azb=\"st_social\" data-azat-st_social_links=\"Linkedin%3D'https%3A%2F%2Fwww.example.com%2F'%0AInstagram%3D'https%3A%2F%2Fwww.example.com%2F'%0AFacebook%3D'https%3A%2F%2Fwww.example.com%2F'%0APinterest%3D'https%3A%2F%2Fwww.example.com%2F'%0AGoogle%3D'https%3A%2F%2Fwww.example.com%2F'\" data-azat-st_type=\"inline\"><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-linkedin stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"linkedin\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-instagram stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"instagram\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-facebook stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"facebook\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-pinterest stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"pinterest\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-google stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"google\"><\/i><\/a><\/li><\/ul><\/div><div class=\"az-element az-ctnr az-column col-sm-6 az-element--hide-controls\" style=\"\" data-az-id=\"r8v0hjh1\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text az-element--hide-controls\" style=\"\" data-az-id=\"em8aez90\" data-azb=\"az_text\" data-azcnt=\"true\"><div style=\"text-align: right;\">Tel.: (123) 45678910. Open Mon - Sat: 09.00 - 18.00<\/div><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/social.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\">\n",
             "format": "full_html",
-            "processed": "<div id=\"ve9ek3ad\" class=\"az-element az-section az-element--hide-controls\" style=\"\" data-az-id=\"ve9ek3ad\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-element--hide-controls\" style=\"\" data-az-id=\"jmn99cp9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"p7yreozm\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><ul class=\"az-element st-social stbe-social-links\" style=\"\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" data-az-id=\"21w8th4k\" data-azb=\"st_social\" data-azat-st_social_links=\"Linkedin%3D'https%3A%2F%2Fwww.example.com%2F'%0AInstagram%3D'https%3A%2F%2Fwww.example.com%2F'%0AFacebook%3D'https%3A%2F%2Fwww.example.com%2F'%0APinterest%3D'https%3A%2F%2Fwww.example.com%2F'%0AGoogle%3D'https%3A%2F%2Fwww.example.com%2F'\" data-azat-st_type=\"inline\"><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-linkedin stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"linkedin\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-instagram stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"instagram\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-facebook stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"facebook\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-pinterest stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"pinterest\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-google stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"google\"><\/i><\/a><\/li><\/ul><\/div><div class=\"az-element az-ctnr az-column col-sm-6 az-element--hide-controls\" style=\"\" data-az-id=\"r8v0hjh1\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text az-element--hide-controls\" style=\"\" data-az-id=\"em8aez90\" data-azb=\"az_text\" data-azcnt=\"true\"><div style=\"text-align: right;\">Tel.: (123) 45678910. Open Mon - Sat: 09.00 - 18.00<\/div><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/social.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\" \/>\n",
+            "processed": "",
             "summary": null,
             "lang": "en"
         }

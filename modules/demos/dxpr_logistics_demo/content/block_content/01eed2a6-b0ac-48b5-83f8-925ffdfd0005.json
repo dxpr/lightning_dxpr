@@ -1,15 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/block\/1?_format=hal_json"
+            "href": "http:\/\/default\/block\/2?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
         }
     },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
     "uuid": [
         {
             "value": "01eed2a6-b0ac-48b5-83f8-925ffdfd0005"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 2
         }
     ],
     "langcode": [
@@ -48,6 +58,11 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
     "default_langcode": [
         {
             "value": true,
@@ -60,11 +75,19 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Site-Install",
+                "canonical_url": "http:\/\/default\/logistics-home"
+            }
+        }
+    ],
     "body": [
         {
             "value": "<div id=\"7bzw0jx7\" class=\"az-element az-section\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"7bzw0jx7\" data-azb=\"az_section\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"g80igqmd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"gqo19bok\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><ul class=\"az-element st-social stbe-social-links\" style=\"\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" data-az-id=\"nkjaaikz\" data-azb=\"st_social\" data-azat-st_social_links=\"Linkedin%3D'https%3A%2F%2Fwww.example.com%2F'%0AInstagram%3D'https%3A%2F%2Fwww.example.com%2F'%0AFacebook%3D'https%3A%2F%2Fwww.example.com%2F'%0APinterest%3D'https%3A%2F%2Fwww.example.com%2F'%0AGoogle%3D'https%3A%2F%2Fwww.example.com%2F'\" data-azat-st_type=\"inline\"><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-linkedin stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"linkedin\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-instagram stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"instagram\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-facebook stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"facebook\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-pinterest stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"pinterest\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-google stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"google\"><\/i><\/a><\/li><\/ul><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"69oa3g5n\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"61fqk8dp\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<p style=\"text-align: right;\">Tel.: (123) 45678910. Open Mon - Sat: 09.00 - 18.00<\/p>\n\t\t\t\t<\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/social.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\">\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
             "format": "full_html",
-            "processed": "<div id=\"7bzw0jx7\" class=\"az-element az-section\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"7bzw0jx7\" data-azb=\"az_section\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"g80igqmd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"gqo19bok\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><ul class=\"az-element st-social stbe-social-links\" style=\"\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" data-az-id=\"nkjaaikz\" data-azb=\"st_social\" data-azat-st_social_links=\"Linkedin%3D'https%3A%2F%2Fwww.example.com%2F'%0AInstagram%3D'https%3A%2F%2Fwww.example.com%2F'%0AFacebook%3D'https%3A%2F%2Fwww.example.com%2F'%0APinterest%3D'https%3A%2F%2Fwww.example.com%2F'%0AGoogle%3D'https%3A%2F%2Fwww.example.com%2F'\" data-azat-st_type=\"inline\"><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-linkedin stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"linkedin\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-instagram stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"instagram\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-facebook stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"facebook\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-pinterest stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"pinterest\"><\/i><\/a><\/li><li class=\"stbe-social-links__item\"><a href=\"https:\/\/www.example.com\/\"><i class=\"fa fa- fa-google stbe-util-icon- stbe-util-fx-\" style=\"\" data-toggle=\"tooltip\" data-placement=\"top auto\" title=\"google\"><\/i><\/a><\/li><\/ul><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"69oa3g5n\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"61fqk8dp\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<p style=\"text-align: right;\">Tel.: (123) 45678910. Open Mon - Sat: 09.00 - 18.00<\/p>\n\t\t\t\t<\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/social.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\" \/>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "processed": "",
             "summary": "",
             "lang": "en"
         }

@@ -18,9 +18,19 @@
             }
         ]
     },
+    "nid": [
+        {
+            "value": 10
+        }
+    ],
     "uuid": [
         {
             "value": "c577912c-2eb6-4dc9-b01f-bb66f7958e3d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 23
         }
     ],
     "langcode": [
@@ -36,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-02-07T15:36:19+00:00",
+            "value": "2020-04-23T08:44:31+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ]
             }
@@ -70,13 +80,18 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ],
                 "lang": "en"
             }
         ]
     },
+    "revision_log": [
+        {
+            "value": "Saved with Glazed builder"
+        }
+    ],
     "status": [
         {
             "value": true,
@@ -98,7 +113,7 @@
     ],
     "changed": [
         {
-            "value": "2018-02-07T15:36:19+00:00",
+            "value": "2020-04-23T08:44:31+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -127,18 +142,27 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "About Us | Site-Install",
+                "canonical_url": "http:\/\/default\/about-us"
+            }
+        }
+    ],
     "path": [
         {
             "alias": "\/about-us",
+            "pid": 36,
             "langcode": "en",
             "lang": "en"
         }
     ],
     "body": [
         {
-            "value": "<div id=\"6r74lzyz\" class=\"az-element az-section\" style=\"\" data-az-id=\"6r74lzyz\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"t1moysya\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Our Company<\/h2><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><h2>Awards and Recognitions<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"x9w33h8f\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gza1ynqq\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"z2xqnq3s\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Inbound Logistics (2016) names Glazed Logistics a Top 75 Green Supply Chain Partner<\/p><\/li><li><p class=\"lead\">Fortune (2016) names Glazed Logistics the fastest-growing company on the Fortune 500 list<\/p><\/li><li><p class=\"lead\">Forbes (2016) ranks Glazed Logistics #17 among innovative growth companies<\/p><\/li><\/ul><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"usjrl4wl\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"t7zvft6o\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Home Depot (2015) names Glazed Logistics mid-size truckload carrier of the year<\/p><\/li><li><p class=\"lead\">SmartWay (2015) honors Glazed Logistics for excellence in environmental improvement<\/p><\/li><li><p class=\"lead\">Logistics dell\u2019Anno Award (2015) honors Glazed Logistics in Italy for supply chain innovation<\/p><\/li><\/ul><\/div><\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"de41knyc\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Transporting the Future<\/h2><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p><\/div><div class=\"az-element az-image\" data-az-id=\"o3l4plm4\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-01\/logistics-58_0.jpg\" data-azat-height=\"\" data-azat-style=\"padding-top:20px;\"><img src=\"-base-url-\/-files-directory-\/2018-01\/logistics-58_0.jpg\" alt=\"\" title=\"\" style=\"padding-top: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"zifjnrch\" data-azb=\"az_text\" data-azcnt=\"true\"><p style=\"text-align: right;\">Frank Zhao, VP of Innovation<\/p><\/div><\/div><\/div>",
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbklyh336j\" data-azat-pid=\"gbklyh336j\" id=\"gbklyh336j\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbhzbeaxb0\" data-azat-pid=\"gbhzbeaxb0\" id=\"gbhzbeaxb0\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Our Company<\/h2><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><h2>Awards and Recognitions<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbk3gcv6el\" data-azat-pid=\"gbk3gcv6el\" id=\"gbk3gcv6el\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb3x2c8pmd\" data-azat-pid=\"gb3x2c8pmd\" id=\"gb3x2c8pmd\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbq15mjisx\" data-azat-pid=\"gbq15mjisx\" id=\"gbq15mjisx\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Inbound Logistics (2016) names Glazed Logistics a Top 75 Green Supply Chain Partner<\/p><\/li><li><p class=\"lead\">Fortune (2016) names Glazed Logistics the fastest-growing company on the Fortune 500 list<\/p><\/li><li><p class=\"lead\">Forbes (2016) ranks Glazed Logistics #17 among innovative growth companies<\/p><\/li><\/ul><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbqoag3vzh\" data-azat-pid=\"gbqoag3vzh\" id=\"gbqoag3vzh\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbc1nx5vam\" data-azat-pid=\"gbc1nx5vam\" id=\"gbc1nx5vam\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Home Depot (2015) names Glazed Logistics mid-size truckload carrier of the year<\/p><\/li><li><p class=\"lead\">SmartWay (2015) honors Glazed Logistics for excellence in environmental improvement<\/p><\/li><li><p class=\"lead\">Logistics dell\u2019Anno Award (2015) honors Glazed Logistics in Italy for supply chain innovation<\/p><\/li><\/ul><\/div><\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb282c0icb\" data-azat-pid=\"gb282c0icb\" id=\"gb282c0icb\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Transporting the Future<\/h2><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p><\/div><div class=\"az-element az-image\" data-az-id=\"gbzc80db4z\" data-azat-pid=\"gbzc80db4z\" id=\"gbzc80db4z\" data-azb=\"az_image\" data-azat-image=\"\/buildr\/lightning-dxpr-log3\/docroot\/sites\/default\/files\/2020-04\/logistics-58_0-min.jpg?fid=49\" data-azat-height=\"\" data-azat-style=\"padding-top:20px;\"><img class=\"az-image-content \" src=\"\/buildr\/lightning-dxpr-log3\/docroot\/sites\/default\/files\/2020-04\/logistics-58_0-min.jpg?fid=49\" alt=\"\" title=\"\" style=\"padding-top: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbvyz719qm\" data-azat-pid=\"gbvyz719qm\" id=\"gbvyz719qm\" data-azb=\"az_text\" data-azcnt=\"true\"><p style=\"text-align: right;\">Frank Zhao, VP of Innovation<\/p><\/div><\/div><\/div><script src=\"\/buildr\/lightning-dxpr-log3\/docroot\/modules\/contrib\/glazed_builder\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
             "format": "full_html",
-            "processed": "<div id=\"6r74lzyz\" class=\"az-element az-section\" style=\"\" data-az-id=\"6r74lzyz\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"t1moysya\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Our Company<\/h2><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><h2>Awards and Recognitions<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"x9w33h8f\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gza1ynqq\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"z2xqnq3s\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Inbound Logistics (2016) names Glazed Logistics a Top 75 Green Supply Chain Partner<\/p><\/li><li><p class=\"lead\">Fortune (2016) names Glazed Logistics the fastest-growing company on the Fortune 500 list<\/p><\/li><li><p class=\"lead\">Forbes (2016) ranks Glazed Logistics #17 among innovative growth companies<\/p><\/li><\/ul><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"usjrl4wl\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"t7zvft6o\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">Home Depot (2015) names Glazed Logistics mid-size truckload carrier of the year<\/p><\/li><li><p class=\"lead\">SmartWay (2015) honors Glazed Logistics for excellence in environmental improvement<\/p><\/li><li><p class=\"lead\">Logistics dell\u2019Anno Award (2015) honors Glazed Logistics in Italy for supply chain innovation<\/p><\/li><\/ul><\/div><\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"de41knyc\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Transporting the Future<\/h2><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p><\/div><div class=\"az-element az-image\" data-az-id=\"o3l4plm4\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-01\/logistics-58_0.jpg\" data-azat-height=\"\" data-azat-style=\"padding-top:20px;\"><img src=\"-base-url-\/-files-directory-\/2018-01\/logistics-58_0.jpg\" alt=\"\" title=\"\" style=\"padding-top: 20px; width: 100%;\" \/><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"zifjnrch\" data-azb=\"az_text\" data-azcnt=\"true\"><p style=\"text-align: right;\">Frank Zhao, VP of Innovation<\/p><\/div><\/div><\/div>",
+            "processed": "",
             "summary": "",
             "lang": "en"
         }

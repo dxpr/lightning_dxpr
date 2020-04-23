@@ -18,9 +18,19 @@
             }
         ]
     },
+    "nid": [
+        {
+            "value": 2
+        }
+    ],
     "uuid": [
         {
             "value": "92b6f98f-2b50-42fd-b95d-6f0d1746ee29"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2
         }
     ],
     "langcode": [
@@ -53,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ]
             }
@@ -70,7 +80,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "200eb6db-43e7-47a1-ba6e-d0ba8c6cdb76"
+                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
                     }
                 ],
                 "lang": "en"
@@ -127,9 +137,18 @@
             "lang": "en"
         }
     ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Sustainability | Site-Install",
+                "canonical_url": "http:\/\/default\/company\/sustainability"
+            }
+        }
+    ],
     "path": [
         {
             "alias": "\/company\/sustainability",
+            "pid": 28,
             "langcode": "en",
             "lang": "en"
         }
@@ -138,7 +157,7 @@
         {
             "value": "<div id=\"rcbd2lip\" class=\"az-element az-section\" style=\"\" data-az-id=\"rcbd2lip\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"wt55yc0l\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Sustainable Supply Chain<\/h2><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><h2>Sustainability Awards<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"6qmoea4t\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">The French Ministry of the Environment and the French Environment and Energy Agency awards Glazed Logistics the label \u201cObjectif CO2\u201d for outstanding environmental performance of our transport operations in Europe (2016)<\/p><\/li><li><p class=\"lead\">Glazed Logistics will lower the carbon footprint of trucking in Paris by using natural gas trucks for the road transport portion of France's first intermodal urban rail shuttle<\/p><\/li><li><p class=\"lead\">SmartWay\u00ae honors Glazed Logistics for excellence in environmental improvement in North America (2015)<\/p><\/li><\/ul><\/div><div class=\"az-element az-image\" data-az-id=\"500m3wpw\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/blog\/images\/logistics-36.jpg\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/blog\/images\/logistics-36.jpg\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"n805jkgv\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Transportation Carbon Footprint<\/h2><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p><\/div><\/div><\/div>",
             "format": "full_html",
-            "processed": "<div id=\"rcbd2lip\" class=\"az-element az-section\" style=\"\" data-az-id=\"rcbd2lip\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"wt55yc0l\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Sustainable Supply Chain<\/h2><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><h2>Sustainability Awards<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"6qmoea4t\" data-azb=\"az_text\" data-azcnt=\"true\"><ul><li><p class=\"lead\">The French Ministry of the Environment and the French Environment and Energy Agency awards Glazed Logistics the label \u201cObjectif CO2\u201d for outstanding environmental performance of our transport operations in Europe (2016)<\/p><\/li><li><p class=\"lead\">Glazed Logistics will lower the carbon footprint of trucking in Paris by using natural gas trucks for the road transport portion of France's first intermodal urban rail shuttle<\/p><\/li><li><p class=\"lead\">SmartWay\u00ae honors Glazed Logistics for excellence in environmental improvement in North America (2015)<\/p><\/li><\/ul><\/div><div class=\"az-element az-image\" data-az-id=\"500m3wpw\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/blog\/images\/logistics-36.jpg\" data-azat-height=\"\" data-azat-style=\"margin-bottom:20px;\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/blog\/images\/logistics-36.jpg\" alt=\"\" title=\"\" style=\"margin-bottom: 20px; width: 100%;\" \/><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"n805jkgv\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Transportation Carbon Footprint<\/h2><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then<\/p><\/div><\/div><\/div>",
+            "processed": "",
             "summary": "",
             "lang": "en"
         }
