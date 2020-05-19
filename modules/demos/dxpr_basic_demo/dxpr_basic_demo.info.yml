@@ -1,20 +1,20 @@
-name: Glazed Basic Demo
+name: DXPR Basic Demo
 type: module
 version: 8.x-1.0
-description: Glazed Basic Demo by Sooperthemes.
+description: DXPR Basic Demo by DXPR.
 core: 8.x
-package: Sooperthemes
+package: DXPR
 dependencies:
   - drupal:contact
-  - glazed_builder_block:glazed_builder_block
-  - glazed_builder_page:glazed_builder_page
-  - glazed_helper:glazed_helper
+  - dxpr_builder_block:dxpr_builder_block
+  - dxpr_builder_page:dxpr_builder_page
+  - dxpr_theme_helper:dxpr_theme_helper
 config:
   install:
-    - glazed.settings
-    - color.theme.glazed
+    - dxpr.settings
+    - color.theme.dxpr
     - block.block.basicfooter
-    - block.block.glazedfullscreensearch
+    - block.block.dxprfullscreensearch
 default_content:
   block_content:
     - 33644f9c-e6d7-4f18-b11f-3bfc160beaf9

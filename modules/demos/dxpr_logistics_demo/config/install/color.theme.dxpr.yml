@@ -21,10 +21,10 @@ palette:
   graylighter: '#ededed'
   silver: '#f1f1f1'
   body: '#ffffff'
-logo: 'public://color/glazed-8c75413e/logo.svg'
+logo: 'public://color/dxpr-8c75413e/logo.svg'
 stylesheets:
-  - 'public://color/glazed-8c75413e/glazed.css'
+  - 'public://color/dxpr-8c75413e/dxpr.css'
 files:
-  - 'public://color/glazed-8c75413e/logo.svg'
-  - 'public://color/glazed-8c75413e/glazed-favicon.png'
-  - 'public://color/glazed-8c75413e/glazed.css'
+  - 'public://color/dxpr-8c75413e/logo.svg'
+  - 'public://color/dxpr-8c75413e/dxpr-favicon.png'
+  - 'public://color/dxpr-8c75413e/dxpr.css'

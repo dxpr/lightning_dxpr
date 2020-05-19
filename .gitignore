@@ -12,14 +12,14 @@ Thumbs.db
 
 # Auto generated files.
 /css/*
-/glazed_builder/css/*
-/glazed_builder/glazed_builder.js
-/glazed_builder/glazed_builder.min.js
-/glazed_builder/glazed_elements.js
-/glazed_builder/glazed_elements.min.js
-/glazed_builder/glazed_frontend.min.js
-/glazed_builder/glazed_param_types.js
-/glazed_builder/glazed_param_types.min.js
+/dxpr_builder/css/*
+/dxpr_builder/dxpr_builder.js
+/dxpr_builder/dxpr_builder.min.js
+/dxpr_builder/dxpr_elements.js
+/dxpr_builder/dxpr_elements.min.js
+/dxpr_builder/dxpr_frontend.min.js
+/dxpr_builder/dxpr_param_types.js
+/dxpr_builder/dxpr_param_types.min.js
 
 .build-done
 out

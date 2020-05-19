@@ -12,14 +12,14 @@ distribution:
 install:
   - color
   - field_group
-  - glazed_helper
+  - dxpr_theme_helper
   - search
   - tokenuuid
   - webform
   - webform_ui
 
 themes:
-  - glazed
+  - dxpr
   - bootstrap
   - claro
 

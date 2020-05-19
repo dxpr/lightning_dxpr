@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - glazed
+    - dxpr
 id: bigfooter
-theme: glazed
+theme: dxpr
 region: footer
 weight: 0
 provider: null

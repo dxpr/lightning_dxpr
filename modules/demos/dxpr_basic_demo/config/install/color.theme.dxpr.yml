@@ -1,6 +1,6 @@
 palette:
   base: '#555555'
-  link: '#052adf'
+  link: '#284ed8'
   accent1: '#555555'
   accent2: '#555555'
   text: '#333333'
@@ -21,10 +21,9 @@ palette:
   graylighter: '#ededed'
   silver: '#f1f1f1'
   body: '#ffffff'
-logo: 'public://color/glazed-ce7ab8b4/logo.svg'
+logo: 'public://color/dxpr-ce7ab8b4/logo.svg'
 stylesheets:
-  - 'public://color/glazed-ce7ab8b4/glazed.css'
+  - 'public://color/dxpr-ce7ab8b4/dxpr.css'
 files:
-  - 'public://color/glazed-ce7ab8b4/logo.svg'
-  - 'public://color/glazed-ce7ab8b4/glazed-favicon.png'
-  - 'public://color/glazed-ce7ab8b4/glazed.css'
+  - 'public://color/dxpr-ce7ab8b4/logo.svg'
+  - 'public://color/dxpr-ce7ab8b4/dxpr.css'

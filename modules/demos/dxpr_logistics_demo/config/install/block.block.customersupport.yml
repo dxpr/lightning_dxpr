@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - glazed
+    - dxpr
 id: customersupport
-theme: glazed
+theme: dxpr
 region: sidebar_second
 weight: 0
 provider: null

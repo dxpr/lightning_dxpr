@@ -17,7 +17,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_page_title_backgrou": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_dth_page_title_backgrou": [
             {
                 "href": "",
                 "lang": "en"
@@ -92,7 +92,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_page_title_backgrou": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_dth_page_title_backgrou": [
             {
                 "_links": {
                     "self": {

@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - glazed
+    - dxpr
 id: logisticssecondaryheader
-theme: glazed
+theme: dxpr
 region: secondary_header
 weight: 0
 provider: null

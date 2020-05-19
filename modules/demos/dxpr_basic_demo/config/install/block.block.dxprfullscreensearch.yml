@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   module:
-    - glazed_helper
+    - dxpr_theme_helper
   theme:
-    - glazed
-id: glazedfullscreensearch
-theme: glazed
+    - dxpr
+id: dxprfullscreensearch
+theme: dxpr
 region: navigation_collapsible
 weight: -5
 provider: null
 plugin: full_screen_search
 settings:
   id: full_screen_search
-  label: 'Glazed Full Screen Search'
-  provider: glazed_helper
+  label: 'DXPR Full Screen Search'
+  provider: dxpr_theme_helper
   label_display: '0'
 visibility: {  }

@@ -14,7 +14,7 @@ By default the installation profile will install "Test Demo" content and configu
 
 ## To install no demo content use:
 
-`drush site-install lightning_dxpr --db-url=mysql://jjroelofs@localhost:3306/tmp --account-pass=admin lightning_dxpr_demo_select.demo_select=none -y -v`
+`drush site-install lightning_dxpr --db-url=mysql://dxpr@localhost:3306/tmp --account-pass=admin lightning_dxpr_demo_select.demo_select=none -y -v`
 
 ## To install the Logistics Demo or the Basic Demo or Showcase Demo:
 

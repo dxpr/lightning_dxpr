@@ -2,13 +2,13 @@
 
 function dxpr_basic_demo_install() {
   // override existing configuration objects
-  $cfg = \Drupal::configFactory()->getEditable('dxpr_basic_demo.glazed.settings');
-  $settings = \Drupal::configFactory()->getEditable('glazed.settings');
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_basic_demo.dxpr.settings');
+  $settings = \Drupal::configFactory()->getEditable('dxpr.settings');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
 
   // generate themesettings css and color module css
-  require_once(drupal_get_path('theme', 'glazed') . '/glazed_callbacks.inc');
-  glazed_color_module_css_write('glazed');
-  glazed_css_cache_build('glazed');
+  require_once(drupal_get_path('theme', 'dxpr') . '/dxpr_callbacks.inc');
+  dxpr_color_module_css_write('dxpr');
+  dxpr_css_cache_build('dxpr');
 }
