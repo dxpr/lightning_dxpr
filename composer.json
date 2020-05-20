@@ -13,7 +13,7 @@
         "drupal/dxpr_gridstack": "^1.0",
         "drupal/tokenuuid": "^1.0",
         "drupal/webform": "^5.0",
-        "dxpr/dxpr": "dev-master",
+        "dxpr/dxpr_theme": "dev-master",
         "dxpr/dxpr_builder": "dev-master"
     }
 }
