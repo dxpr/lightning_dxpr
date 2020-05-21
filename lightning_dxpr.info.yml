@@ -19,7 +19,7 @@ install:
   - webform_ui
 
 themes:
-  - dxpr
+  - dxpr_theme
   - bootstrap
   - claro
 
