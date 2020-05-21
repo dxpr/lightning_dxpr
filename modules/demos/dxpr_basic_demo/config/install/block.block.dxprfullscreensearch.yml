@@ -4,9 +4,9 @@ dependencies:
   module:
     - dxpr_theme_helper
   theme:
-    - dxpr
+    - dxpr_theme
 id: dxprfullscreensearch
-theme: dxpr
+theme: dxpr_theme
 region: navigation_collapsible
 weight: -5
 provider: null

@@ -6,9 +6,9 @@ dependencies:
   module:
     - block_content
   theme:
-    - dxpr
+    - dxpr_theme
 id: basicfooter
-theme: dxpr
+theme: dxpr_theme
 region: footer
 weight: 0
 provider: null

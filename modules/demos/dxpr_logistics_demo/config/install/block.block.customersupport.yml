@@ -4,9 +4,9 @@ dependencies:
   module:
     - system
   theme:
-    - dxpr
+    - dxpr_theme
 id: customersupport
-theme: dxpr
+theme: dxpr_theme
 region: sidebar_second
 weight: 0
 provider: null

@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - dxpr
+    - dxpr_theme
 id: logisticssecondaryheader
-theme: dxpr
+theme: dxpr_theme
 region: secondary_header
 weight: 0
 provider: null
