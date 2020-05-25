@@ -9,6 +9,6 @@ function dxpr_basic_demo_install() {
 
   // generate themesettings css and color module css
   require_once(drupal_get_path('theme', 'dxpr_theme') . '/dxpr_theme_callbacks.inc');
-  dxpr_color_module_css_write('dxpr_theme');
-  dxpr_css_cache_build('dxpr_theme');
+  dxpr_theme_color_module_css_write('dxpr_theme');
+  dxpr_theme_css_cache_build('dxpr_theme');
 }
