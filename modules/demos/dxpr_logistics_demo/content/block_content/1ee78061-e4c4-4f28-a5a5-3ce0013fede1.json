@@ -5,12 +5,7 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/drag_and_drop_block\/revision_user": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -44,25 +39,6 @@
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/drag_and_drop_block\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
-                    }
-                ]
-            }
-        ]
-    },
     "revision_log": [
         {
             "value": "Saved with DXPR builder"
@@ -107,16 +83,16 @@
     "metatag": [
         {
             "value": {
-                "title": "| Site-Install",
+                "title": "| Drush Site-Install",
                 "canonical_url": "http:\/\/default\/logistics-home"
             }
         }
     ],
     "body": [
         {
-            "value": "<div class=\"az-element az-text\" style=\"\" data-az-id=\"gbp7xgmd9r\" data-azat-pid=\"gbp7xgmd9r\" id=\"gbp7xgmd9r\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>24\/7 Support<\/h3><\/div><div class=\"az-element az-image\" data-az-id=\"gbiz0ukt1l\" data-azat-pid=\"gbiz0ukt1l\" id=\"gbiz0ukt1l\" data-azb=\"az_image\" data-azat-image=\"\/buildr\/lightning-dxpr-log3\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" data-azat-height=\"\"><img class=\"az-image-content \" src=\"\/buildr\/lightning-dxpr-log3\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-button\" data-az-id=\"gbrrmxzicp\" data-azat-pid=\"gbrrmxzicp\" id=\"gbrrmxzicp\" data-azb=\"az_button\" data-azat-title=\"Get in touch with us\" data-azat-link=\"\/contact\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-style=\"margin-top:10px;color:#ffffff;\"><a href=\"\/contact\" type=\"button\" class=\"az-button-content btn btn-primary   \" style=\"margin-top:10px;color:#ffffff;\" target=\"_self\">Get in touch with us<\/a><\/div>",
+            "value": "<div class=\"az-element az-text\" style=\"\" data-az-id=\"gbp7xgmd9r\" data-azat-pid=\"gbp7xgmd9r\" id=\"gbp7xgmd9r\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>24\/7 Support<\/h3><\/div><div class=\"az-element az-image\" data-az-id=\"gbiz0ukt1l\" data-azat-pid=\"gbiz0ukt1l\" id=\"gbiz0ukt1l\" data-azb=\"az_image\" data-azat-image=\"-files-directory-\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" data-azat-height=\"\"><img class=\"az-image-content \" src=\"-files-directory-\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-button\" data-az-id=\"gbrrmxzicp\" data-azat-pid=\"gbrrmxzicp\" id=\"gbrrmxzicp\" data-azb=\"az_button\" data-azat-title=\"Get in touch with us\" data-azat-link=\"\/contact\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-style=\"margin-top:10px;color:#ffffff;\"><a href=\"\/contact\" type=\"button\" class=\"az-button-content btn btn-primary   \" style=\"margin-top:10px;color:#ffffff;\" target=\"_self\">Get in touch with us<\/a><\/div>",
             "format": "full_html",
-            "processed": "",
+            "processed": "<div class=\"az-element az-text\" style=\"\" data-az-id=\"gbp7xgmd9r\" data-azat-pid=\"gbp7xgmd9r\" id=\"gbp7xgmd9r\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>24\/7 Support<\/h3><\/div><div class=\"az-element az-image\" data-az-id=\"gbiz0ukt1l\" data-azat-pid=\"gbiz0ukt1l\" id=\"gbiz0ukt1l\" data-azb=\"az_image\" data-azat-image=\"-files-directory-\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" data-azat-height=\"\"><img class=\"az-image-content \" src=\"-files-directory-\/styles\/large\/public\/2020-04\/support-operator-min.jpg?itok=i19pJxqM?fid=50\" alt=\"\" title=\"\" style=\"width: 100%;\" \/><\/div><div class=\"az-element az-button\" data-az-id=\"gbrrmxzicp\" data-azat-pid=\"gbrrmxzicp\" id=\"gbrrmxzicp\" data-azb=\"az_button\" data-azat-title=\"Get in touch with us\" data-azat-link=\"\/contact\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-style=\"margin-top:10px;color:#ffffff;\"><a href=\"\/contact\" type=\"button\" class=\"az-button-content btn btn-primary   \" style=\"margin-top:10px;color:#ffffff;\" target=\"_self\">Get in touch with us<\/a><\/div>",
             "summary": "",
             "lang": "en"
         }

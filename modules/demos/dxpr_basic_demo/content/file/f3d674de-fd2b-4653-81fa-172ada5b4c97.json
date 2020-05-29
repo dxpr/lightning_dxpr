@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/sites\/default\/files\/2018-05\/photo-1487700160041-babef9c3cb55_0.jpg"
+            "href": ""
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -12,6 +12,11 @@
             }
         ]
     },
+    "fid": [
+        {
+            "value": 5
+        }
+    ],
     "uuid": [
         {
             "value": "f3d674de-fd2b-4653-81fa-172ada5b4c97"
@@ -35,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "70844eb2-28d2-49eb-b87d-e59b574aa6df"
+                        "value": "efcdb31c-60cb-4034-91e5-9d6997011f3c"
                     }
                 ]
             }

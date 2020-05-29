@@ -52,7 +52,7 @@
     ],
     "revision_created": [
         {
-            "value": "2020-04-23T08:42:02+00:00",
+            "value": "2020-05-29T13:39:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -75,7 +75,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "729ee5cb-c954-4ab3-903f-9dcd949fdcbe"
+                        "value": "b5493b04-3b33-403b-8c87-df8bb5ebb6ac"
                     }
                 ],
                 "lang": "en"
@@ -160,7 +160,7 @@
     "metatag": [
         {
             "value": {
-                "title": "| Site-Install",
+                "title": "| Drush Site-Install",
                 "canonical_url": "http:\/\/default\/logistics-home"
             }
         }
@@ -168,7 +168,7 @@
     "path": [
         {
             "alias": "\/media\/image\/15",
-            "pid": 55,
+            "pid": 31,
             "langcode": "en",
             "lang": "en"
         }

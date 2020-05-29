@@ -5,12 +5,7 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
-            {
-                "href": "http:\/\/default\/about-us?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -19,7 +14,7 @@
     ],
     "uuid": [
         {
-            "value": "666180e6-021b-4f63-ad30-fca1b3c14ef2"
+            "value": "29ef3cfc-c2e9-4766-a510-f4d43d674da8"
         }
     ],
     "revision_id": [
@@ -40,7 +35,7 @@
     ],
     "revision_created": [
         {
-            "value": "2020-04-22T13:41:17+00:00",
+            "value": "2020-05-29T11:48:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -51,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Company",
+            "value": "Example link 1",
             "lang": "en"
         }
     ],
@@ -62,10 +57,9 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/10",
+            "uri": "internal:\/user\/login",
             "title": "",
-            "options": [],
-            "target_uuid": "c577912c-2eb6-4dc9-b01f-bb66f7958e3d"
+            "options": []
         }
     ],
     "external": [
@@ -75,22 +69,22 @@
     ],
     "rediscover": [
         {
-            "value": false
+            "value": true
         }
     ],
     "weight": [
         {
-            "value": -48
+            "value": 0
         }
     ],
     "expanded": [
         {
-            "value": true
+            "value": false
         }
     ],
     "changed": [
         {
-            "value": "2018-02-07T20:40:25+00:00",
+            "value": "2020-05-29T11:50:14+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -111,27 +105,8 @@
         {
             "value": {
                 "title": "| Drush Site-Install",
-                "canonical_url": "http:\/\/default\/logistics-home"
+                "canonical_url": "http:\/\/default\/basic"
             }
         }
-    ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/about-us?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "c577912c-2eb6-4dc9-b01f-bb66f7958e3d"
-                    }
-                ]
-            }
-        ]
-    }
+    ]
 }

@@ -120,7 +120,7 @@
     "metatag": [
         {
             "value": {
-                "title": "| Site-Install",
+                "title": "| Drush Site-Install",
                 "canonical_url": "http:\/\/default\/logistics-home"
             }
         }
