@@ -1,8 +1,40 @@
 {
     "name": "dxpr/lightning_dxpr",
     "type": "drupal-profile",
-    "description": "A fast and feature-rich Drupal distribution based on Lightning profile.",
+    "description": "DXPR Drupal Marketing Technology configured with the Acquia Lightning distribution..",
     "license": "GPL-2.0-or-later",
+    "keywords": [
+        "DXPR",
+        "Drupal",
+        "Marketing",
+        "Acquia",
+        "Lightning"
+    ],
+    "support": {
+        "documentation": "https:/.dxpr.com/hc",
+        "issues": "https://dxpr.com/hc/tickets"
+    },
+    "authors": [
+        {
+            "name": "DXPR",
+            "homepage": "https://dxpr.com",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.dxpr.com/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "require": {
         "acquia/lightning": "^4.0",
         "drupal/better_normalizers": "1.0-beta4",
