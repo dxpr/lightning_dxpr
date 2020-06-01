@@ -21,31 +21,17 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.dxpr.com/8"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "require": {
         "acquia/lightning": "^4.0",
         "drupal/better_normalizers": "1.0-beta4",
         "drupal/bootstrap": "^3.0",
         "drupal/default_content": "1.0-alpha8",
+        "drupal/dxpr_theme": "^1.0",
         "drupal/field_group": "^3.0",
         "drupal/dxpr_theme_helper": "^1.0",
         "drupal/dxpr_gridstack": "^1.0",
         "drupal/tokenuuid": "^1.0",
         "drupal/webform": "^5.0",
-        "dxpr/dxpr_theme": "^1.0",
         "dxpr/dxpr_builder": "^1.0"
     }
 }
