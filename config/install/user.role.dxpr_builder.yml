@@ -1,0 +1,25 @@
+uuid: 54bdac05-72af-474c-89c9-187bb7a276ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: 'Gets permission to use the DXPR Builder front-end editor, and to use and manage media.'
+id: dxpr_builder
+label: 'DXPR Builder User'
+weight: 9
+is_admin: null
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access image_browser entity browser pages'
+  - 'access media overview'
+  - 'access media_browser entity browser pages'
+  - 'create media'
+  - 'delete media'
+  - 'dropzone upload files'
+  - 'edit via dxpr builder'
+  - 'update media'
+  - 'use moderation sidebar'
+  - 'view the administration theme'
