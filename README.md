@@ -3,24 +3,21 @@
 ## Non-interactive Profile installation
 
 1. `composer clearcache`
-2. `composer create-project dxpr/lightning-dxpr-project:8.x-dev <directory_name>`
-3. `cd <directory-name>/docroot`
-4. `mysql -u root -p -e "drop database tmp;create database tmp;"`
-5. `drush site-install lightning_dxpr --db-url=mysql://root@localhost:3306/tmp --account-pass=admin -y -v`
+2. `composer create-project dxpr/lightning-dxpr-project:1.x-dev EXAMPLE_DIRECTORY
+3. `cd <directory-name>/EXAMPLE_DIRECTORY`
+4. `mysql -u MYSQL_USERNAME -p -e "create database EXAMPLE_DATABASE_NAME;"`
+5. `drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v`
 
 # Demo Sites Included
 
-By default the installation profile will install "Test Demo" content and configuration.
+By default the installation profile will install "Basic Demo" content and configuration.
 
-## To install no demo content use:
+## To install without demo content:
 
-`drush site-install lightning_dxpr --db-url=mysql://dxpr@localhost:3306/tmp --account-pass=admin lightning_dxpr_demo_select.demo_select=none -y -v`
+Replace `demo_select=dxpr_basic_demo` with `demo_select=none` in command 5.
 
-## To install the Logistics Demo or the Basic Demo or Showcase Demo:
+## To install the Logistics Demo:
 
-`lightning_dxpr_demo_select.demo_select=logistics_demo`
+Replace `demo_select=dxpr_basic_demo` with `demo_select=dxpr_logistics_demo` in command 5.
 
-`lightning_dxpr_demo_select.demo_select=basic_demo`
-
-`lightning_dxpr_demo_select.demo_select=showcase_demo`
 
