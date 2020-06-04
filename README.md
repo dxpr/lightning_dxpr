@@ -13,7 +13,8 @@ See instructions here: https://github.com/dxpr/lightning_dxpr_project
 ## Non-interactive Profile installation
 
 ```bash
-$ drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v
+$ cd docroot
+$ ../vendor/drush/drush/drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v
 ```
 
 ## Demo Sites Included
