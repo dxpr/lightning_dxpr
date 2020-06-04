@@ -12,8 +12,9 @@ See instructions here: https://github.com/dxpr/lightning_dxpr_project
 
 ## Non-interactive Profile installation
 
-1. `mysql -u MYSQL_USERNAME -p -e "create database EXAMPLE_DATABASE_NAME;"`
-2. `drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v`
+```bash
+$ drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v
+```
 
 ## Demo Sites Included
 
