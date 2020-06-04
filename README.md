@@ -1,4 +1,4 @@
-## This is a Drupal 8 Distribution that sets you up with DXPR's Layout Builder module and low-code framework theme, integrated with Acquia Lightning's excellent workflow and media capabilities.
+## This is a Drupal 8 Distribution that sets you up with DXPR's layout builder module and low-code framework theme, integrated with Acquia Lightning's excellent workflow and media capabilities.
 
 Lightning DXPR is a sub-profile of Acquia Lightning that installs our DXPR Theme and DXPR Builder products, giving you our state-of-the-art marketing Drupal tools integrated with Acquia's Lightning features. More info about Lightning:   
 
