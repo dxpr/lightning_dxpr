@@ -4,6 +4,7 @@
 ## Authentication
 
 - To access `dxpr/dxpr_builder` packages, you need to to have an active subscription at DXPR.com. You can find your token here: https://app.sooperthemes.com/download/all#composer. This token is unique to your DXPR.com account and should be kept secret, like a password.
+@todo change url to dxpr.com after site launch
 
 - Configure the access token:
 
