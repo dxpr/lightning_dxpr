@@ -1,4 +1,15 @@
-# lightning_dxpr
+## lightning_dxpr
+
+
+## Authentication
+
+- To access `dxpr/dxpr_builder` packages, you need to subscribe to get access token.
+
+- Configure the access token:
+
+```bash
+$ composer config --global bearer.packages.dxpr.com <access_token>
+```
 
 ## Non-interactive Profile installation
 
