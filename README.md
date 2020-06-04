@@ -12,6 +12,8 @@ Lightning DXPR is a sub-profile of Acquia Lightning that installs our DXPR Theme
 
 @todo change url to dxpr.com after site launch
 
+*Your composer needs to be version 1.10 or higher for this to work*
+
 - Configure the access token:
 
 ```bash
@@ -20,7 +22,7 @@ $ composer config --global bearer.packages.dxpr.com <access_token>
 
 ## Non-interactive Profile installation
 
-1. `composer clearcache;composer self-update`
+1. `composer clearcache`
 2. `composer create-project dxpr/lightning-dxpr-project:1.x-dev EXAMPLE_DIRECTORY`
 3. `cd EXAMPLE_DIRECTORY/docroot`
 4. `mysql -u MYSQL_USERNAME -p -e "create database EXAMPLE_DATABASE_NAME;"`
