@@ -1,9 +1,15 @@
-## lightning_dxpr
+## This is a Drupal Distribution that sets you upwith DXPR's Layout Builder module and low-code framework theme, integrated of Acquia Lightning's excellent workflow and media capabilities.
+
+Lightning DXPR is a sub-profile of Acquia Lightning that installs our DXPR Theme and DXPR Builder products, giving you our state-of-the-art marketing Drupal tools integrated with Acquia's Lightning features. More info about Lightning:   
+
+- https://github.com/acquia/lightning-project
+- https://github.com/acquia/lightning
 
 
 ## Authentication
 
 - To access `dxpr/dxpr_builder` packages, you need to to have an active subscription at DXPR.com. You can find your token here: https://app.sooperthemes.com/download/all#composer. This token is unique to your DXPR.com account and should be kept secret, like a password.
+
 @todo change url to dxpr.com after site launch
 
 - Configure the access token:
@@ -14,7 +20,7 @@ $ composer config --global bearer.packages.dxpr.com <access_token>
 
 ## Non-interactive Profile installation
 
-1. `composer clearcache`
+1. `composer clearcache;composer self-update`
 2. `composer create-project dxpr/lightning-dxpr-project:1.x-dev EXAMPLE_DIRECTORY`
 3. `cd EXAMPLE_DIRECTORY/docroot`
 4. `mysql -u MYSQL_USERNAME -p -e "create database EXAMPLE_DATABASE_NAME;"`
