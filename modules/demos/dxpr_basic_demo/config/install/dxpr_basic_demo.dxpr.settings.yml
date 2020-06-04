@@ -209,7 +209,7 @@ tooltip_placement: 'auto top'
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://localhost/buildr/1526571671/profiles/cms/themes/dxpr/favicon.ico'
+  url: '/profiles/cms/themes/dxpr/favicon.ico'
   use_default: 1
 schemas:
   bootstrap: 8000
