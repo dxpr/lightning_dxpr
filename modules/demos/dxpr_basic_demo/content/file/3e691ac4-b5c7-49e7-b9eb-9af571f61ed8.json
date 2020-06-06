@@ -14,12 +14,12 @@
     },
     "fid": [
         {
-            "value": 5
+            "value": 6
         }
     ],
     "uuid": [
         {
-            "value": "f3d674de-fd2b-4653-81fa-172ada5b4c97"
+            "value": "3e691ac4-b5c7-49e7-b9eb-9af571f61ed8"
         }
     ],
     "langcode": [
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "efcdb31c-60cb-4034-91e5-9d6997011f3c"
+                        "value": "83bc2444-39d2-46a0-9acb-59cc279da82f"
                     }
                 ]
             }
@@ -53,8 +53,8 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/2018-05\/photo-1487700160041-babef9c3cb55.jpg",
-            "url": "\/sites\/default\/files\/2018-05\/photo-1487700160041-babef9c3cb55.jpg"
+            "value": "public:\/\/2020-06\/photo-1487700160041-babef9c3cb55.jpg",
+            "url": "\/sites\/default\/files\/2020-06\/photo-1487700160041-babef9c3cb55.jpg"
         }
     ],
     "filemime": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2018-05-22T13:14:18+00:00",
+            "value": "2020-06-06T15:31:21+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2018-05-22T13:14:18+00:00",
+            "value": "2020-06-06T15:31:33+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
