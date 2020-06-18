@@ -31,7 +31,7 @@
         "drupal/dxpr_theme_helper": "^1.0",
         "drupal/dxpr_gridstack": "^1.0",
         "drupal/tokenuuid": "^1.0",
-        "drupal/webform": "^5.0",
+        "drupal/webform": "6.0.0-alpha4",
         "dxpr/dxpr_builder": "^1.0"
     }
 }
