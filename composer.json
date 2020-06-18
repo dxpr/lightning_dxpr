@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "acquia/lightning": "^5.0",
+        "acquia/lightning": "5.0.0-beta3",
         "drupal/better_normalizers": "1.0-beta4",
         "drupal/bootstrap": "^3.0",
         "drupal/default_content": "1.0-alpha8",
