@@ -14,7 +14,6 @@ install:
   - field_group
   - dxpr_theme_helper
   - search
-  - tokenuuid
   - webform
   - webform_ui
 

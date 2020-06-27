@@ -9,7 +9,6 @@ dependencies:
   - drupal:system
   - dxpr_builder_block:dxpr_builder_block
   - dxpr_builder_page:dxpr_builder_page
-  - dxpr_gridstack:dxpr_gridstack
   - dxpr_theme_helper:dxpr_theme_helper
   - webform:webform
   - webform:webform_ui
