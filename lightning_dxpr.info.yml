@@ -2,8 +2,7 @@ name: 'Lightning DXPR'
 type: profile
 version: 8.x-dev
 description: 'A fast and feature-rich Drupal distribution based on Lightning profile.'
-core: '8.x'
-core_version_requirement: '^8.8 || ^9'
+core_version_requirement: '^9'
 
 base profile: lightning
 
