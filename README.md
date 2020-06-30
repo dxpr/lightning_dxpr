@@ -1,32 +1,36 @@
-## This is a Drupal 9 Distribution that sets you up with DXPR's layout builder module and low-code framework theme, integrated with Acquia Lightning's excellent workflow and media capabilities.
+# Drupal Lightning DXPR 
 
-Lightning DXPR is a sub-profile of Acquia Lightning that installs our DXPR Theme and DXPR Builder products, giving you our state-of-the-art marketing Drupal tools integrated with Acquia's Lightning features. More info about Lightning:   
+Lightning DXPR is a Drupal 9 installation profile that empowers your entire organization to build and maintain your digital experience effectively. 
 
-- https://github.com/acquia/lightning-project
-- https://github.com/acquia/lightning
+While installing Lightning DXPR you can choose betwoon 3 website configurations:
 
+#### No Demo Content
+
+Start with a blank sheet.
+
+#### Basic Demo
+
+Contains 2 demo pages and a few menu links and files. This will help you get to know Lightning DXPR a little better. After you're done warming up you can delete the few demo content items that are included.
+
+#### Logistics Demo
+
+This is a fully fledged turn-key website for an imaginary logistics company. You can use this demo site as training ground, or to show others. It contains pages, images, webforms, and showcases what DXPR Builder and DXPR Theme can do for you.
 
 ## Composer Installation
 
 See instructions here: https://github.com/dxpr/lightning_dxpr_project
 
-## Non-interactive Profile installation
+## Lightning DXPR Features, differences with plain Drupal core
 
-```bash
-$ cd docroot
-$ ../vendor/drush/drush/drush site-install lightning_dxpr lightning_dxpr_demo_select.demo_select=dxpr_basic_demo --db-url=mysql://MYSQL_USERNAME:MYSQL_PASSWORD@localhost:3306/EXAMPLE_DATABASE_NAME --account-pass=admin -y -v
-```
+Visit our product page for more details:
 
-## Demo Sites Included
+@todo make product page
 
-By default the installation profile will install "Basic Demo" content and configuration.
+## Based on Acquia Lightning
 
-### To install without demo content:
+For more information about Acquia Lightning check out these links:
 
-Replace `demo_select=dxpr_basic_demo` with `demo_select=none` in command 5.
-
-### To install the Logistics Demo:
-
-Replace `demo_select=dxpr_basic_demo` with `demo_select=dxpr_logistics_demo` in command 5.
+* https://www.drupal.org/project/lightning
+* https://www.acquia.com/products-services/acquia-lightning
 
 
