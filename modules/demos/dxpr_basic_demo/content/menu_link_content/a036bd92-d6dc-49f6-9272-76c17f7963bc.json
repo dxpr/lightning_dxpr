@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Example link 2",
+            "value": "Elements",
             "lang": "en"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/elements",
             "title": "",
             "options": []
         }
@@ -84,7 +84,7 @@
     ],
     "changed": [
         {
-            "value": "2020-05-29T11:49:36+00:00",
+            "value": "2020-06-06T15:17:49+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

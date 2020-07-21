@@ -2,8 +2,8 @@
 
 function dxpr_basic_demo_install() {
   // override existing configuration objects
-  $cfg = \Drupal::configFactory()->getEditable('dxpr_basic_demo.dxpr.settings');
-  $settings = \Drupal::configFactory()->getEditable('dxpr.settings');
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_basic_demo.dxpr_theme.settings');
+  $settings = \Drupal::configFactory()->getEditable('dxpr_theme.settings');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
 
