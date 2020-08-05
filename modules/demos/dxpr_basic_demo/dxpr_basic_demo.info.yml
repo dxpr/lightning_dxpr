@@ -1,8 +1,7 @@
 name: DXPR Basic Demo
 type: module
-version: 8.x-1.0
 description: DXPR Basic Demo by DXPR.
-core: 8.x
+core_version_requirement: '^9'
 package: DXPR
 dependencies:
   - drupal:contact
