@@ -12,19 +12,9 @@
             }
         ]
     },
-    "id": [
-        {
-            "value": 3
-        }
-    ],
     "uuid": [
         {
             "value": "315f6ce3-3d5c-417c-92f5-81733a275737"
-        }
-    ],
-    "revision_id": [
-        {
-            "value": 3
         }
     ],
     "langcode": [

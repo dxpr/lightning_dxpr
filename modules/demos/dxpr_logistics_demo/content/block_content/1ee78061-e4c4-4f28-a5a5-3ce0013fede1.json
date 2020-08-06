@@ -7,19 +7,9 @@
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
         }
     },
-    "id": [
-        {
-            "value": 1
-        }
-    ],
     "uuid": [
         {
             "value": "1ee78061-e4c4-4f28-a5a5-3ce0013fede1"
-        }
-    ],
-    "revision_id": [
-        {
-            "value": 5
         }
     ],
     "langcode": [
