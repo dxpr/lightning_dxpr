@@ -30,6 +30,7 @@
         "drupal/field_group": "^3.0",
         "drupal/dxpr_theme_helper": "^1.0",
         "drupal/webform": "6.0.0-alpha12",
-        "dxpr/dxpr_builder": "^1.0"
+        "dxpr/dxpr_builder": "^1.0",
+        "drupal/dxpr_gridstack": "^1.0"
     }
 }
