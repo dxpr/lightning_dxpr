@@ -1,5 +1,10 @@
 <?php
 
+use Drupal\Core\Config\FileStorage;
+use Drupal\Core\Config\InstallStorage;
+use Drupal\Core\Config\StorageInterface;
+
+
 function dxpr_logistics_demo_install() {
   // override existing configuration objects
   $cfg = \Drupal::configFactory()->getEditable('dxpr_logistics_demo.dxpr_theme.settings');
@@ -11,4 +16,20 @@ function dxpr_logistics_demo_install() {
   require_once(drupal_get_path('theme', 'dxpr_theme') . '/dxpr_theme_callbacks.inc');
   dxpr_theme_color_module_css_write('dxpr_theme');
   dxpr_theme_css_cache_build('dxpr_theme');
+
+  // this is necessary to be here because when the module is installed from profile installation,
+  // the optional configs is installed at the end,
+  // but we do not need it because
+  // the contents depends on these configurations
+  $config_installer = \Drupal::service('config.installer');
+  $modules = [
+    'dxpr_builder_block',
+    'dxpr_builder_page'
+  ];
+  foreach ($modules as $module) {
+    $current_module_path = drupal_get_path('module', $module) . '/' . InstallStorage::CONFIG_OPTIONAL_DIRECTORY;
+    $storage = new FileStorage($current_module_path, StorageInterface::DEFAULT_COLLECTION);
+    $config_installer->installOptionalConfig($storage, '');
+  }
+
 }
