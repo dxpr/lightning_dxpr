@@ -32,8 +32,7 @@ class DemoSelectForm extends FormBase {
       '#options' => array(
         'dxpr_basic_demo' => $this->t('Basic demo (1 page, 1 block, 2 menu links, 1 file)'),
         'dxpr_logistics_demo' => $this->t('Logistics Company demo (15 pages, 3 blocks, 15 menu links, 17 files)'),
-        // 'dxpr_main_demo' => $this->t('Product Showcase demo (25 pages, 3 blocks)'),
-        // 'dxpr_test_demo' => $this->t('Tech showcase demo for product testing and validation'),
+        'dxpr_qa_demo' => $this->t('Demo with QA testing pages for all elements and features'),
         'none' => $this->t('No demo content'),
       ),
     ];
