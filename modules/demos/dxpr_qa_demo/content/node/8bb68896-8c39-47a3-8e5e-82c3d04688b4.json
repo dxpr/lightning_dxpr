@@ -1,0 +1,229 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/22?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_attached_media": [
+            {
+                "href": "http:\/\/default\/media\/image\/3?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/media\/image\/4?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/media\/image\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8bb68896-8c39-47a3-8e5e-82c3d04688b4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 302
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-22T07:53:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_attached_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/image\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d089c7bb-3442-4672-b212-3b3ecf412289"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/image\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4afa2200-88c8-4f72-8c7d-d25121c8aa66"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/image\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fe7d34dc-8c6e-4ee4-815d-ed90045e328a"
+                    }
+                ]
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Image Carousel",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:42:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-21T12:53:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Image Carousel | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/22",
+                "description": "Image Carousel with 3 images and default settings"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbg2zz6kuh\" data-azat-pid=\"gbg2zz6kuh\" id=\"gbg2zz6kuh\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gblqcbfrr3\" data-azat-pid=\"gblqcbfrr3\" id=\"gblqcbfrr3\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and default settings<\/h2><\/div><div id=\"gbqgp8cdrc\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbqgp8cdrc\" data-azat-pid=\"gbqgp8cdrc\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\"><ol class=\"carousel-indicators\"><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"1\" class=\"\"><\/li><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"2\" class=\"\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\"><\/div><a class=\"left carousel-control\" href=\"#gbqgp8cdrc\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gbqgp8cdrc\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbairzjyj8\" data-azat-pid=\"gbairzjyj8\" id=\"gbairzjyj8\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb5z7epfsb\" data-azat-pid=\"gb5z7epfsb\" id=\"gb5z7epfsb\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Hide pagination\" enabled<\/h2><\/div><div id=\"gbsmqna7x4\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbsmqna7x4\" data-azat-pid=\"gbsmqna7x4\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" data-azat-hide=\"pagination_control\"><div class=\"carousel-inner\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\"><\/div><a class=\"left carousel-control\" href=\"#gbsmqna7x4\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gbsmqna7x4\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbkd2y1wjd\" data-azat-pid=\"gbkd2y1wjd\" id=\"gbkd2y1wjd\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbj5o04pp9\" data-azat-pid=\"gbj5o04pp9\" id=\"gbj5o04pp9\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Hide prev\/next buttons\" enabled<\/h2><\/div><div id=\"gbao3wfdc2\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbao3wfdc2\" data-azat-pid=\"gbao3wfdc2\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" data-azat-hide=\"prev_next_buttons\"><ol class=\"carousel-indicators\"><li data-target=\"#gbao3wfdc2\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gbao3wfdc2\" data-slide-to=\"1\" class=\"\"><\/li><li data-target=\"#gbao3wfdc2\" data-slide-to=\"2\" class=\"\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\"><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbvewgymr0\" data-azat-pid=\"gbvewgymr0\" id=\"gbvewgymr0\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbi04sezio\" data-azat-pid=\"gbi04sezio\" id=\"gbi04sezio\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Image Resizing\" set to Thumbnail (100x100)<\/h2><\/div><div id=\"gb9n6j3m3j\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gb9n6j3m3j\" data-azat-pid=\"gb9n6j3m3j\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?itok=1JbwmYF7&amp;fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=fV4mqY4b&amp;fid=8,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?itok=7fYdVJoI&amp;fid=10\"><ol class=\"carousel-indicators\"><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"1\"><\/li><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"2\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?itok=1JbwmYF7&amp;fid=9\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=fV4mqY4b&amp;fid=8\" alt=\"\" title=\"\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?itok=7fYdVJoI&amp;fid=10\" alt=\"\" title=\"\"><\/div><a class=\"left carousel-control\" href=\"#gb9n6j3m3j\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gb9n6j3m3j\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbh3u7jcgr\" data-azat-pid=\"gbh3u7jcgr\" id=\"gbh3u7jcgr\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbg2zz6kuh\" data-azat-pid=\"gbg2zz6kuh\" id=\"gbg2zz6kuh\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gblqcbfrr3\" data-azat-pid=\"gblqcbfrr3\" id=\"gblqcbfrr3\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and default settings<\/h2><\/div><div id=\"gbqgp8cdrc\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbqgp8cdrc\" data-azat-pid=\"gbqgp8cdrc\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\"><ol class=\"carousel-indicators\"><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"1\" class=\"\"><\/li><li data-target=\"#gbqgp8cdrc\" data-slide-to=\"2\" class=\"\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\" \/><\/div><a class=\"left carousel-control\" href=\"#gbqgp8cdrc\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gbqgp8cdrc\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbairzjyj8\" data-azat-pid=\"gbairzjyj8\" id=\"gbairzjyj8\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb5z7epfsb\" data-azat-pid=\"gb5z7epfsb\" id=\"gb5z7epfsb\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Hide pagination\" enabled<\/h2><\/div><div id=\"gbsmqna7x4\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbsmqna7x4\" data-azat-pid=\"gbsmqna7x4\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" data-azat-hide=\"pagination_control\"><div class=\"carousel-inner\"><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\" \/><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\" \/><\/div><a class=\"left carousel-control\" href=\"#gbsmqna7x4\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gbsmqna7x4\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbkd2y1wjd\" data-azat-pid=\"gbkd2y1wjd\" id=\"gbkd2y1wjd\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbj5o04pp9\" data-azat-pid=\"gbj5o04pp9\" id=\"gbj5o04pp9\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Hide prev\/next buttons\" enabled<\/h2><\/div><div id=\"gbao3wfdc2\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gbao3wfdc2\" data-azat-pid=\"gbao3wfdc2\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" data-azat-hide=\"prev_next_buttons\"><ol class=\"carousel-indicators\"><li data-target=\"#gbao3wfdc2\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gbao3wfdc2\" data-slide-to=\"1\" class=\"\"><\/li><li data-target=\"#gbao3wfdc2\" data-slide-to=\"2\" class=\"\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?fid=10\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=9\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?fid=8\" alt=\"\" title=\"\" \/><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbvewgymr0\" data-azat-pid=\"gbvewgymr0\" id=\"gbvewgymr0\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbi04sezio\" data-azat-pid=\"gbi04sezio\" id=\"gbi04sezio\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Image Carousel with 3 images and \"Image Resizing\" set to Thumbnail (100x100)<\/h2><\/div><div id=\"gb9n6j3m3j\" class=\"az-element az-images-carousel carousel slide\" data-ride=\"carousel\" style=\"\" data-az-id=\"gb9n6j3m3j\" data-azat-pid=\"gb9n6j3m3j\" data-azb=\"az_images_carousel\" data-azat-images=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?itok=1JbwmYF7&amp;fid=9,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=fV4mqY4b&amp;fid=8,\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?itok=7fYdVJoI&amp;fid=10\"><ol class=\"carousel-indicators\"><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"0\" class=\"active\"><\/li><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"1\"><\/li><li data-target=\"#gb9n6j3m3j\" data-slide-to=\"2\"><\/li><\/ol><div class=\"carousel-inner\"><img class=\"item active\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/filip-bunkens-R5SrmZPoO40-unsplash.jpg?itok=1JbwmYF7&amp;fid=9\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=fV4mqY4b&amp;fid=8\" alt=\"\" title=\"\" \/><img class=\"item\" style=\"width:100%\" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/thumbnail\/public\/2020-10\/bob-canning-r53rNKb_7s8-unsplash.jpg?itok=7fYdVJoI&amp;fid=10\" alt=\"\" title=\"\" \/><\/div><a class=\"left carousel-control\" href=\"#gb9n6j3m3j\" data-slide=\"prev\"><span class=\"glyphicon glyphicon-chevron-left\"><\/span><\/a><a class=\"right carousel-control\" href=\"#gb9n6j3m3j\" data-slide=\"next\"><span class=\"glyphicon glyphicon-chevron-right\"><\/span><\/a><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbh3u7jcgr\" data-azat-pid=\"gbh3u7jcgr\" id=\"gbh3u7jcgr\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

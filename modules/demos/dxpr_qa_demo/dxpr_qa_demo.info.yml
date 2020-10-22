@@ -1,0 +1,131 @@
+name: DXPR QA Demo
+type: module
+description: Content for QA.
+version: 1.0.0-alpha1
+package: DXPR
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:contact
+  - default_content:default_content
+  - better_normalizers:better_normalizers
+  - dxpr_builder_e:dxpr_builder_e
+  - dxpr_builder_block:dxpr_builder_block
+  - dxpr_builder_page:dxpr_builder_page
+  - dxpr_theme_helper:dxpr_theme_helper
+config_devel:
+  install:
+    - block.block.basicfooter
+    - block.block.emptydxprbuilderblock
+    - color.theme.dxpr
+    - dxpr_builder.settings
+    - dxpr_builder_e.dxpr_builder_e_profile.editor
+    - dxpr_theme.settings
+    - views.view.qa_views
+default_content:
+  block_content:
+    - 33644f9c-e6d7-4f18-b11f-3bfc160beaf9
+    - 975f4a06-92f7-4ec8-a4a9-23e75174d2b8
+  file:
+    - 94cd2ca9-97a9-470a-bad7-4ff520787b47
+    - 00a69af1-a347-437b-b510-a55deb093c01
+    - ea7c27e6-219d-4358-af89-e1066ea4155c
+    - 9739b4f1-f0c1-4b6e-af67-36a8660f2018
+    - 6f238e66-8a88-4a2d-9aee-690235bd2acf
+    - 936ab28b-d08d-40d0-8898-366954af97de
+    - 26b7df18-d2d7-42e3-99a6-6aa38c48737d
+    - 1c15e8b1-6097-425e-9a95-7022d9ede2be
+  node:
+    - 01984e0a-f947-4e23-8c52-359c5fe0efd1
+    - 082d57d5-9e3d-4f85-8fee-8a21b83a9e23
+    - 11b6486a-81ff-41f2-94b8-53bf33a38b68
+    - 237c7013-da13-4ec1-a374-fafcaa1c2df3
+    - 2b5ab9e6-97be-4777-81a1-0acdc22099e4
+    - 2b937c2c-7430-44ef-98bc-7fbdced92bf3
+    - 2e723ffc-d0c0-4a3a-b1e8-9cf5e76c0a18
+    - 3c100f41-e22f-4f04-9bd0-7c6a3fa254d7
+    - 3ff4056a-68ce-4997-a93f-81635d7256c3
+    - 42952b39-a48a-41a4-af56-1c680fb6acdc
+    - 46de1acc-59be-4f49-be86-db0eeb38a982
+    - 4d6cd3fc-df14-47e8-aa38-e653965a627f
+    - 4f3cc600-e16a-4d55-abf2-241e0d0db392
+    - 50870669-5c4e-4ae5-a8a8-fa91c821b21c
+    - 5260cc18-c2fb-4603-9d09-c417ee28900d
+    - 538e086a-5854-46b7-aaf0-4671bda087c3
+    - 78f83c47-9bbb-440a-9dcd-45408282306d
+    - 79929820-ddff-4c24-bccd-a3f429de444f
+    - 8037eb82-9bfd-4bc8-ba16-abb87514854b
+    - 81608247-03da-4f22-bf0e-7b348bd5b955
+    - 85584d99-1743-4d41-a5ea-eaf97466a321
+    - 8aa2bdc5-80ce-48ba-8ce7-ac88a21b6f8d
+    - 8bb68896-8c39-47a3-8e5e-82c3d04688b4
+    - 8d3b92eb-58ca-4118-90d5-7bb448553687
+    - 9271af15-036e-4878-891d-375f8e7834d8
+    - 956bbe46-f823-4192-9b2e-453f58ae513d
+    - afb7c333-c843-4bc2-925f-1e922d1e7659
+    - b0d8c52b-5f68-4809-a573-cd2a2930ec1d
+    - b5af8b91-36f4-4cbc-818e-aa89c756b647
+    - b7ca4dc5-df16-488f-87d6-7818f77bdd92
+    - c977f2b6-da7e-448f-acd7-8b8423a9cdd6
+    - cbe3e99c-00a2-463c-9e32-084e5c0181e3
+    - ccd083c5-9976-4d05-8b9f-b35e26466330
+    - cf1ad9e6-ce70-42e9-a39e-9e7de41b0ae6
+    - d9572301-2049-40db-9e04-bf899214b5f4
+    - e19cd7d8-7c34-4546-bf73-b07f2338b679
+    - e39479e5-0864-415f-8c39-83a81041f22d
+    - ebeb79ba-1943-4938-a714-0729da6b62cc
+    - ec6a8924-8af0-4759-8c25-5fad3c731832
+    - fa84b254-32d6-454a-ad1e-c9c92022d306
+    - fce29fa3-eb92-4d22-bcfa-7846e7941b7c
+    - fd537700-ce74-4ce9-8d63-d2c78e4372a8
+  media:
+    - 0d23f476-4999-45f2-ab06-cb28cada7efb
+    - d089c7bb-3442-4672-b212-3b3ecf412289
+    - 4afa2200-88c8-4f72-8c7d-d25121c8aa66
+    - fe7d34dc-8c6e-4ee4-815d-ed90045e328a
+    - 4d7e036e-0876-4dbe-845a-b1ff84c67572
+    - 4148ed94-f42c-4752-8d88-375885679f0e
+  menu_link_content:
+    - 43baa380-06ef-4ec8-a187-e49fafde8208
+    - 78d1afa4-08ef-4b2b-a629-403c7d375d44
+    - 0665b09b-5e8a-467a-8eee-4e9b463f94c0
+    - e6e81039-1241-4258-8a4d-b803a71452b1
+    - 4aa24ba8-f7fc-4af7-adf2-1a5208865f51
+    - 6874bb38-167a-4fd4-a4bd-81712fe74385
+    - edabeb5f-29bd-4814-9218-215c1c328f31
+    - a569b2db-fedf-4ee4-bd1b-a5cc65f4a2ef
+    - 4e90fac2-015a-4ac0-b79b-614c0d68c62e
+    - 9639b09c-f3f3-4c46-875f-d1f693615666
+    - eeec4391-0980-4cee-8165-1e3a5d704f3d
+    - ebfc77a5-6067-4bb2-9507-d34e87fe8aaf
+    - 017e9a1c-83ea-4e2e-b0b9-e93c1cb53aa0
+    - 48c34607-d78d-47e9-9050-3c6033c665b7
+    - a14d49fa-959e-4ac5-9e84-d4a7af7fe8aa
+    - de7900eb-be7a-4087-b549-0812bbcafcb7
+    - c897b97e-d977-4a9d-97b7-bf77c88a3fe0
+    - fe2ab8d2-b84a-4cbc-91dd-0db94ab556b1
+    - 770a6563-d9a5-45c2-927c-721072a11912
+    - 0d1033f4-2303-4212-ab90-fe66f7e68fe2
+    - 1f0bc7fc-f0f9-4664-a061-b9d202a41e09
+    - 964b5b6c-ca1d-41f5-b5f1-5c1f7e809743
+    - 9143b50e-0dc8-47d1-8f47-d6d24649448d
+    - 5cc9d558-d876-46a9-b6a7-d74e9c47ea68
+    - c8785f37-68ce-478c-8d6c-5a20c351dd73
+    - 1686bed5-16e8-44bf-b801-bca65ae5f3e4
+    - efbd8d7c-5fb2-4c8f-9883-b08bcffa1018
+    - 58907494-8cea-42d4-872c-e361a9bf9c20
+    - c6bdcfbe-0ae0-45ca-81a0-8773b0819571
+    - 7a32628c-0d53-4866-a82c-f2c584ccd960
+    - 63b3ec00-81fd-44b7-b571-582b74a9e884
+    - 9dc8a32b-688f-4ed3-b37f-f1c6643b0609
+    - a0438b62-3a40-4f2b-b935-7204f90c2442
+    - 142f0c69-6485-4a24-8d0e-e2072122f72b
+    - cb3f6b6a-ac7a-4c8b-ae88-467fde4a6a32
+    - a776570c-69e6-4681-ae1b-d7a3520c03a4
+    - 1ee39c2c-9ba6-4cc5-99e8-7485f96b3e24
+    - d8c89a5f-2e70-4649-8a5e-4415fc1adf28
+    - 973e8b9b-a563-451b-bd0e-59420392823c
+    - 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+    - 6a657933-a080-44b5-874d-49dc1b52eabc
+  user:
+    - f2a7b90c-2160-4eda-abb6-63224b5cc0da
+    - a896dd51-6268-4380-b632-af369454a524

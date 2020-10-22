@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/26?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 26
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4f3cc600-e16a-4d55-abf2-241e0d0db392"
+        }
+    ],
+    "vid": [
+        {
+            "value": 141
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T07:13:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Number Counter",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:42:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-21T07:13:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Number Counter | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/26",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbofsaxogl\" data-azat-pid=\"gbcbra88sn\" id=\"gbcbra88sn\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbxlm1wfv9\" data-azat-pid=\"gb50nwxryx\" id=\"gb50nwxryx\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with default settings<\/h2><\/div><div class=\"az-element az"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbofsaxogl\" data-azat-pid=\"gbcbra88sn\" id=\"gbcbra88sn\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbxlm1wfv9\" data-azat-pid=\"gb50nwxryx\" id=\"gb50nwxryx\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with default settings<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gby7y4gqmq\" data-azat-pid=\"gb7agzjrcc\" id=\"gb7agzjrcc\" data-azb=\"az_counter\"><div id=\"gby7y4gqmq\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">100<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbrh8zse5b\" data-azat-pid=\"gb7aweewka\" id=\"gb7aweewka\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb9wzz0wex\" data-azat-pid=\"gb1rw9u2f1\" id=\"gb1rw9u2f1\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"start\" set to 50<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbqmr6k24f\" data-azat-pid=\"gb2lrvh2d0\" id=\"gb2lrvh2d0\" data-azb=\"az_counter\" data-azat-start=\"50\"><div id=\"gbqmr6k24f\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">100<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbui1k2glv\" data-azat-pid=\"gbmhdme582\" id=\"gbmhdme582\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbydboqdh0\" data-azat-pid=\"gbv3airy02\" id=\"gbv3airy02\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"end\" set to 200<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbbyy0pf4q\" data-azat-pid=\"gb43a2zt6r\" id=\"gb43a2zt6r\" data-azb=\"az_counter\" data-azat-end=\"200\"><div id=\"gbbyy0pf4q\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">200<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbylv8l6rs\" data-azat-pid=\"gbbp59pssz\" id=\"gbbp59pssz\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbys0x5o49\" data-azat-pid=\"gb3ljhi9yx\" id=\"gb3ljhi9yx\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"Font Size\" set to 200<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbp7clt5ou\" data-azat-pid=\"gbjzmzikv2\" id=\"gbjzmzikv2\" data-azb=\"az_counter\" data-azat-fontsize=\"200\"><div id=\"gbp7clt5ou\" class=\" \" style=\"font-size: 200px;\" data-dxpr-builder-libraries=\"countto waypoints\">100<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb72ijxadk\" data-azat-pid=\"gb0i3kkl4k\" id=\"gb0i3kkl4k\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbxb2acmyi\" data-azat-pid=\"gb54partc1\" id=\"gb54partc1\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"Speed\" set to 10000<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbhr9oycz6\" data-azat-pid=\"gbs5nzo3bq\" id=\"gbs5nzo3bq\" data-azb=\"az_counter\" data-azat-speed=\"10000\"><div id=\"gbhr9oycz6\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">22<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbveh8babh\" data-azat-pid=\"gbth93b7ip\" id=\"gbth93b7ip\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbjypk2u87\" data-azat-pid=\"gblbz4hnto\" id=\"gblbz4hnto\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"Thousand Separator\" set to comma and \"End\" set to 5000<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbbfcs4jp7\" data-azat-pid=\"gbtiniqlk8\" id=\"gbtiniqlk8\" data-azb=\"az_counter\" data-azat-end=\"5000\" data-azat-seperator=\",\"><div id=\"gbbfcs4jp7\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">5,000<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb1pd1noz8\" data-azat-pid=\"gb8tqhxrpf\" id=\"gb8tqhxrpf\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbrf6aqg4m\" data-azat-pid=\"gbaxpx7kx7\" id=\"gbaxpx7kx7\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"Thousand Separator\" set to dot and \"End\" set to 5000<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbw7y18g3r\" data-azat-pid=\"gb1w6gl61z\" id=\"gb1w6gl61z\" data-azb=\"az_counter\" data-azat-end=\"5000\" data-azat-seperator=\".\"><div id=\"gbw7y18g3r\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">5.000<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb3gpyrana\" data-azat-pid=\"gbqpnh9sst\" id=\"gbqpnh9sst\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb538dnsun\" data-azat-pid=\"gbp1i22t3a\" id=\"gbp1i22t3a\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"Thousand Separator\" set to space and \"End\" set to 5000<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbi7tyr2gg\" data-azat-pid=\"gboaw4xer1\" id=\"gboaw4xer1\" data-azb=\"az_counter\" data-azat-end=\"5000\" data-azat-seperator=\" \"><div id=\"gbi7tyr2gg\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">5 000<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbzpksu1li\" data-azat-pid=\"gb6311lp51\" id=\"gb6311lp51\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb7yszqqk1\" data-azat-pid=\"gbc3qhmunw\" id=\"gbc3qhmunw\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"prefix\" set to $<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbq96ubzzv\" data-azat-pid=\"gbycb6mw3u\" id=\"gbycb6mw3u\" data-azb=\"az_counter\" data-azat-prefix=\"$\"><div id=\"gbq96ubzzv\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">$100<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbc6007bjo\" data-azat-pid=\"gb917qjw3j\" id=\"gb917qjw3j\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gboypmg4xk\" data-azat-pid=\"gbxt7g8jvi\" id=\"gbxt7g8jvi\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"prefix\" set to&nbsp;<em>Longer Prefix&nbsp;<\/em><\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbqwqf0emu\" data-azat-pid=\"gbqt06b1ma\" id=\"gbqt06b1ma\" data-azb=\"az_counter\" data-azat-prefix=\"Longer Prefix \"><div id=\"gbqwqf0emu\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">Longer Prefix 100<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbe7gwppdb\" data-azat-pid=\"gbjdxo0bd0\" id=\"gbjdxo0bd0\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gby8rgpi7j\" data-azat-pid=\"gbxxtmeafb\" id=\"gbxxtmeafb\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with \"postfix\" set to ,-<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbrc91m3v7\" data-azat-pid=\"gbeh61cjro\" id=\"gbeh61cjro\" data-azb=\"az_counter\" data-azat-postfix=\",-\"><div id=\"gbrc91m3v7\" class=\" \" style=\"font-size: 30px;\" data-dxpr-builder-libraries=\"countto waypoints\">100,-<\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbt2gk1fei\" data-azat-pid=\"gb4s3wbg44\" id=\"gb4s3wbg44\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb4ojnm7jp\" data-azat-pid=\"gbzip7itiz\" id=\"gbzip7itiz\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Number counter with all settings customized<\/h2><\/div><div class=\"az-element az-counter\" data-az-id=\"gbaixme14k\" data-azat-pid=\"gbtaw3kdb7\" id=\"gbtaw3kdb7\" data-azb=\"az_counter\" data-azat-start=\"10000\" data-azat-end=\"0\" data-azat-fontsize=\"72\" data-azat-speed=\"10000\" data-azat-seperator=\",\" data-azat-prefix=\"$AUD \" data-azat-postfix=\",-\"><div id=\"gbaixme14k\" class=\" \" style=\"font-size: 72px;\" data-dxpr-builder-libraries=\"countto waypoints\">$AUD 7,800,-<\/div><\/div><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/jquery-countTo\/jquery.countTo.min.js\"><\/script>\n<script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbofsaxogl&quot; data-azat-pid=&quot;gbcbra88sn&quot; id=&quot;gbcbra88sn&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbxlm1wfv9&quot; data-azat-pid=&quot;gb50nwxryx&quot; id=&quot;gb50nwxryx&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with default settings&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gby7y4gqmq&quot; data-azat-pid=&quot;gb7agzjrcc&quot; id=&quot;gb7agzjrcc&quot; data-azb=&quot;az_counter&quot;&gt;&lt;div id=&quot;gby7y4gqmq&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;100&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbrh8zse5b&quot; data-azat-pid=&quot;gb7aweewka&quot; id=&quot;gb7aweewka&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb9wzz0wex&quot; data-azat-pid=&quot;gb1rw9u2f1&quot; id=&quot;gb1rw9u2f1&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;start&quot; set to 50&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbqmr6k24f&quot; data-azat-pid=&quot;gb2lrvh2d0&quot; id=&quot;gb2lrvh2d0&quot; data-azb=&quot;az_counter&quot; data-azat-start=&quot;50&quot;&gt;&lt;div id=&quot;gbqmr6k24f&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;100&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbui1k2glv&quot; data-azat-pid=&quot;gbmhdme582&quot; id=&quot;gbmhdme582&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbydboqdh0&quot; data-azat-pid=&quot;gbv3airy02&quot; id=&quot;gbv3airy02&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;end&quot; set to 200&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbbyy0pf4q&quot; data-azat-pid=&quot;gb43a2zt6r&quot; id=&quot;gb43a2zt6r&quot; data-azb=&quot;az_counter&quot; data-azat-end=&quot;200&quot;&gt;&lt;div id=&quot;gbbyy0pf4q&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;200&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbylv8l6rs&quot; data-azat-pid=&quot;gbbp59pssz&quot; id=&quot;gbbp59pssz&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbys0x5o49&quot; data-azat-pid=&quot;gb3ljhi9yx&quot; id=&quot;gb3ljhi9yx&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;Font Size&quot; set to 200&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbp7clt5ou&quot; data-azat-pid=&quot;gbjzmzikv2&quot; id=&quot;gbjzmzikv2&quot; data-azb=&quot;az_counter&quot; data-azat-fontsize=&quot;200&quot;&gt;&lt;div id=&quot;gbp7clt5ou&quot; class=&quot; &quot; style=&quot;font-size: 200px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;100&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb72ijxadk&quot; data-azat-pid=&quot;gb0i3kkl4k&quot; id=&quot;gb0i3kkl4k&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbxb2acmyi&quot; data-azat-pid=&quot;gb54partc1&quot; id=&quot;gb54partc1&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;Speed&quot; set to 10000&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbhr9oycz6&quot; data-azat-pid=&quot;gbs5nzo3bq&quot; id=&quot;gbs5nzo3bq&quot; data-azb=&quot;az_counter&quot; data-azat-speed=&quot;10000&quot;&gt;&lt;div id=&quot;gbhr9oycz6&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;22&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbveh8babh&quot; data-azat-pid=&quot;gbth93b7ip&quot; id=&quot;gbth93b7ip&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbjypk2u87&quot; data-azat-pid=&quot;gblbz4hnto&quot; id=&quot;gblbz4hnto&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;Thousand Separator&quot; set to comma and &quot;End&quot; set to 5000&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbbfcs4jp7&quot; data-azat-pid=&quot;gbtiniqlk8&quot; id=&quot;gbtiniqlk8&quot; data-azb=&quot;az_counter&quot; data-azat-end=&quot;5000&quot; data-azat-seperator=&quot;,&quot;&gt;&lt;div id=&quot;gbbfcs4jp7&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;5,000&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb1pd1noz8&quot; data-azat-pid=&quot;gb8tqhxrpf&quot; id=&quot;gb8tqhxrpf&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbrf6aqg4m&quot; data-azat-pid=&quot;gbaxpx7kx7&quot; id=&quot;gbaxpx7kx7&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;Thousand Separator&quot; set to dot and &quot;End&quot; set to 5000&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbw7y18g3r&quot; data-azat-pid=&quot;gb1w6gl61z&quot; id=&quot;gb1w6gl61z&quot; data-azb=&quot;az_counter&quot; data-azat-end=&quot;5000&quot; data-azat-seperator=&quot;.&quot;&gt;&lt;div id=&quot;gbw7y18g3r&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;5.000&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb3gpyrana&quot; data-azat-pid=&quot;gbqpnh9sst&quot; id=&quot;gbqpnh9sst&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb538dnsun&quot; data-azat-pid=&quot;gbp1i22t3a&quot; id=&quot;gbp1i22t3a&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;Thousand Separator&quot; set to space and &quot;End&quot; set to 5000&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbi7tyr2gg&quot; data-azat-pid=&quot;gboaw4xer1&quot; id=&quot;gboaw4xer1&quot; data-azb=&quot;az_counter&quot; data-azat-end=&quot;5000&quot; data-azat-seperator=&quot; &quot;&gt;&lt;div id=&quot;gbi7tyr2gg&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;5 000&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbzpksu1li&quot; data-azat-pid=&quot;gb6311lp51&quot; id=&quot;gb6311lp51&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb7yszqqk1&quot; data-azat-pid=&quot;gbc3qhmunw&quot; id=&quot;gbc3qhmunw&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;prefix&quot; set to $&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbq96ubzzv&quot; data-azat-pid=&quot;gbycb6mw3u&quot; id=&quot;gbycb6mw3u&quot; data-azb=&quot;az_counter&quot; data-azat-prefix=&quot;$&quot;&gt;&lt;div id=&quot;gbq96ubzzv&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;$100&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbc6007bjo&quot; data-azat-pid=&quot;gb917qjw3j&quot; id=&quot;gb917qjw3j&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gboypmg4xk&quot; data-azat-pid=&quot;gbxt7g8jvi&quot; id=&quot;gbxt7g8jvi&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;prefix&quot; set to&amp;nbsp;&lt;em&gt;Longer Prefix&amp;nbsp;&lt;\/em&gt;&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbqwqf0emu&quot; data-azat-pid=&quot;gbqt06b1ma&quot; id=&quot;gbqt06b1ma&quot; data-azb=&quot;az_counter&quot; data-azat-prefix=&quot;Longer Prefix &quot;&gt;&lt;div id=&quot;gbqwqf0emu&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;Longer Prefix 100&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbe7gwppdb&quot; data-azat-pid=&quot;gbjdxo0bd0&quot; id=&quot;gbjdxo0bd0&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gby8rgpi7j&quot; data-azat-pid=&quot;gbxxtmeafb&quot; id=&quot;gbxxtmeafb&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with &quot;postfix&quot; set to ,-&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbrc91m3v7&quot; data-azat-pid=&quot;gbeh61cjro&quot; id=&quot;gbeh61cjro&quot; data-azb=&quot;az_counter&quot; data-azat-postfix=&quot;,-&quot;&gt;&lt;div id=&quot;gbrc91m3v7&quot; class=&quot; &quot; style=&quot;font-size: 30px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;100,-&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbt2gk1fei&quot; data-azat-pid=&quot;gb4s3wbg44&quot; id=&quot;gb4s3wbg44&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb4ojnm7jp&quot; data-azat-pid=&quot;gbzip7itiz&quot; id=&quot;gbzip7itiz&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Number counter with all settings customized&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-counter&quot; data-az-id=&quot;gbaixme14k&quot; data-azat-pid=&quot;gbtaw3kdb7&quot; id=&quot;gbtaw3kdb7&quot; data-azb=&quot;az_counter&quot; data-azat-start=&quot;10000&quot; data-azat-end=&quot;0&quot; data-azat-fontsize=&quot;72&quot; data-azat-speed=&quot;10000&quot; data-azat-seperator=&quot;,&quot; data-azat-prefix=&quot;$AUD &quot; data-azat-postfix=&quot;,-&quot;&gt;&lt;div id=&quot;gbaixme14k&quot; class=&quot; &quot; style=&quot;font-size: 72px;&quot; data-dxpr-builder-libraries=&quot;countto waypoints&quot;&gt;$AUD 7,800,-&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/jquery-countTo\/jquery.countTo.min.js&quot;&gt;&lt;\/script&gt;<br \/>\n&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js&quot;&gt;&lt;\/script&gt;<br \/>\n&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js&quot;&gt;&lt;\/script&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

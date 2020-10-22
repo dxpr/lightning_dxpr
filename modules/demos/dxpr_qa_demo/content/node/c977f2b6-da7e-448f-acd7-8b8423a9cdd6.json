@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c977f2b6-da7e-448f-acd7-8b8423a9cdd6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 64
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-20T14:19:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Button",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:39:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-20T14:19:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Button | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/11",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb51hdir43\" data-azat-pid=\"gb822cuiql\" id=\"gb822cuiql\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb2qkyhyj9\" data-azat-pid=\"gb2qkyhyj9\" id=\"gb2qkyhyj9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb51hdir43\" data-azat-pid=\"gb822cuiql\" id=\"gb822cuiql\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb2qkyhyj9\" data-azat-pid=\"gb2qkyhyj9\" id=\"gb2qkyhyj9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb01sppa2u\" data-azat-pid=\"gb01sppa2u\" id=\"gb01sppa2u\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-button az-button-content\" data-az-id=\"gbqyfmh7as\" data-azat-pid=\"gbqyfmh7as\" id=\"gbqyfmh7as\" data-azb=\"az_button\" data-azat-title=\"Button with default settings\" data-azat-type=\"btn-default\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-default   \" style=\"\">Button with default settings<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbl2jpjcjk\" data-azat-pid=\"gbl2jpjcjk\" id=\"gbl2jpjcjk\" data-azb=\"az_button\" data-azat-title=\"Button primary\" data-azat-type=\"btn-primary\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-primary   \" style=\"\">Button primary<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbxsy5wmd1\" data-azat-pid=\"gbxsy5wmd1\" id=\"gbxsy5wmd1\" data-azb=\"az_button\" data-azat-title=\"Button Type: success\" data-azat-type=\"btn-success\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-success   \" style=\"\">Button Type: success<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gb5375tg6t\" data-azat-pid=\"gb5375tg6t\" id=\"gb5375tg6t\" data-azb=\"az_button\" data-azat-title=\"Button Type: warning\" data-azat-type=\"btn-warning\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-warning   \" style=\"\">Button Type: warning<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbl56p5taw\" data-azat-pid=\"gbl56p5taw\" id=\"gbl56p5taw\" data-azb=\"az_button\" data-azat-title=\"Button Type: info\" data-azat-type=\"btn-info\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-info   \" style=\"\">Button Type: info<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbmo2hvusi\" data-azat-pid=\"gbmo2hvusi\" id=\"gbmo2hvusi\" data-azb=\"az_button\" data-azat-title=\"Button Type: danger\" data-azat-type=\"btn-danger\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-danger   \" style=\"\">Button Type: danger<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbaqln9h8n\" data-azat-pid=\"gbaqln9h8n\" id=\"gbaqln9h8n\" data-azb=\"az_button\" data-azat-title=\"Button Type: link\" data-azat-type=\"btn-link\" style=\"position: relative; left: 0px; top: 0px;\"><button type=\"button\" class=\"btn btn-link   \" style=\"\">Button Type: link<\/button><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbmlaq5smk\" data-azat-pid=\"gbmlaq5smk\" id=\"gbmlaq5smk\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbpfix9k7v\" data-azat-pid=\"gbpfix9k7v\" id=\"gbpfix9k7v\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbfup6aary\" data-azat-pid=\"gbfup6aary\" id=\"gbfup6aary\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbu4muxnae\" data-azat-pid=\"gbu4muxnae\" id=\"gbu4muxnae\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-button\" data-az-id=\"gbsbyfj7d0\" data-azat-pid=\"gbsbyfj7d0\" id=\"gbsbyfj7d0\" data-azb=\"az_button\" data-azat-title=\"Button with default settings, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-default\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-default   \" style=\"\" target=\"_self\">Button with default settings, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gbquuetcl4\" data-azat-pid=\"gbquuetcl4\" id=\"gbquuetcl4\" data-azb=\"az_button\" data-azat-title=\"Button primary, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-primary   \" style=\"\" target=\"_self\">Button primary, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gb8r9v3oyc\" data-azat-pid=\"gb8r9v3oyc\" id=\"gb8r9v3oyc\" data-azb=\"az_button\" data-azat-title=\"Button Type: success, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-success\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-success   \" style=\"\" target=\"_self\">Button Type: success, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gbpinkv6ha\" data-azat-pid=\"gbpinkv6ha\" id=\"gbpinkv6ha\" data-azb=\"az_button\" data-azat-title=\"Button Type: warning, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-warning\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-warning   \" style=\"\" target=\"_self\">Button Type: warning, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gb1gkocm6b\" data-azat-pid=\"gb1gkocm6b\" id=\"gb1gkocm6b\" data-azb=\"az_button\" data-azat-title=\"Button Type: info, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-info\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-info   \" style=\"\" target=\"_self\">Button Type: info, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gbg82ewnhf\" data-azat-pid=\"gbg82ewnhf\" id=\"gbg82ewnhf\" data-azb=\"az_button\" data-azat-title=\"Button Type: danger, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-danger\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-danger   \" style=\"\" target=\"_self\">Button Type: danger, Link set to dxpr.com<\/a><\/div><div class=\"az-element az-button\" data-az-id=\"gbbendhlus\" data-azat-pid=\"gbbendhlus\" id=\"gbbendhlus\" data-azb=\"az_button\" data-azat-title=\"Button Type: link, Link set to dxpr.com\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_self\" data-azat-type=\"btn-link\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-link   \" style=\"\" target=\"_self\">Button Type: link, Link set to dxpr.com<\/a><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbpwufhius\" data-azat-pid=\"gbpwufhius\" id=\"gbpwufhius\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbubgv2hku\" data-azat-pid=\"gbubgv2hku\" id=\"gbubgv2hku\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbvgiraeaj\" data-azat-pid=\"gbvgiraeaj\" id=\"gbvgiraeaj\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb0esytv1r\" data-azat-pid=\"gb0esytv1r\" id=\"gb0esytv1r\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-button az-button-content\" data-az-id=\"gb5t61hc6m\" data-azat-pid=\"gb5t61hc6m\" id=\"gb5t61hc6m\" data-azb=\"az_button\" data-azat-title=\"Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. \" data-azat-type=\"btn-default\"><button type=\"button\" class=\"btn btn-default   \" style=\"\">Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. <\/button><\/div><div class=\"az-element az-button\" data-az-id=\"gbytsmzabv\" data-azat-pid=\"gbytsmzabv\" id=\"gbytsmzabv\" data-azb=\"az_button\" data-azat-title=\"Button, open in new window\" data-azat-link=\"https:\/\/dxpr.com\" data-azat-link_target=\"_blank\" data-azat-type=\"btn-default\"><a href=\"https:\/\/dxpr.com\" class=\"az-button-content btn btn-default   \" style=\"\" target=\"_blank\">Button, open in new window<\/a><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gbar891uyn\" data-azat-pid=\"gbar891uyn\" id=\"gbar891uyn\" data-azb=\"az_button\" data-azat-title=\"Button, Block button enabled\" data-azat-link_target=\"_self\" data-azat-type=\"btn-default\" data-azat-block=\"btn-block\"><button type=\"button\" class=\"btn btn-default  btn-block \" style=\"\">Button, Block button enabled<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gb6a37ed9d\" data-azat-pid=\"gb6a37ed9d\" id=\"gb6a37ed9d\" data-azb=\"az_button\" data-azat-title=\"Button Size: Large\" data-azat-link_target=\"_self\" data-azat-type=\"btn-default\" data-azat-size=\"btn-lg\"><button type=\"button\" class=\"btn btn-default btn-lg  \" style=\"\">Button Size: Large<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gb78juiqpp\" data-azat-pid=\"gb78juiqpp\" id=\"gb78juiqpp\" data-azb=\"az_button\" data-azat-title=\"Button Size: Small\" data-azat-link_target=\"_self\" data-azat-type=\"btn-default\" data-azat-size=\"btn-sm\"><button type=\"button\" class=\"btn btn-default btn-sm  \" style=\"\">Button Size: Small<\/button><\/div><div class=\"az-element az-button az-button-content\" data-az-id=\"gb8m2d24fz\" data-azat-pid=\"gb8m2d24fz\" id=\"gb8m2d24fz\" data-azb=\"az_button\" data-azat-title=\"Button Size: Extra small\" data-azat-link_target=\"_self\" data-azat-type=\"btn-default\" data-azat-size=\"btn-xs\"><button type=\"button\" class=\"btn btn-default btn-xs  \" style=\"\">Button Size: Extra small<\/button><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb9gv3jsgo\" data-azat-pid=\"gb9gv3jsgo\" id=\"gb9gv3jsgo\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb51hdir43&quot; data-azat-pid=&quot;gb822cuiql&quot; id=&quot;gb822cuiql&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gb2qkyhyj9&quot; data-azat-pid=&quot;gb2qkyhyj9&quot; id=&quot;gb2qkyhyj9&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb01sppa2u&quot; data-azat-pid=&quot;gb01sppa2u&quot; id=&quot;gb01sppa2u&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbqyfmh7as&quot; data-azat-pid=&quot;gbqyfmh7as&quot; id=&quot;gbqyfmh7as&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button with default settings&quot; data-azat-type=&quot;btn-default&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default   &quot; style=&quot;&quot;&gt;Button with default settings&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbl2jpjcjk&quot; data-azat-pid=&quot;gbl2jpjcjk&quot; id=&quot;gbl2jpjcjk&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button primary&quot; data-azat-type=&quot;btn-primary&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary   &quot; style=&quot;&quot;&gt;Button primary&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbxsy5wmd1&quot; data-azat-pid=&quot;gbxsy5wmd1&quot; id=&quot;gbxsy5wmd1&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: success&quot; data-azat-type=&quot;btn-success&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-success   &quot; style=&quot;&quot;&gt;Button Type: success&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gb5375tg6t&quot; data-azat-pid=&quot;gb5375tg6t&quot; id=&quot;gb5375tg6t&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: warning&quot; data-azat-type=&quot;btn-warning&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-warning   &quot; style=&quot;&quot;&gt;Button Type: warning&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbl56p5taw&quot; data-azat-pid=&quot;gbl56p5taw&quot; id=&quot;gbl56p5taw&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: info&quot; data-azat-type=&quot;btn-info&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-info   &quot; style=&quot;&quot;&gt;Button Type: info&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbmo2hvusi&quot; data-azat-pid=&quot;gbmo2hvusi&quot; id=&quot;gbmo2hvusi&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: danger&quot; data-azat-type=&quot;btn-danger&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-danger   &quot; style=&quot;&quot;&gt;Button Type: danger&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbaqln9h8n&quot; data-azat-pid=&quot;gbaqln9h8n&quot; id=&quot;gbaqln9h8n&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: link&quot; data-azat-type=&quot;btn-link&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-link   &quot; style=&quot;&quot;&gt;Button Type: link&lt;\/button&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbmlaq5smk&quot; data-azat-pid=&quot;gbmlaq5smk&quot; id=&quot;gbmlaq5smk&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbpfix9k7v&quot; data-azat-pid=&quot;gbpfix9k7v&quot; id=&quot;gbpfix9k7v&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gbfup6aary&quot; data-azat-pid=&quot;gbfup6aary&quot; id=&quot;gbfup6aary&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbu4muxnae&quot; data-azat-pid=&quot;gbu4muxnae&quot; id=&quot;gbu4muxnae&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbsbyfj7d0&quot; data-azat-pid=&quot;gbsbyfj7d0&quot; id=&quot;gbsbyfj7d0&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button with default settings, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-default&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-default   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button with default settings, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbquuetcl4&quot; data-azat-pid=&quot;gbquuetcl4&quot; id=&quot;gbquuetcl4&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button primary, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-primary&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-primary   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button primary, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gb8r9v3oyc&quot; data-azat-pid=&quot;gb8r9v3oyc&quot; id=&quot;gb8r9v3oyc&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: success, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-success&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-success   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button Type: success, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbpinkv6ha&quot; data-azat-pid=&quot;gbpinkv6ha&quot; id=&quot;gbpinkv6ha&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: warning, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-warning&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-warning   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button Type: warning, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gb1gkocm6b&quot; data-azat-pid=&quot;gb1gkocm6b&quot; id=&quot;gb1gkocm6b&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: info, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-info&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-info   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button Type: info, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbg82ewnhf&quot; data-azat-pid=&quot;gbg82ewnhf&quot; id=&quot;gbg82ewnhf&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: danger, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-danger&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-danger   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button Type: danger, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbbendhlus&quot; data-azat-pid=&quot;gbbendhlus&quot; id=&quot;gbbendhlus&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Type: link, Link set to dxpr.com&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-link&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-link   &quot; style=&quot;&quot; target=&quot;_self&quot;&gt;Button Type: link, Link set to dxpr.com&lt;\/a&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbpwufhius&quot; data-azat-pid=&quot;gbpwufhius&quot; id=&quot;gbpwufhius&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbubgv2hku&quot; data-azat-pid=&quot;gbubgv2hku&quot; id=&quot;gbubgv2hku&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gbvgiraeaj&quot; data-azat-pid=&quot;gbvgiraeaj&quot; id=&quot;gbvgiraeaj&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb0esytv1r&quot; data-azat-pid=&quot;gb0esytv1r&quot; id=&quot;gb0esytv1r&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gb5t61hc6m&quot; data-azat-pid=&quot;gb5t61hc6m&quot; id=&quot;gb5t61hc6m&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. &quot; data-azat-type=&quot;btn-default&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default   &quot; style=&quot;&quot;&gt;Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. &lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button&quot; data-az-id=&quot;gbytsmzabv&quot; data-azat-pid=&quot;gbytsmzabv&quot; id=&quot;gbytsmzabv&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button, open in new window&quot; data-azat-link=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; data-azat-link_target=&quot;_blank&quot; data-azat-type=&quot;btn-default&quot;&gt;&lt;a href=&quot;<a href=\"https:\/\/dxpr.com&amp;quot\">https:\/\/dxpr.com&amp;quot<\/a>; class=&quot;az-button-content btn btn-default   &quot; style=&quot;&quot; target=&quot;_blank&quot;&gt;Button, open in new window&lt;\/a&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gbar891uyn&quot; data-azat-pid=&quot;gbar891uyn&quot; id=&quot;gbar891uyn&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button, Block button enabled&quot; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-default&quot; data-azat-block=&quot;btn-block&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default  btn-block &quot; style=&quot;&quot;&gt;Button, Block button enabled&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gb6a37ed9d&quot; data-azat-pid=&quot;gb6a37ed9d&quot; id=&quot;gb6a37ed9d&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Size: Large&quot; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-default&quot; data-azat-size=&quot;btn-lg&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-lg  &quot; style=&quot;&quot;&gt;Button Size: Large&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gb78juiqpp&quot; data-azat-pid=&quot;gb78juiqpp&quot; id=&quot;gb78juiqpp&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Size: Small&quot; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-default&quot; data-azat-size=&quot;btn-sm&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-sm  &quot; style=&quot;&quot;&gt;Button Size: Small&lt;\/button&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-button az-button-content&quot; data-az-id=&quot;gb8m2d24fz&quot; data-azat-pid=&quot;gb8m2d24fz&quot; id=&quot;gb8m2d24fz&quot; data-azb=&quot;az_button&quot; data-azat-title=&quot;Button Size: Extra small&quot; data-azat-link_target=&quot;_self&quot; data-azat-type=&quot;btn-default&quot; data-azat-size=&quot;btn-xs&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-xs  &quot; style=&quot;&quot;&gt;Button Size: Extra small&lt;\/button&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb9gv3jsgo&quot; data-azat-pid=&quot;gb9gv3jsgo&quot; id=&quot;gb9gv3jsgo&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js&quot;&gt;&lt;\/script&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

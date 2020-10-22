@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/41?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2b937c2c-7430-44ef-98bc-7fbdced92bf3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 319
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-22T09:45:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Image resuability",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-21T12:40:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T09:38:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Image resuability | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/41",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb2vy0x0x9\" data-azat-pid=\"gbdckbjwzg\" id=\"gbdckbjwzg\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb36nqlvyz\" data-azat-pid=\"gbuz8s0r8s\" id=\"gbuz8s0r8s\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test 1: Built in file uploader<\/h2><\/div><div class=\"az-element az-row r"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb2vy0x0x9\" data-azat-pid=\"gbdckbjwzg\" id=\"gbdckbjwzg\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb36nqlvyz\" data-azat-pid=\"gbuz8s0r8s\" id=\"gbuz8s0r8s\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test 1: Built in file uploader<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb1x4gwet0\" data-azat-pid=\"gbzfmqx835\" id=\"gbzfmqx835\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbtuvxsov6\" data-azat-pid=\"gbpx4a1cjf\" id=\"gbpx4a1cjf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gblyhmsqnp\" data-azat-pid=\"gblg1srz10\" id=\"gblg1srz10\" data-azb=\"az_text\" data-azcnt=\"true\"><ol><li><p>In the DXPR Builder settings form open the <em>Media Browser<\/em> fieldset<\/p><\/li><li><p>Select&nbsp;<em>None<\/em><\/p><\/li><li><p>Save the form<\/p><\/li><li><p>Reload this page<\/p><\/li><li><p>Add an image element<\/p><\/li><li><p>Click the&nbsp;<em>Select Image&nbsp;<\/em>button<\/p><\/li><li><p>Upload an image from your local storage<\/p><\/li><li><p>Save the element settings form<br><\/p><\/li><li><p>Check that the image loads in the page<\/p><\/li><\/ol><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbhuobuyo6\" data-azat-pid=\"gbcg5chqhp\" id=\"gbcg5chqhp\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbmv7m5tul\" data-azat-pid=\"gb67gil6jk\" id=\"gb67gil6jk\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"gbbehxy48n\" data-azat-pid=\"gbia9osr9r\" id=\"gbia9osr9r\" data-azb=\"az_separator\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbnpqyf4es\" data-azat-pid=\"gb8r4ev6wd\" id=\"gb8r4ev6wd\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbktorzqf4\" data-azat-pid=\"gborzn4qlw\" id=\"gborzn4qlw\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test 2: Lightning Media Browser<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbjerfyu9u\" data-azat-pid=\"gboizunm8c\" id=\"gboizunm8c\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb5r8jdhig\" data-azat-pid=\"gb7zzkw4ql\" id=\"gb7zzkw4ql\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbf3rxgk4g\" data-azat-pid=\"gbdcj4m3zl\" id=\"gbdcj4m3zl\" data-azb=\"az_text\" data-azcnt=\"true\"><ol><li><p>In the DXPR Builder settings form open the <em>Media Browser<\/em> fieldset<\/p><\/li><li><p>Select&nbsp;<em>image_browser<\/em><\/p><\/li><li><p>Save the form<\/p><\/li><li><p>Reload this page<\/p><\/li><li><p>Add an image element<\/p><\/li><li><p>Click the&nbsp;<em>Select Image&nbsp;<\/em>button<\/p><\/li><li><p>Click the&nbsp;<em>Upload<\/em>&nbsp;tab<\/p><\/li><li><p>Upload an image from your local storage<\/p><\/li><li><p>Enter a name<\/p><\/li><li><p>Save the image upload form<\/p><\/li><li><p>Save the element settings form<\/p><\/li><li><p>Check that the loads in the page<\/p><\/li><li><p>Edit the image element<\/p><\/li><li><p>Click the&nbsp;<em>Select Image&nbsp;<\/em>button<br><\/p><\/li><li><p>Choose a different image from the library<\/p><\/li><li><p>Save the image selection form<br><\/p><\/li><li><p>Save the element settings form<br><\/p><\/li><li><p>Check that the first image is replaced with the newly chosen image<\/p><\/li><\/ol><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb6rgo60oz\" data-azat-pid=\"gbw630oyla\" id=\"gbw630oyla\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n<script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder_e\/dxpr_builder_e\/dxpr_frontend_e.min.js\"><\/script>\n",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb2vy0x0x9&quot; data-azat-pid=&quot;gbdckbjwzg&quot; id=&quot;gbdckbjwzg&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb36nqlvyz&quot; data-azat-pid=&quot;gbuz8s0r8s&quot; id=&quot;gbuz8s0r8s&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Test 1: Built in file uploader&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gb1x4gwet0&quot; data-azat-pid=&quot;gbzfmqx835&quot; id=&quot;gbzfmqx835&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbtuvxsov6&quot; data-azat-pid=&quot;gbpx4a1cjf&quot; id=&quot;gbpx4a1cjf&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gblyhmsqnp&quot; data-azat-pid=&quot;gblg1srz10&quot; id=&quot;gblg1srz10&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;In the DXPR Builder settings form open the &lt;em&gt;Media Browser&lt;\/em&gt; fieldset&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Select&amp;nbsp;&lt;em&gt;None&lt;\/em&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the form&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Reload this page&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Add an image element&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Click the&amp;nbsp;&lt;em&gt;Select Image&amp;nbsp;&lt;\/em&gt;button&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Upload an image from your local storage&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the element settings form&lt;br&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Check that the image loads in the page&lt;\/p&gt;&lt;\/li&gt;&lt;\/ol&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbhuobuyo6&quot; data-azat-pid=&quot;gbcg5chqhp&quot; id=&quot;gbcg5chqhp&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbmv7m5tul&quot; data-azat-pid=&quot;gb67gil6jk&quot; id=&quot;gb67gil6jk&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;&quot; data-az-id=&quot;gbbehxy48n&quot; data-azat-pid=&quot;gbia9osr9r&quot; id=&quot;gbia9osr9r&quot; data-azb=&quot;az_separator&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbnpqyf4es&quot; data-azat-pid=&quot;gb8r4ev6wd&quot; id=&quot;gb8r4ev6wd&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbktorzqf4&quot; data-azat-pid=&quot;gborzn4qlw&quot; id=&quot;gborzn4qlw&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Test 2: Lightning Media Browser&lt;\/h2&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gbjerfyu9u&quot; data-azat-pid=&quot;gboizunm8c&quot; id=&quot;gboizunm8c&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb5r8jdhig&quot; data-azat-pid=&quot;gb7zzkw4ql&quot; id=&quot;gb7zzkw4ql&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbf3rxgk4g&quot; data-azat-pid=&quot;gbdcj4m3zl&quot; id=&quot;gbdcj4m3zl&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;In the DXPR Builder settings form open the &lt;em&gt;Media Browser&lt;\/em&gt; fieldset&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Select&amp;nbsp;&lt;em&gt;image_browser&lt;\/em&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the form&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Reload this page&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Add an image element&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Click the&amp;nbsp;&lt;em&gt;Select Image&amp;nbsp;&lt;\/em&gt;button&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Click the&amp;nbsp;&lt;em&gt;Upload&lt;\/em&gt;&amp;nbsp;tab&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Upload an image from your local storage&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Enter a name&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the image upload form&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the element settings form&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Check that the loads in the page&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Edit the image element&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Click the&amp;nbsp;&lt;em&gt;Select Image&amp;nbsp;&lt;\/em&gt;button&lt;br&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Choose a different image from the library&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the image selection form&lt;br&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Save the element settings form&lt;br&gt;&lt;\/p&gt;&lt;\/li&gt;&lt;li&gt;&lt;p&gt;Check that the first image is replaced with the newly chosen image&lt;\/p&gt;&lt;\/li&gt;&lt;\/ol&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb6rgo60oz&quot; data-azat-pid=&quot;gbw630oyla&quot; id=&quot;gbw630oyla&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js&quot;&gt;&lt;\/script&gt;<br \/>\n&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder_e\/dxpr_builder_e\/dxpr_frontend_e.min.js&quot;&gt;&lt;\/script&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

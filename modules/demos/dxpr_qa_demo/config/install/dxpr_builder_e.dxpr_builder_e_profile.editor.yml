@@ -1,0 +1,117 @@
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+dxpr_editor: true
+weight: 0
+roles:
+  - dxpr_builder
+elements:
+  - az_accordion
+  - az_alert
+  - az_blockquote
+  - az_button
+  - az_circle_counter
+  - az_countdown
+  - az_counter
+  - az_html
+  - az_icon
+  - az_image
+  - az_images_carousel
+  - az_jumbotron
+  - az_link
+  - az_map
+  - az_panel
+  - az_progress_bar
+  - az_separator
+  - az_text
+  - az_video
+  - az_video_local
+  - az_well
+  - az_carousel
+  - az_container
+  - az_layers
+  - az_row
+  - az_section
+  - st_social
+  - az_tabs
+  - az_toggle
+blocks:
+  - 'az_block-block_content:33644f9c-e6d7-4f18-b11f-3bfc160beaf9'
+  - 'az_block-block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
+  - az_block-full_screen_search
+  - az_block-dxpr_theme_helper_user_register
+  - az_block-moderation_dashboard_activity
+  - az_block-moderation_dashboard_add_links
+  - az_block-search_form_block
+  - az_block-system_branding_block
+  - az_block-system_breadcrumb_block
+  - az_block-user_login_block
+  - 'az_block-dxpr_builder_webform:contact'
+views:
+  - az_view-qa_views-exposed_filter
+  - az_view-qa_views-title_view
+  - az_view-watchdog-page
+  - az_view-who_s_new-block_1
+  - az_view-who_s_online-who_s_online_block
+inline_buttons:
+  - Bold
+  - Italic
+  - Underline
+  - Strike
+  - JustifyLeft
+  - JustifyCenter
+  - JustifyRight
+  - JustifyBlock
+  - BulletedList
+  - Undo
+  - Redo
+  - Link
+  - Unlink
+  - Image
+  - TextColor
+  - RemoveFormat
+  - Format
+  - FontSize
+  - Styles
+  - Table
+modal_buttons:
+  - Bold
+  - Italic
+  - Underline
+  - Strike
+  - JustifyLeft
+  - JustifyCenter
+  - JustifyRight
+  - JustifyBlock
+  - BulletedList
+  - NumberedList
+  - Outdent
+  - Indent
+  - Undo
+  - Redo
+  - Link
+  - Unlink
+  - Anchor
+  - Image
+  - TextColor
+  - BGColor
+  - Superscript
+  - Subscript
+  - Blockquote
+  - Source
+  - HorizontalRule
+  - PasteText
+  - PasteFromWord
+  - ShowBlocks
+  - RemoveFormat
+  - SpecialChar
+  - Format
+  - FontSize
+  - Styles
+  - Table
+  - CreateDiv
+  - Maximize
+  - Scayt
+  - Templates

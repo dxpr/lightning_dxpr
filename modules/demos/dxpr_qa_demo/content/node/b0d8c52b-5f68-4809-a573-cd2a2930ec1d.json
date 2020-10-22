@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b0d8c52b-5f68-4809-a573-cd2a2930ec1d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 110
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-20T17:35:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Divider",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:39:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-20T17:35:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Divider | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/16",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbedkz91zf\" data-azat-pid=\"gbedkz91zf\" id=\"gbedkz91zf\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gboflb8v7d\" data-azat-pid=\"gboflb8v7d\" id=\"gboflb8v7d\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with default settings<\/h2><\/div><hr class=\"az-element az-separat"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbedkz91zf\" data-azat-pid=\"gbedkz91zf\" id=\"gbedkz91zf\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gboflb8v7d\" data-azat-pid=\"gboflb8v7d\" id=\"gboflb8v7d\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with default settings<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"gbbaba6xf7\" data-azat-pid=\"gbbaba6xf7\" id=\"gbbaba6xf7\" data-azb=\"az_separator\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbg1zr6j5a\" data-azat-pid=\"gbg1zr6j5a\" id=\"gbg1zr6j5a\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb3hf64jq1\" data-azat-pid=\"gb3hf64jq1\" id=\"gb3hf64jq1\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with color set to green<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;background-color: #05e993;\" data-az-id=\"gbkksbaf1q\" data-azat-pid=\"gbkksbaf1q\" id=\"gbkksbaf1q\" data-azb=\"az_separator\" data-azat-bgcolor=\"#05e993\" data-azat-thickness=\"auto\" data-azat-width=\"auto\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb3o0dvk72\" data-azat-pid=\"gb3o0dvk72\" id=\"gb3o0dvk72\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbh21p3a06\" data-azat-pid=\"gbh21p3a06\" id=\"gbh21p3a06\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with custom thickness set to 20<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;height: 20px;\" data-az-id=\"gbz3o7xxrn\" data-azat-pid=\"gbz3o7xxrn\" id=\"gbz3o7xxrn\" data-azb=\"az_separator\" data-azat-thickness=\"custom\" data-azat-custom_thickness=\"20\" data-azat-width=\"auto\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb1584kfwx\" data-azat-pid=\"gb1584kfwx\" id=\"gb1584kfwx\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbure254qd\" data-azat-pid=\"gbure254qd\" id=\"gbure254qd\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with custom width set to 140<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;width: 140px;margin-left: 0;margin-right: auto;\" data-az-id=\"gbvzwea2bk\" data-azat-pid=\"gbvzwea2bk\" id=\"gbvzwea2bk\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"custom\" data-azat-custom_width=\"140\" data-azat-align=\"left\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb6wo1hokt\" data-azat-pid=\"gb6wo1hokt\" id=\"gb6wo1hokt\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb60sfhtk5\" data-azat-pid=\"gb60sfhtk5\" id=\"gb60sfhtk5\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with custom width set to 140 and align set to center<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;width: 140px;margin-left: auto;margin-right: auto;\" data-az-id=\"gb2m158rsr\" data-azat-pid=\"gb2m158rsr\" id=\"gb2m158rsr\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"custom\" data-azat-custom_width=\"140\" data-azat-align=\"center\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb06mcq0gf\" data-azat-pid=\"gb06mcq0gf\" id=\"gb06mcq0gf\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbnydt87bv\" data-azat-pid=\"gbnydt87bv\" id=\"gbnydt87bv\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with custom width set to 140 and align set to right<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;width: 140px;margin-left: auto;margin-right: 0;\" data-az-id=\"gbwm28xqhd\" data-azat-pid=\"gbwm28xqhd\" id=\"gbwm28xqhd\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"custom\" data-azat-custom_width=\"140\" data-azat-align=\"right\"><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gb7h8hn6hz\" data-azat-pid=\"gb7h8hn6hz\" id=\"gb7h8hn6hz\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbhv8wjrhw\" data-azat-pid=\"gbhv8wjrhw\" id=\"gbhv8wjrhw\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Divider with all settings customized<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;height: 20px;background-color: #05e993;width: 60px;margin-left: auto;margin-right: auto;\" data-az-id=\"gb6wp6v8ic\" data-azat-pid=\"gb6wp6v8ic\" id=\"gb6wp6v8ic\" data-azb=\"az_separator\" data-azat-bgcolor=\"#05e993\" data-azat-thickness=\"custom\" data-azat-custom_thickness=\"20\" data-azat-width=\"custom\" data-azat-custom_width=\"60\" data-azat-align=\"center\"><\/div><\/div>",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbedkz91zf&quot; data-azat-pid=&quot;gbedkz91zf&quot; id=&quot;gbedkz91zf&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gboflb8v7d&quot; data-azat-pid=&quot;gboflb8v7d&quot; id=&quot;gboflb8v7d&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with default settings&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;&quot; data-az-id=&quot;gbbaba6xf7&quot; data-azat-pid=&quot;gbbaba6xf7&quot; id=&quot;gbbaba6xf7&quot; data-azb=&quot;az_separator&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbg1zr6j5a&quot; data-azat-pid=&quot;gbg1zr6j5a&quot; id=&quot;gbg1zr6j5a&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb3hf64jq1&quot; data-azat-pid=&quot;gb3hf64jq1&quot; id=&quot;gb3hf64jq1&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with color set to green&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;background-color: #05e993;&quot; data-az-id=&quot;gbkksbaf1q&quot; data-azat-pid=&quot;gbkksbaf1q&quot; id=&quot;gbkksbaf1q&quot; data-azb=&quot;az_separator&quot; data-azat-bgcolor=&quot;#05e993&quot; data-azat-thickness=&quot;auto&quot; data-azat-width=&quot;auto&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb3o0dvk72&quot; data-azat-pid=&quot;gb3o0dvk72&quot; id=&quot;gb3o0dvk72&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbh21p3a06&quot; data-azat-pid=&quot;gbh21p3a06&quot; id=&quot;gbh21p3a06&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with custom thickness set to 20&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;height: 20px;&quot; data-az-id=&quot;gbz3o7xxrn&quot; data-azat-pid=&quot;gbz3o7xxrn&quot; id=&quot;gbz3o7xxrn&quot; data-azb=&quot;az_separator&quot; data-azat-thickness=&quot;custom&quot; data-azat-custom_thickness=&quot;20&quot; data-azat-width=&quot;auto&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb1584kfwx&quot; data-azat-pid=&quot;gb1584kfwx&quot; id=&quot;gb1584kfwx&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbure254qd&quot; data-azat-pid=&quot;gbure254qd&quot; id=&quot;gbure254qd&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with custom width set to 140&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;width: 140px;margin-left: 0;margin-right: auto;&quot; data-az-id=&quot;gbvzwea2bk&quot; data-azat-pid=&quot;gbvzwea2bk&quot; id=&quot;gbvzwea2bk&quot; data-azb=&quot;az_separator&quot; data-azat-thickness=&quot;auto&quot; data-azat-width=&quot;custom&quot; data-azat-custom_width=&quot;140&quot; data-azat-align=&quot;left&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb6wo1hokt&quot; data-azat-pid=&quot;gb6wo1hokt&quot; id=&quot;gb6wo1hokt&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb60sfhtk5&quot; data-azat-pid=&quot;gb60sfhtk5&quot; id=&quot;gb60sfhtk5&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with custom width set to 140 and align set to center&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;width: 140px;margin-left: auto;margin-right: auto;&quot; data-az-id=&quot;gb2m158rsr&quot; data-azat-pid=&quot;gb2m158rsr&quot; id=&quot;gb2m158rsr&quot; data-azb=&quot;az_separator&quot; data-azat-thickness=&quot;auto&quot; data-azat-width=&quot;custom&quot; data-azat-custom_width=&quot;140&quot; data-azat-align=&quot;center&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb06mcq0gf&quot; data-azat-pid=&quot;gb06mcq0gf&quot; id=&quot;gb06mcq0gf&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbnydt87bv&quot; data-azat-pid=&quot;gbnydt87bv&quot; id=&quot;gbnydt87bv&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with custom width set to 140 and align set to right&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;width: 140px;margin-left: auto;margin-right: 0;&quot; data-az-id=&quot;gbwm28xqhd&quot; data-azat-pid=&quot;gbwm28xqhd&quot; id=&quot;gbwm28xqhd&quot; data-azb=&quot;az_separator&quot; data-azat-thickness=&quot;auto&quot; data-azat-width=&quot;custom&quot; data-azat-custom_width=&quot;140&quot; data-azat-align=&quot;right&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb7h8hn6hz&quot; data-azat-pid=&quot;gb7h8hn6hz&quot; id=&quot;gb7h8hn6hz&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbhv8wjrhw&quot; data-azat-pid=&quot;gbhv8wjrhw&quot; id=&quot;gbhv8wjrhw&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Divider with all settings customized&lt;\/h2&gt;&lt;\/div&gt;&lt;hr class=&quot;az-element az-separator&quot; style=&quot;border: none;height: 20px;background-color: #05e993;width: 60px;margin-left: auto;margin-right: auto;&quot; data-az-id=&quot;gb6wp6v8ic&quot; data-azat-pid=&quot;gb6wp6v8ic&quot; id=&quot;gb6wp6v8ic&quot; data-azb=&quot;az_separator&quot; data-azat-bgcolor=&quot;#05e993&quot; data-azat-thickness=&quot;custom&quot; data-azat-custom_thickness=&quot;20&quot; data-azat-width=&quot;custom&quot; data-azat-custom_width=&quot;60&quot; data-azat-align=&quot;center&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

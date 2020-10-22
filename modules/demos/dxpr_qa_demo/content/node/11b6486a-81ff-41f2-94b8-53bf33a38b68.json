@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/45?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 45
+        }
+    ],
+    "uuid": [
+        {
+            "value": "11b6486a-81ff-41f2-94b8-53bf33a38b68"
+        }
+    ],
+    "vid": [
+        {
+            "value": 338
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-22T12:06:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Page Template",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-22T12:01:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T12:02:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Page Template | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/45",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbgburgagq\" data-azat-pid=\"gbfnupaq7n\" id=\"gbfnupaq7n\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbrfviy67o\" data-azat-pid=\"gbunarq6c3\" id=\"gbunarq6c3\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test Page Templates Feature<\/h2><ul><li>In the empty block below click the"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbgburgagq\" data-azat-pid=\"gbfnupaq7n\" id=\"gbfnupaq7n\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbrfviy67o\" data-azat-pid=\"gbunarq6c3\" id=\"gbunarq6c3\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test Page Templates Feature<\/h2><ul><li>In the empty block below click the \"CHOOSE A TEMPLATE\" button<\/li><li>Click the image labeled \"Split Content and Buttons\"<\/li><li>Check that the page templates displays correctly in the below block<\/li><\/ul><\/div><\/div><\/div>",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbgburgagq&quot; data-azat-pid=&quot;gbfnupaq7n&quot; id=&quot;gbfnupaq7n&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbrfviy67o&quot; data-azat-pid=&quot;gbunarq6c3&quot; id=&quot;gbunarq6c3&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Test Page Templates Feature&lt;\/h2&gt;&lt;ul&gt;&lt;li&gt;In the empty block below click the &quot;CHOOSE A TEMPLATE&quot; button&lt;\/li&gt;&lt;li&gt;Click the image labeled &quot;Split Content and Buttons&quot;&lt;\/li&gt;&lt;li&gt;Check that the page templates displays correctly in the below block&lt;\/li&gt;&lt;\/ul&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

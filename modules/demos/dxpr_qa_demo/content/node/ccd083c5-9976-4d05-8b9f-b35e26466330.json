@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/33?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 33
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ccd083c5-9976-4d05-8b9f-b35e26466330"
+        }
+    ],
+    "vid": [
+        {
+            "value": 195
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T09:46:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Text",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:42:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-20T13:45:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Text | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/33",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbwucugs8k\" data-azat-pid=\"gbwucugs8k\" id=\"gbwucugs8k\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbdlz2vfzi\" data-azat-pid=\"gbdlz2vfzi\" id=\"gbdlz2vfzi\" data-azb=\"az_text\" data-azcnt=\"true\"><h1>The Flavorful Tuscany Meetup<\/h1><h2><strong>Welcome letter<\/strong>"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbwucugs8k\" data-azat-pid=\"gbwucugs8k\" id=\"gbwucugs8k\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbdlz2vfzi\" data-azat-pid=\"gbdlz2vfzi\" id=\"gbdlz2vfzi\" data-azb=\"az_text\" data-azcnt=\"true\"><h1>The Flavorful Tuscany Meetup<\/h1><h2><strong>Welcome letter<\/strong><\/h2><p>Dear Guest,<\/p><p>We are delighted to welcome you to the annual <em>Flavorful Tuscany Meetup<\/em> and hope you will enjoy the programme as well as your stay at the <a data-cke-saved-href=\"https:\/\/ckeditor.com\" href=\"https:\/\/ckeditor.com\">Bilancino Hotel<\/a>.<\/p><p>Please find attached the full schedule of the event.<\/p><blockquote><p>The annual Flavorful Tuscany meetups are always a culinary discovery. You get the best of Tuscan flavors during an intense one-day stay at one of the top hotels of the region. All the sessions are lead by top chefs passionate about their profession. I would certainly recommend to save the date in your calendar for this one!<\/p><p>Angelina Calvino, food journalist<\/p><\/blockquote><p>Please arrive at the <a data-cke-saved-href=\"https:\/\/ckeditor.com\" href=\"https:\/\/ckeditor.com\">Bilancino Hotel<\/a> reception desk at least <strong>half an hour earlier<\/strong> to make sure that the registration process goes as smoothly as possible.<\/p><p>We look forward to welcoming you to the event.<\/p><p><img alt=\"Victoria Valc signature\" height=\"101\" data-cke-saved-src=\"https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signature.png\" src=\"https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signature.png\" width=\"180\"><\/p><p><strong>Victoria Valc<\/strong><\/p><p><strong>Event Manager<\/strong><br>Bilancino Hotel<\/p><p><br><\/p><p><br><\/p><h2><strong>The Flavorful Tuscany Meetup Schedule<\/strong><\/h2><table align=\"center\" cellpadding=\"15\" cellspacing=\"0\" class=\" cke_show_border\"><thead><tr><th colspan=\"2\">Saturday, July 14<\/th><\/tr><\/thead><tbody><tr><td>9:30 AM - 11:30 AM<\/td><td><p><strong>Americano vs. Brewed - \u201cknow your coffee\u201d<\/strong> with:&nbsp;<\/p><ul><li>Giulia Bianchi<\/li><li>Stefano Garau<\/li><li>Giuseppe Russo<\/li><\/ul><\/td><\/tr><tr><td>1:00 PM - 3:00 PM<\/td><td><p><strong>Pappardelle al pomodoro<\/strong> - live cooking<\/p><p>Incorporate the freshest ingredients&nbsp;<br>with Rita Fresco<\/p><\/td><\/tr><tr><td>5:00 PM - 8:00 PM<\/td><td><p><strong>Tuscan vineyards at a glance<\/strong> - wine-tasting&nbsp;<br>with Frederico Riscoli<\/p><\/td><\/tr><\/tbody><\/table><p><br><\/p><p><br><\/p><p><br><\/p><\/div><\/div><\/div>",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbwucugs8k&quot; data-azat-pid=&quot;gbwucugs8k&quot; id=&quot;gbwucugs8k&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbdlz2vfzi&quot; data-azat-pid=&quot;gbdlz2vfzi&quot; id=&quot;gbdlz2vfzi&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h1&gt;The Flavorful Tuscany Meetup&lt;\/h1&gt;&lt;h2&gt;&lt;strong&gt;Welcome letter&lt;\/strong&gt;&lt;\/h2&gt;&lt;p&gt;Dear Guest,&lt;\/p&gt;&lt;p&gt;We are delighted to welcome you to the annual &lt;em&gt;Flavorful Tuscany Meetup&lt;\/em&gt; and hope you will enjoy the programme as well as your stay at the &lt;a data-cke-saved-href=&quot;<a href=\"https:\/\/ckeditor.com&amp;quot\">https:\/\/ckeditor.com&amp;quot<\/a>; href=&quot;<a href=\"https:\/\/ckeditor.com&quot;&gt;Bilancino\">https:\/\/ckeditor.com&quot;&gt;Bilancino<\/a> Hotel&lt;\/a&gt;.&lt;\/p&gt;&lt;p&gt;Please find attached the full schedule of the event.&lt;\/p&gt;&lt;blockquote&gt;&lt;p&gt;The annual Flavorful Tuscany meetups are always a culinary discovery. You get the best of Tuscan flavors during an intense one-day stay at one of the top hotels of the region. All the sessions are lead by top chefs passionate about their profession. I would certainly recommend to save the date in your calendar for this one!&lt;\/p&gt;&lt;p&gt;Angelina Calvino, food journalist&lt;\/p&gt;&lt;\/blockquote&gt;&lt;p&gt;Please arrive at the &lt;a data-cke-saved-href=&quot;<a href=\"https:\/\/ckeditor.com&amp;quot\">https:\/\/ckeditor.com&amp;quot<\/a>; href=&quot;<a href=\"https:\/\/ckeditor.com&quot;&gt;Bilancino\">https:\/\/ckeditor.com&quot;&gt;Bilancino<\/a> Hotel&lt;\/a&gt; reception desk at least &lt;strong&gt;half an hour earlier&lt;\/strong&gt; to make sure that the registration process goes as smoothly as possible.&lt;\/p&gt;&lt;p&gt;We look forward to welcoming you to the event.&lt;\/p&gt;&lt;p&gt;&lt;img alt=&quot;Victoria Valc signature&quot; height=&quot;101&quot; data-cke-saved-src=&quot;<a href=\"https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signature.png&amp;quot\">https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signat\u2026<\/a>; src=&quot;<a href=\"https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signature.png&amp;quot\">https:\/\/ckeditor.com\/docs\/ckeditor4\/latest\/examples\/assets\/image\/signat\u2026<\/a>; width=&quot;180&quot;&gt;&lt;\/p&gt;&lt;p&gt;&lt;strong&gt;Victoria Valc&lt;\/strong&gt;&lt;\/p&gt;&lt;p&gt;&lt;strong&gt;Event Manager&lt;\/strong&gt;&lt;br&gt;Bilancino Hotel&lt;\/p&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;h2&gt;&lt;strong&gt;The Flavorful Tuscany Meetup Schedule&lt;\/strong&gt;&lt;\/h2&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;15&quot; cellspacing=&quot;0&quot; class=&quot; cke_show_border&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th colspan=&quot;2&quot;&gt;Saturday, July 14&lt;\/th&gt;&lt;\/tr&gt;&lt;\/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;9:30 AM - 11:30 AM&lt;\/td&gt;&lt;td&gt;&lt;p&gt;&lt;strong&gt;Americano vs. Brewed - \u201cknow your coffee\u201d&lt;\/strong&gt; with:&amp;nbsp;&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;Giulia Bianchi&lt;\/li&gt;&lt;li&gt;Stefano Garau&lt;\/li&gt;&lt;li&gt;Giuseppe Russo&lt;\/li&gt;&lt;\/ul&gt;&lt;\/td&gt;&lt;\/tr&gt;&lt;tr&gt;&lt;td&gt;1:00 PM - 3:00 PM&lt;\/td&gt;&lt;td&gt;&lt;p&gt;&lt;strong&gt;Pappardelle al pomodoro&lt;\/strong&gt; - live cooking&lt;\/p&gt;&lt;p&gt;Incorporate the freshest ingredients&amp;nbsp;&lt;br&gt;with Rita Fresco&lt;\/p&gt;&lt;\/td&gt;&lt;\/tr&gt;&lt;tr&gt;&lt;td&gt;5:00 PM - 8:00 PM&lt;\/td&gt;&lt;td&gt;&lt;p&gt;&lt;strong&gt;Tuscan vineyards at a glance&lt;\/strong&gt; - wine-tasting&amp;nbsp;&lt;br&gt;with Frederico Riscoli&lt;\/p&gt;&lt;\/td&gt;&lt;\/tr&gt;&lt;\/tbody&gt;&lt;\/table&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

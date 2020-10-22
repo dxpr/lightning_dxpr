@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/19?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b5af8b91-36f4-4cbc-818e-aa89c756b647"
+        }
+    ],
+    "vid": [
+        {
+            "value": 293
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T16:11:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "HTML",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:42:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-21T16:10:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "HTML | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/19",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb6azvbnhq\" data-azat-pid=\"gb6azvbnhq\" id=\"gb6azvbnhq\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb62uz9x2o\" data-azat-pid=\"gb62uz9x2o\" id=\"gb62uz9x2o\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>The below HTML block should render a single Tweet."
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gb6azvbnhq\" data-azat-pid=\"gb6azvbnhq\" id=\"gb6azvbnhq\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb62uz9x2o\" data-azat-pid=\"gb62uz9x2o\" id=\"gb62uz9x2o\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>The below HTML block should render a single Tweet. When editing and saving the element there should still be a single tweet.<\/h2><p>(watch out for duplication of content in this element)<\/p><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"\" data-az-id=\"gbcdoplcij\" data-azat-pid=\"gbs6fh2hkd\" id=\"gbs6fh2hkd\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-html\" style=\"\" data-az-persist=\"PGJsb2NrcXVvdGUgY2xhc3M9InR3aXR0ZXItdHdlZXQiPjxwIGxhbmc9ImVuIiBkaXI9Imx0ciI+QSBMaWZlIE9uIE91ciBQbGFuZXQuPGJyPjxicj5UaGlzIHNob3VsZCBiZSBjb21wdWxzb3J5IHZpZXdpbmcgZm9yIGFsbCBjaGlsZHJlbiBhbmQgYWR1bHRzIGFsaWtlLiA8YSBocmVmPSJodHRwczovL3QuY28vMWdmOVlaR2YwNSI+cGljLnR3aXR0ZXIuY29tLzFnZjlZWkdmMDU8L2E+PC9wPuKAlCBEYXZpZCBBdHRlbmJvcm91Z2ggKEBBdHRlbmJvcm91Z2hTaXIpIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vQXR0ZW5ib3JvdWdoU2lyL3N0YXR1cy8xMzEzMzMzODc2NTI2MjU2MTI4P3JlZl9zcmM9dHdzcmMlNUV0ZnciPk9jdG9iZXIgNiwgMjAyMDwvYT48L2Jsb2NrcXVvdGU+IDxzY3JpcHQgYXN5bmM9IiIgc3JjPSJodHRwczovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiIGNoYXJzZXQ9InV0Zi04Ij48L3NjcmlwdD4=\" data-az-id=\"gb4wtx1xqp\" data-azat-pid=\"gb4wtx1xqp\" id=\"gb4wtx1xqp\" data-azb=\"az_html\" data-azcnt=\"true\"><blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">A Life On Our Planet.<br><br>This should be compulsory viewing for all children and adults alike. <a href=\"https:\/\/t.co\/1gf9YZGf05\">pic.twitter.com\/1gf9YZGf05<\/a><\/p>\u2014 David Attenborough (@AttenboroughSir) <a href=\"https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=twsrc%5Etfw\">October 6, 2020<\/a><\/blockquote> <script async=\"\" src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/div><\/div><\/div>",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gb6azvbnhq&quot; data-azat-pid=&quot;gb6azvbnhq&quot; id=&quot;gb6azvbnhq&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb62uz9x2o&quot; data-azat-pid=&quot;gb62uz9x2o&quot; id=&quot;gb62uz9x2o&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;The below HTML block should render a single Tweet. When editing and saving the element there should still be a single tweet.&lt;\/h2&gt;&lt;p&gt;(watch out for duplication of content in this element)&lt;\/p&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbcdoplcij&quot; data-azat-pid=&quot;gbs6fh2hkd&quot; id=&quot;gbs6fh2hkd&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-html&quot; style=&quot;&quot; data-az-persist=&quot;PGJsb2NrcXVvdGUgY2xhc3M9InR3aXR0ZXItdHdlZXQiPjxwIGxhbmc9ImVuIiBkaXI9Imx0ciI+QSBMaWZlIE9uIE91ciBQbGFuZXQuPGJyPjxicj5UaGlzIHNob3VsZCBiZSBjb21wdWxzb3J5IHZpZXdpbmcgZm9yIGFsbCBjaGlsZHJlbiBhbmQgYWR1bHRzIGFsaWtlLiA8YSBocmVmPSJodHRwczovL3QuY28vMWdmOVlaR2YwNSI+cGljLnR3aXR0ZXIuY29tLzFnZjlZWkdmMDU8L2E+PC9wPuKAlCBEYXZpZCBBdHRlbmJvcm91Z2ggKEBBdHRlbmJvcm91Z2hTaXIpIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vQXR0ZW5ib3JvdWdoU2lyL3N0YXR1cy8xMzEzMzMzODc2NTI2MjU2MTI4P3JlZl9zcmM9dHdzcmMlNUV0ZnciPk9jdG9iZXIgNiwgMjAyMDwvYT48L2Jsb2NrcXVvdGU+IDxzY3JpcHQgYXN5bmM9IiIgc3JjPSJodHRwczovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiIGNoYXJzZXQ9InV0Zi04Ij48L3NjcmlwdD4=&quot; data-az-id=&quot;gb4wtx1xqp&quot; data-azat-pid=&quot;gb4wtx1xqp&quot; id=&quot;gb4wtx1xqp&quot; data-azb=&quot;az_html&quot; data-azcnt=&quot;true&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A Life On Our Planet.&lt;br&gt;&lt;br&gt;This should be compulsory viewing for all children and adults alike. &lt;a href=&quot;<a href=\"https:\/\/t.co\/1gf9YZGf05&quot;&gt;pic.twitter.com\/1gf9YZGf05&lt;\/a&gt;&lt;\/p&amp;gt\">https:\/\/t.co\/1gf9YZGf05&quot;&gt;pic.twitter.com\/1gf9YZGf05&lt;\/a&gt;&lt;\/p&amp;gt<\/a>;\u2014 David Attenborough (@AttenboroughSir) &lt;a href=&quot;<a href=\"https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=twsrc%5Etfw&quot;&gt;October\">https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=\u2026<\/a> 6, 2020&lt;\/a&gt;&lt;\/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;<a href=\"https:\/\/platform.twitter.com\/widgets.js&amp;quot\">https:\/\/platform.twitter.com\/widgets.js&amp;quot<\/a>; charset=&quot;utf-8&quot;&gt;&lt;\/script&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

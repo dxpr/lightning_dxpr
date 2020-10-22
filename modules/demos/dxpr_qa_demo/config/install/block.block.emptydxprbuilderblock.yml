@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
+  module:
+    - block_content
+    - system
+  theme:
+    - dxpr_theme
+id: emptydxprbuilderblock
+theme: dxpr_theme
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
+settings:
+  id: 'block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
+  label: 'Empty DXPR Builder block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/45
+    negate: false

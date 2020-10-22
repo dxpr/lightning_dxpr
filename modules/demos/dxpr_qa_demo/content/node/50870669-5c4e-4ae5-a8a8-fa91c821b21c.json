@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/39?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 39
+        }
+    ],
+    "uuid": [
+        {
+            "value": "50870669-5c4e-4ae5-a8a8-fa91c821b21c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 313
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-22T08:41:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "User Saved Templates",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-20T13:58:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-22T08:41:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "User Saved Templates | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/39",
+                "description": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbaj8gzcv5\" data-azat-pid=\"gbaj8gzcv5\" id=\"gbaj8gzcv5\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb4vb8efcx\" data-azat-pid=\"gb4vb8efcx\" id=\"gb4vb8efcx\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test instructions for <em>user templates:<\/em><\/h2><p><br><"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbaj8gzcv5\" data-azat-pid=\"gbaj8gzcv5\" id=\"gbaj8gzcv5\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb4vb8efcx\" data-azat-pid=\"gb4vb8efcx\" id=\"gb4vb8efcx\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test instructions for <em>user templates:<\/em><\/h2><p><br><\/p><ul><li>Click the disk icon on the Well element in the left column<\/li><li>Enter a template name, for example \"Test 1\"<\/li><\/ul><p>A green message box confirming the template is saved should appear in the top right corner of your browser.<\/p><ul><li>Click the + icon in the right column<\/li><li>Click the \"Saved templates\" tab<\/li><li>Select the template you named in Step 2<\/li><\/ul><p>Check that the left and right column are identical.<\/p><p>Check that inline editing works right away on the text element in the right column.<\/p><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbg64878k6\" data-azat-pid=\"gbg64878k6\" id=\"gbg64878k6\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbmqkiuhye\" data-azat-pid=\"gbmqkiuhye\" id=\"gbmqkiuhye\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-well well\" style=\"\" data-az-id=\"gb425brjno\" data-azat-pid=\"gb425brjno\" id=\"gb425brjno\" data-azb=\"az_well\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbmzmalzk8\" data-azat-pid=\"gbmzmalzk8\" id=\"gbmzmalzk8\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Lorem ipsum.<\/h2><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbt09ti6nr\" data-azat-pid=\"gbt09ti6nr\" id=\"gbt09ti6nr\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb6dl03z36\" data-azat-pid=\"gb6dl03z36\" id=\"gb6dl03z36\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-icon az-color-style\" data-dxpr-builder-libraries=\"icon_helpers font_awesome_5_pro\" data-az-id=\"gb2enjpa9r\" data-azat-pid=\"gb2enjpa9r\" id=\"gb2enjpa9r\" data-azb=\"az_icon\" data-azat-icon=\"fal fa-bell\" data-azat-size=\"fa-5x\" data-azat-orientation=\"fa-rotate-90\" data-azat-style=\" color:#05e993;\"><i class=\"az-icon-content fal fa-bell fa-5x  undefined undefined  fa-rotate-90 \" style=\" color:#05e993;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb1qwhxm64\" data-azat-pid=\"gb1qwhxm64\" id=\"gb1qwhxm64\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbivtr8r0y\" data-azat-pid=\"gbivtr8r0y\" id=\"gbivtr8r0y\" data-azb=\"az_image\" data-azat-image=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=zy_PYMDg&amp;fid=8\" data-azat-height=\"\"><img class=\"az-image-content \" src=\"\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=zy_PYMDg&amp;fid=8\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><\/div><\/div><div class=\"az-element az-html\" style=\"\" data-az-persist=\"PGJsb2NrcXVvdGUgY2xhc3M9InR3aXR0ZXItdHdlZXQiPjxwIGxhbmc9ImVuIiBkaXI9Imx0ciI+QSBMaWZlIE9uIE91ciBQbGFuZXQuPGJyPjxicj5UaGlzIHNob3VsZCBiZSBjb21wdWxzb3J5IHZpZXdpbmcgZm9yIGFsbCBjaGlsZHJlbiBhbmQgYWR1bHRzIGFsaWtlLiA8YSBocmVmPSJodHRwczovL3QuY28vMWdmOVlaR2YwNSI+cGljLnR3aXR0ZXIuY29tLzFnZjlZWkdmMDU8L2E+PC9wPuKAlCBEYXZpZCBBdHRlbmJvcm91Z2ggKEBBdHRlbmJvcm91Z2hTaXIpIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vQXR0ZW5ib3JvdWdoU2lyL3N0YXR1cy8xMzEzMzMzODc2NTI2MjU2MTI4P3JlZl9zcmM9dHdzcmMlNUV0ZnciPk9jdG9iZXIgNiwgMjAyMDwvYT48L2Jsb2NrcXVvdGU+IDxzY3JpcHQgYXN5bmM9IiIgc3JjPSJodHRwczovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiIGNoYXJzZXQ9InV0Zi04Ij48L3NjcmlwdD4=\" data-az-id=\"gbrwsd30w7\" data-azat-pid=\"gbrwsd30w7\" id=\"gbrwsd30w7\" data-azb=\"az_html\" data-azcnt=\"true\"><blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">A Life On Our Planet.<br><br>This should be compulsory viewing for all children and adults alike. <a href=\"https:\/\/t.co\/1gf9YZGf05\">pic.twitter.com\/1gf9YZGf05<\/a><\/p>\u2014 David Attenborough (@AttenboroughSir) <a href=\"https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=twsrc%5Etfw\">October 6, 2020<\/a><\/blockquote> <script async=\"\" src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gb2rlsjohi\" data-azat-pid=\"gb2rlsjohi\" id=\"gb2rlsjohi\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/font-awesome-5-pro\/css\/all.min.css\">\n<script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;&quot; data-az-id=&quot;gbaj8gzcv5&quot; data-azat-pid=&quot;gbaj8gzcv5&quot; id=&quot;gbaj8gzcv5&quot; data-azb=&quot;az_section&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb4vb8efcx&quot; data-azat-pid=&quot;gb4vb8efcx&quot; id=&quot;gb4vb8efcx&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Test instructions for &lt;em&gt;user templates:&lt;\/em&gt;&lt;\/h2&gt;&lt;p&gt;&lt;br&gt;&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;Click the disk icon on the Well element in the left column&lt;\/li&gt;&lt;li&gt;Enter a template name, for example &quot;Test 1&quot;&lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;A green message box confirming the template is saved should appear in the top right corner of your browser.&lt;\/p&gt;&lt;ul&gt;&lt;li&gt;Click the + icon in the right column&lt;\/li&gt;&lt;li&gt;Click the &quot;Saved templates&quot; tab&lt;\/li&gt;&lt;li&gt;Select the template you named in Step 2&lt;\/li&gt;&lt;\/ul&gt;&lt;p&gt;Check that the left and right column are identical.&lt;\/p&gt;&lt;p&gt;Check that inline editing works right away on the text element in the right column.&lt;\/p&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gbg64878k6&quot; data-azat-pid=&quot;gbg64878k6&quot; id=&quot;gbg64878k6&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gbmqkiuhye&quot; data-azat-pid=&quot;gbmqkiuhye&quot; id=&quot;gbmqkiuhye&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-well well&quot; style=&quot;&quot; data-az-id=&quot;gb425brjno&quot; data-azat-pid=&quot;gb425brjno&quot; id=&quot;gb425brjno&quot; data-azb=&quot;az_well&quot;&gt;&lt;div class=&quot;az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbmzmalzk8&quot; data-azat-pid=&quot;gbmzmalzk8&quot; id=&quot;gbmzmalzk8&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Lorem ipsum.&lt;\/h2&gt;&lt;p&gt;Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &lt;\/p&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-row row az-row--sm&quot; style=&quot;&quot; data-az-id=&quot;gbt09ti6nr&quot; data-azat-pid=&quot;gbt09ti6nr&quot; id=&quot;gbt09ti6nr&quot; data-azb=&quot;az_row&quot; data-azat-device=&quot;sm&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb6dl03z36&quot; data-azat-pid=&quot;gb6dl03z36&quot; id=&quot;gb6dl03z36&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot;1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-icon az-color-style&quot; data-dxpr-builder-libraries=&quot;icon_helpers font_awesome_5_pro&quot; data-az-id=&quot;gb2enjpa9r&quot; data-azat-pid=&quot;gb2enjpa9r&quot; id=&quot;gb2enjpa9r&quot; data-azb=&quot;az_icon&quot; data-azat-icon=&quot;fal fa-bell&quot; data-azat-size=&quot;fa-5x&quot; data-azat-orientation=&quot;fa-rotate-90&quot; data-azat-style=&quot; color:#05e993;&quot;&gt;&lt;i class=&quot;az-icon-content fal fa-bell fa-5x  undefined undefined  fa-rotate-90 &quot; style=&quot; color:#05e993;color: undefined;background-color: undefined;&quot;&gt;&lt;\/i&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb1qwhxm64&quot; data-azat-pid=&quot;gb1qwhxm64&quot; id=&quot;gb1qwhxm64&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-image&quot; data-az-id=&quot;gbivtr8r0y&quot; data-azat-pid=&quot;gbivtr8r0y&quot; id=&quot;gbivtr8r0y&quot; data-azb=&quot;az_image&quot; data-azat-image=&quot;\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=zy_PYMDg&amp;amp;fid=8&quot; data-azat-height=&quot;&quot;&gt;&lt;img class=&quot;az-image-content &quot; src=&quot;\/buildr\/qa-demo\/docroot\/sites\/default\/files\/styles\/large\/public\/2020-10\/tim-stief-YFFGkE3y4F8-unsplash.jpg?itok=zy_PYMDg&amp;amp;fid=8&quot; alt=&quot;&quot; title=&quot;&quot; style=&quot;width: 100%;&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-html&quot; style=&quot;&quot; data-az-persist=&quot;PGJsb2NrcXVvdGUgY2xhc3M9InR3aXR0ZXItdHdlZXQiPjxwIGxhbmc9ImVuIiBkaXI9Imx0ciI+QSBMaWZlIE9uIE91ciBQbGFuZXQuPGJyPjxicj5UaGlzIHNob3VsZCBiZSBjb21wdWxzb3J5IHZpZXdpbmcgZm9yIGFsbCBjaGlsZHJlbiBhbmQgYWR1bHRzIGFsaWtlLiA8YSBocmVmPSJodHRwczovL3QuY28vMWdmOVlaR2YwNSI+cGljLnR3aXR0ZXIuY29tLzFnZjlZWkdmMDU8L2E+PC9wPuKAlCBEYXZpZCBBdHRlbmJvcm91Z2ggKEBBdHRlbmJvcm91Z2hTaXIpIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vQXR0ZW5ib3JvdWdoU2lyL3N0YXR1cy8xMzEzMzMzODc2NTI2MjU2MTI4P3JlZl9zcmM9dHdzcmMlNUV0ZnciPk9jdG9iZXIgNiwgMjAyMDwvYT48L2Jsb2NrcXVvdGU+IDxzY3JpcHQgYXN5bmM9IiIgc3JjPSJodHRwczovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiIGNoYXJzZXQ9InV0Zi04Ij48L3NjcmlwdD4=&quot; data-az-id=&quot;gbrwsd30w7&quot; data-azat-pid=&quot;gbrwsd30w7&quot; id=&quot;gbrwsd30w7&quot; data-azb=&quot;az_html&quot; data-azcnt=&quot;true&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;A Life On Our Planet.&lt;br&gt;&lt;br&gt;This should be compulsory viewing for all children and adults alike. &lt;a href=&quot;<a href=\"https:\/\/t.co\/1gf9YZGf05&quot;&gt;pic.twitter.com\/1gf9YZGf05&lt;\/a&gt;&lt;\/p&amp;gt\">https:\/\/t.co\/1gf9YZGf05&quot;&gt;pic.twitter.com\/1gf9YZGf05&lt;\/a&gt;&lt;\/p&amp;gt<\/a>;\u2014 David Attenborough (@AttenboroughSir) &lt;a href=&quot;<a href=\"https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=twsrc%5Etfw&quot;&gt;October\">https:\/\/twitter.com\/AttenboroughSir\/status\/1313333876526256128?ref_src=\u2026<\/a> 6, 2020&lt;\/a&gt;&lt;\/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;<a href=\"https:\/\/platform.twitter.com\/widgets.js&amp;quot\">https:\/\/platform.twitter.com\/widgets.js&amp;quot<\/a>; charset=&quot;utf-8&quot;&gt;&lt;\/script&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-ctnr az-column col-sm-6&quot; style=&quot;&quot; data-az-id=&quot;gb2rlsjohi&quot; data-azat-pid=&quot;gb2rlsjohi&quot; id=&quot;gb2rlsjohi&quot; data-azb=&quot;az_column&quot; data-azat-width=&quot; 1\/2&quot; data-azcnt=&quot;true&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text\/css&quot; href=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/vendor\/font-awesome-5-pro\/css\/all.min.css&quot;&gt;<br \/>\n&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js&quot;&gt;&lt;\/script&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

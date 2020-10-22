@@ -1,0 +1,171 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/40?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 40
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fd537700-ce74-4ce9-8d63-d2c78e4372a8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 154
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-10-21T07:35:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "848fed12-f70e-4f86-8727-6db47d181470"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Saved with DXPR builder"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Panel",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-10-21T07:30:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-10-21T07:35:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Panel | Drush Site-Install",
+                "canonical_url": "http:\/\/default\/node\/40",
+                "description": "<div class=\"az-element az-section\" style=\"padding-top: 90px; padding-bottom: 90px; background-image: linear-gradient(rgb(40, 78, 217) 0%, rgb(5, 233, 147) 100%);\" data-az-id=\"gbybkn6ffr\" data-azat-pid=\"gbybkn6ffr\" id=\"gbybkn6ffr\" data-azb=\"az_section\" data-azat-effect=\"gradient\" data-azat-gradient_start_color=\"#284ed9\" data-azat-gradient_end_color=\"#05e993\" data-azat-style=\"padding-top:90px;padding-bottom:90px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\">"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" style=\"padding-top: 90px; padding-bottom: 90px; background-image: linear-gradient(rgb(40, 78, 217) 0%, rgb(5, 233, 147) 100%);\" data-az-id=\"gbybkn6ffr\" data-azat-pid=\"gbybkn6ffr\" id=\"gbybkn6ffr\" data-azb=\"az_section\" data-azat-effect=\"gradient\" data-azat-gradient_start_color=\"#284ed9\" data-azat-gradient_end_color=\"#05e993\" data-azat-style=\"padding-top:90px;padding-bottom:90px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-dxpr\" style=\"position: relative; left: 0px; top: 0px;\" data-az-id=\"gbaklbstfq\" data-azat-pid=\"gbaklbstfq\" id=\"gbaklbstfq\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbkfnbjxeq\" data-azat-pid=\"gbkfnbjxeq\" id=\"gbkfnbjxeq\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with default settings<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-dxpr panel-dxpr\" style=\"\" data-az-id=\"gbjvp1z951\" data-azat-pid=\"gbjvp1z951\" id=\"gbjvp1z951\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-dxpr\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb6asvn8xs\" data-azat-pid=\"gb6asvn8xs\" id=\"gb6asvn8xs\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em><\/h2><\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-section\" style=\"padding-top:90px;padding-bottom:90px;\" data-az-id=\"gb8n5fsrc7\" data-azat-pid=\"gb8n5fsrc7\" id=\"gb8n5fsrc7\" data-azb=\"az_section\" data-azat-style=\"padding-top:90px;padding-bottom:90px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-dxpr panel-dxpr\" style=\"\" data-az-id=\"gbgnw6p0x4\" data-azat-pid=\"gbgnw6p0x4\" id=\"gbgnw6p0x4\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-dxpr\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbvuv0wyr5\" data-azat-pid=\"gbvuv0wyr5\" id=\"gbvuv0wyr5\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to DXPR<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-primary panel-primary\" style=\"\" data-az-id=\"gbeqmpmpyg\" data-azat-pid=\"gbeqmpmpyg\" id=\"gbeqmpmpyg\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-primary\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbjy3h9sy4\" data-azat-pid=\"gbjy3h9sy4\" id=\"gbjy3h9sy4\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to Primary<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-success panel-success\" style=\"\" data-az-id=\"gb3t9z9e9j\" data-azat-pid=\"gb3t9z9e9j\" id=\"gb3t9z9e9j\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-success\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbg1b34wt7\" data-azat-pid=\"gbg1b34wt7\" id=\"gbg1b34wt7\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to Success<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-info panel-info\" style=\"\" data-az-id=\"gbzdzv1cpt\" data-azat-pid=\"gbzdzv1cpt\" id=\"gbzdzv1cpt\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-info\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb1cu0x03l\" data-azat-pid=\"gb1cu0x03l\" id=\"gb1cu0x03l\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to Info<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-warning panel-warning\" style=\"\" data-az-id=\"gb9wojlsgm\" data-azat-pid=\"gb9wojlsgm\" id=\"gb9wojlsgm\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-warning\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gblk6ftzww\" data-azat-pid=\"gblk6ftzww\" id=\"gblk6ftzww\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to Warning<\/h2><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-danger panel-danger\" style=\"\" data-az-id=\"gbam7njpj1\" data-azat-pid=\"gbam7njpj1\" id=\"gbam7njpj1\" data-azb=\"az_panel\" data-azat-title=\"Test Title\" data-azat-type=\"panel-danger\"><div class=\"panel-heading\"><h3 class=\"panel-title\">Test Title<\/h3><\/div><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gb5l2jgbvp\" data-azat-pid=\"gb5l2jgbvp\" id=\"gb5l2jgbvp\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Panel with \"Title\" set to <em>Test Title<\/em>&nbsp;and \"Type\" set to Danger<\/h2><\/div><\/div><\/div><\/div><\/div><script src=\"\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js\"><\/script>\n",
+            "format": null,
+            "processed": "<p>&lt;div class=&quot;az-element az-section&quot; style=&quot;padding-top: 90px; padding-bottom: 90px; background-image: linear-gradient(rgb(40, 78, 217) 0%, rgb(5, 233, 147) 100%);&quot; data-az-id=&quot;gbybkn6ffr&quot; data-azat-pid=&quot;gbybkn6ffr&quot; id=&quot;gbybkn6ffr&quot; data-azb=&quot;az_section&quot; data-azat-effect=&quot;gradient&quot; data-azat-gradient_start_color=&quot;#284ed9&quot; data-azat-gradient_end_color=&quot;#05e993&quot; data-azat-style=&quot;padding-top:90px;padding-bottom:90px;&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-panel panel panel-dxpr&quot; style=&quot;position: relative; left: 0px; top: 0px;&quot; data-az-id=&quot;gbaklbstfq&quot; data-azat-pid=&quot;gbaklbstfq&quot; id=&quot;gbaklbstfq&quot; data-azb=&quot;az_panel&quot;&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbkfnbjxeq&quot; data-azat-pid=&quot;gbkfnbjxeq&quot; id=&quot;gbkfnbjxeq&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with default settings&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-dxpr panel-dxpr&quot; style=&quot;&quot; data-az-id=&quot;gbjvp1z951&quot; data-azat-pid=&quot;gbjvp1z951&quot; id=&quot;gbjvp1z951&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-dxpr&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb6asvn8xs&quot; data-azat-pid=&quot;gb6asvn8xs&quot; id=&quot;gb6asvn8xs&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-section&quot; style=&quot;padding-top:90px;padding-bottom:90px;&quot; data-az-id=&quot;gb8n5fsrc7&quot; data-azat-pid=&quot;gb8n5fsrc7&quot; id=&quot;gb8n5fsrc7&quot; data-azb=&quot;az_section&quot; data-azat-style=&quot;padding-top:90px;padding-bottom:90px;&quot;&gt;&lt;div class=&quot;az-ctnr container&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-panel panel panel-dxpr panel-dxpr&quot; style=&quot;&quot; data-az-id=&quot;gbgnw6p0x4&quot; data-azat-pid=&quot;gbgnw6p0x4&quot; id=&quot;gbgnw6p0x4&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-dxpr&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbvuv0wyr5&quot; data-azat-pid=&quot;gbvuv0wyr5&quot; id=&quot;gbvuv0wyr5&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to DXPR&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-primary panel-primary&quot; style=&quot;&quot; data-az-id=&quot;gbeqmpmpyg&quot; data-azat-pid=&quot;gbeqmpmpyg&quot; id=&quot;gbeqmpmpyg&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-primary&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbjy3h9sy4&quot; data-azat-pid=&quot;gbjy3h9sy4&quot; id=&quot;gbjy3h9sy4&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to Primary&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-success panel-success&quot; style=&quot;&quot; data-az-id=&quot;gb3t9z9e9j&quot; data-azat-pid=&quot;gb3t9z9e9j&quot; id=&quot;gb3t9z9e9j&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-success&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gbg1b34wt7&quot; data-azat-pid=&quot;gbg1b34wt7&quot; id=&quot;gbg1b34wt7&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to Success&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-info panel-info&quot; style=&quot;&quot; data-az-id=&quot;gbzdzv1cpt&quot; data-azat-pid=&quot;gbzdzv1cpt&quot; id=&quot;gbzdzv1cpt&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-info&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb1cu0x03l&quot; data-azat-pid=&quot;gb1cu0x03l&quot; id=&quot;gb1cu0x03l&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to Info&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-warning panel-warning&quot; style=&quot;&quot; data-az-id=&quot;gb9wojlsgm&quot; data-azat-pid=&quot;gb9wojlsgm&quot; id=&quot;gb9wojlsgm&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-warning&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gblk6ftzww&quot; data-azat-pid=&quot;gblk6ftzww&quot; id=&quot;gblk6ftzww&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to Warning&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=&quot;az-element az-panel panel panel-danger panel-danger&quot; style=&quot;&quot; data-az-id=&quot;gbam7njpj1&quot; data-azat-pid=&quot;gbam7njpj1&quot; id=&quot;gbam7njpj1&quot; data-azb=&quot;az_panel&quot; data-azat-title=&quot;Test Title&quot; data-azat-type=&quot;panel-danger&quot;&gt;&lt;div class=&quot;panel-heading&quot;&gt;&lt;h3 class=&quot;panel-title&quot;&gt;Test Title&lt;\/h3&gt;&lt;\/div&gt;&lt;div class=&quot;panel-body az-ctnr&quot; data-azcnt=&quot;true&quot;&gt;&lt;div class=&quot;az-element az-text&quot; style=&quot;&quot; data-az-id=&quot;gb5l2jgbvp&quot; data-azat-pid=&quot;gb5l2jgbvp&quot; id=&quot;gb5l2jgbvp&quot; data-azb=&quot;az_text&quot; data-azcnt=&quot;true&quot;&gt;&lt;h2&gt;Panel with &quot;Title&quot; set to &lt;em&gt;Test Title&lt;\/em&gt;&amp;nbsp;and &quot;Type&quot; set to Danger&lt;\/h2&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;script src=&quot;\/buildr\/qa-demo\/docroot\/modules\/contrib\/dxpr_builder\/dxpr_builder\/dxpr_frontend.min.js&quot;&gt;&lt;\/script&gt;<\/p>\n",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}
