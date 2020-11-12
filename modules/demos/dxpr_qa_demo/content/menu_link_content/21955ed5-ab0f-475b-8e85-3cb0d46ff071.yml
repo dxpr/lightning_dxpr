@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  uuid: 21955ed5-ab0f-475b-8e85-3cb0d46ff071
   bundle: menu_link_content
   default_langcode: en
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
-    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+    c6e8446e-ea66-432d-8ab5-4067be8e7eb6: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'Filters Support'
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      target_uuid: c6e8446e-ea66-432d-8ab5-4067be8e7eb6
       title: ''
       options: {  }
   external:
@@ -46,6 +46,12 @@ default:
   content_translation_outdated:
     -
       value: false
+  content_translation_uid:
+    -
+      target_id: 1
   content_translation_status:
     -
       value: true
+  content_translation_created:
+    -
+      value: 1605087498

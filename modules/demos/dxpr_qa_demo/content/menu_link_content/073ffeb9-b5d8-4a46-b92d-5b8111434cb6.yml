@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  uuid: 073ffeb9-b5d8-4a46-b92d-5b8111434cb6
   bundle: menu_link_content
-  default_langcode: en
+  default_langcode: nl
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
-    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+    26f18523-c6af-472f-ac50-fc20047e2833: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'Translation Support pt 1'
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      target_uuid: 26f18523-c6af-472f-ac50-fc20047e2833
       title: ''
       options: {  }
   external:
@@ -46,6 +46,12 @@ default:
   content_translation_outdated:
     -
       value: false
+  content_translation_uid:
+    -
+      target_id: 1
   content_translation_status:
     -
       value: true
+  content_translation_created:
+    -
+      value: 1604915050

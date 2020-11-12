@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  uuid: 414e1d88-aaeb-4ccc-a040-721ea78872ca
   bundle: menu_link_content
   default_langcode: en
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
-    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+    497c7c9b-9593-4f67-8dab-d9ae9333dc46: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'Text editor customization'
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      target_uuid: 497c7c9b-9593-4f67-8dab-d9ae9333dc46
       title: ''
       options: {  }
   external:

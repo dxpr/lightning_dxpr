@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  uuid: 9dda78fb-a3a1-421b-afaf-3ed4d7b950fa
   bundle: menu_link_content
   default_langcode: en
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
-    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+    2b8f581f-7953-4347-ad40-daecaf3fae8c: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'History Feature'
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      target_uuid: 2b8f581f-7953-4347-ad40-daecaf3fae8c
       title: ''
       options: {  }
   external:
@@ -46,6 +46,12 @@ default:
   content_translation_outdated:
     -
       value: false
+  content_translation_uid:
+    -
+      target_id: 1
   content_translation_status:
     -
       value: true
+  content_translation_created:
+    -
+      value: 1604920639

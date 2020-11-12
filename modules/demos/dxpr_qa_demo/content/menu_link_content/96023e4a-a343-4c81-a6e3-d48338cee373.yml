@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  uuid: 96023e4a-a343-4c81-a6e3-d48338cee373
   bundle: menu_link_content
   default_langcode: en
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
-    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+    bfbad9e3-4175-4880-8b86-46444e040942: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'Extendability: Utility Classes'
   menu_name:
     -
       value: main
   link:
     -
-      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      target_uuid: bfbad9e3-4175-4880-8b86-46444e040942
       title: ''
       options: {  }
   external:
@@ -46,6 +46,12 @@ default:
   content_translation_outdated:
     -
       value: false
+  content_translation_uid:
+    -
+      target_id: 1
   content_translation_status:
     -
       value: true
+  content_translation_created:
+    -
+      value: 1605108704
