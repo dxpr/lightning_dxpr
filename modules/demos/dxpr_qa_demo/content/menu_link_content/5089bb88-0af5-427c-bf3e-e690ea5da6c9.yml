@@ -13,7 +13,7 @@ default:
       value: true
   title:
     -
-      value: 'Page Template'
+      value: 'Page Templates'
   menu_name:
     -
       value: main

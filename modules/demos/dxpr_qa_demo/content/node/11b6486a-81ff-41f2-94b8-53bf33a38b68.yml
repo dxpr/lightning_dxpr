@@ -19,7 +19,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Page Template'
+      value: 'Page Templates'
   created:
     -
       value: 1603368104
