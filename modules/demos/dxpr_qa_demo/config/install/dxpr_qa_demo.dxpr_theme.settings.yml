@@ -1,7 +1,7 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://localhost/buildr/qa-demo/docroot/themes/contrib/dxpr_theme/favicon.ico'
+  url: 'http://localhost/qa-demo/docroot/themes/contrib/dxpr_theme/favicon.ico'
   use_default: 1
 schemas:
   bootstrap: 8000
@@ -82,7 +82,7 @@ dropdown_hover_text_color: ''
 dropdown_hover_text_color_custom: ''
 header_side_align: left
 header_side_width: '300'
-header_side_direction: left
+header_side_direction: right
 hamburger_menu: three-dash
 mark_menu_with_children: 1
 menu_type: ''
@@ -207,8 +207,8 @@ gutter_vertical_mobile: '30'
 gutter_container_mobile: '30'
 secondary_header_hide: hidden_none
 full_width_containers:
+  cnt_secondary_header: cnt_secondary_header
   cnt_header_nav: cnt_header_nav
-  cnt_secondary_header: 0
   cnt_page_title: 0
   cnt_content_top: 0
   cnt_content: 0
@@ -230,3 +230,4 @@ hidden_regions:
   sidebar_first: 0
   sidebar_second: 0
   footer: 0
+preload_local_fonts: 0

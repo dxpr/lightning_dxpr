@@ -1,0 +1,8 @@
+langcode: ar
+status: true
+dependencies: {  }
+id: ar
+label: Arabic
+direction: rtl
+weight: 2
+locked: false

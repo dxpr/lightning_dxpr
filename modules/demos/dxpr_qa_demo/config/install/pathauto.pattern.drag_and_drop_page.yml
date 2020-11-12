@@ -1,0 +1,22 @@
+uuid: 8053d42f-af82-40b1-832d-cefb44ee3ceb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: drag_and_drop_page
+label: 'Drag and drop page'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  b7ef5365-d27a-43eb-83a4-49f8e5f39216:
+    id: node_type
+    bundles:
+      drag_and_drop_page: drag_and_drop_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b7ef5365-d27a-43eb-83a4-49f8e5f39216
+selection_logic: and
+weight: -5
+relationships: {  }
