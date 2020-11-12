@@ -1,4 +1,3 @@
-uuid: 54bdac05-72af-474c-89c9-187bb7a276ce
 langcode: en
 status: true
 dependencies:
@@ -20,6 +19,7 @@ permissions:
   - 'delete media'
   - 'dropzone upload files'
   - 'edit via dxpr builder'
+  - 'edit with dxpr builder'
   - 'update media'
   - 'use moderation sidebar'
   - 'view the administration theme'

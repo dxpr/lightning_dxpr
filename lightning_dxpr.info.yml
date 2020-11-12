@@ -16,6 +16,7 @@ install:
   - search
   - webform
   - webform_ui
+  - footnotes
 
 themes:
   - dxpr_theme
@@ -34,3 +35,12 @@ exclude:
   - seven
   - layout_builder
   - layout_discovery
+
+config_devel:
+  install:
+    - editor.editor.full_html
+    - filter.format.full_html
+    - system.performance
+    - node.settings
+    - system.theme
+    - user.role.dxpr_builder
