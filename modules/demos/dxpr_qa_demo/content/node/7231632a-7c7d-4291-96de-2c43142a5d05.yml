@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7231632a-7c7d-4291-96de-2c43142a5d05
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Bootstrap sideloading'
+  created:
+    -
+      value: 1604937227
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbgcv125oq" data-azat-pid="gbwnpa3r12" id="gbwnpa3r12" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb4cajsf2z" data-azat-pid="gb4fnhdq35" id="gb4fnhdq35" data-azb="az_text" data-azcnt="true"><h2>Sideloading Bootstrap assets</h2><p>When a website does not use Bootstrap as a frontend framework a client can choose to let DXPR Builder load this asset from its local files. DXPR Builder will load the Bootstrap CSS and JS files only when needed. This means that Bootstrap assets are loaded on pages that include a DXPR Builder container.</p><ol><li>Go the Admin &gt; Appearance settings</li><li>Activate Olivero theme by clicking the "Install and set as default" link&nbsp;</li><li>Come back to this page</li><li>Confirm that the DXPR Builder interface is not displaying correctly</li><li>Go the Admin &gt; Configuration &gt; Content Authoring &gt; DXPR Builder settings</li><li>In the field group "Bootstrap Assets" enable the setting "Load Bootstrap 3 Light"</li><li>Come back to this page to confirm the DXPR Builder interface is now displaying correctly</li><li>Go back to&nbsp;Admin &gt; Configuration &gt; Content Authoring &gt; DXPR Builder settings</li><li>In the field group "Bootstrap Assets" enable the setting "Load Bootstrap 3 Full"</li><li>Come back to this page to confirm the DXPR Builder interface is now displaying correctly</li><li>Go back to&nbsp;Admin &gt; Appearance settings</li><li>Click "Set Default" on DXPR Theme so that the other QA pages can be tested with DXPR Theme</li></ol></div></div></div>'
+      format: full_html
+      summary: ''

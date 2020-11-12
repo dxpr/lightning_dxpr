@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4148ed94-f42c-4752-8d88-375885679f0e
+  bundle: image
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: alt
+  created:
+    -
+      value: 1603359650
+  revision_translation_affected:
+    -
+      value: true
+  field_media_in_library:
+    -
+      value: true

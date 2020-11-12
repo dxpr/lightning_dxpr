@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: fe7d34dc-8c6e-4ee4-815d-ed90045e328a
+  bundle: image
+  default_langcode: en
+  depends:
+    26b7df18-d2d7-42e3-99a6-6aa38c48737d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: bob-canning-r53rNKb_7s8-unsplash.jpg
+  created:
+    -
+      value: 1603261901
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 26b7df18-d2d7-42e3-99a6-6aa38c48737d
+      alt: ''
+      title: ''
+      width: 6000
+      height: 4000
+  field_media_in_library:
+    -
+      value: true

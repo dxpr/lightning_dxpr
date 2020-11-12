@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 26f18523-c6af-472f-ac50-fc20047e2833
+  bundle: drag_and_drop_page
+  default_langcode: nl
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Translation Support pt 1'
+  created:
+    -
+      value: 1604914874
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: nl
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb8ozn5grs" data-azat-pid="gbjyr9xrpn" id="gbjyr9xrpn" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb1d589rug" data-azat-pid="gb489l7vu5" id="gb489l7vu5" data-azb="az_text" data-azcnt="true"><h2>Translation support test part 1 (non-default language content)</h2><ol><li>Edit and save this content item with DXPR Builder</li><li>Reload the page</li><li>Check that your edits appear</li><li>Go to the node form (edit tab) and check that the language of this content item is set to "Dutch"</li></ol></div></div></div>'
+      format: full_html
+      summary: ''

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3ff4056a-68ce-4997-a93f-81635d7256c3
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Global Templates'
+  created:
+    -
+      value: 1603284380
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbzmvy10id" data-azat-pid="gb7iuu4bsk" id="gb7iuu4bsk" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbedc18vra" data-azat-pid="gbf7zim85i" id="gbf7zim85i" data-azb="az_text" data-azcnt="true"><h2>Test Global Templates.</h2><ol><li>Check that the DXPR Builder Enterprise module is installed</li><li>Click the disk icon on this text element</li><li>Enter a template name, for example "Test Global"</li><li>Check the "Global template" checkbox</li><li>Click Save</li><li>Open a new (Private) browser window</li><li>Log in with editor2:editor2</li><li>Click the + Icon in any DXPR Builder container</li><li>Check that the template you just saved is available for this user</li><li>Click the template and check that it''s contents show in the container</li></ol></div></div></div>'
+      format: ''
+      summary: ''

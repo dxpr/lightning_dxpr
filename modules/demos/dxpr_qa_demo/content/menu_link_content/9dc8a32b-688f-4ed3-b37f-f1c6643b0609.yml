@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 9dc8a32b-688f-4ed3-b37f-f1c6643b0609
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    85584d99-1743-4d41-a5ea-eaf97466a321: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'DXPR Builder Enterprise'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 85584d99-1743-4d41-a5ea-eaf97466a321
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

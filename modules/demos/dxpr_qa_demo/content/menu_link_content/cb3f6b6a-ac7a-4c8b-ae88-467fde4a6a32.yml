@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: cb3f6b6a-ac7a-4c8b-ae88-467fde4a6a32
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    9dc8a32b-688f-4ed3-b37f-f1c6643b0609: menu_link_content
+    afb7c333-c843-4bc2-925f-1e922d1e7659: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Content Locking'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: afb7c333-c843-4bc2-925f-1e922d1e7659
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:9dc8a32b-688f-4ed3-b37f-f1c6643b0609'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 79929820-ddff-4c24-bccd-a3f429de444f
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'User Profiles'
+  created:
+    -
+      value: 1603368799
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /user-profiles
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbe6h146bn" data-azat-pid="gbj69j0mx3" id="gbj69j0mx3" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gba53ct12a" data-azat-pid="gb28fql4s3" id="gb28fql4s3" data-azb="az_text" data-azcnt="true"><h2>Test User Profiles Feature</h2><ol><li>In a new (Private) window log in with editor2:editor2</li><li>Click the + icon on any DXPR Builder container element</li><li>Check that in the Drupal Blocks tab there are no more than 3 rows of elements and in the Drupal Views tab there are no more than 2 rows&nbsp;</li></ol></div></div></div>'
+      format: full_html
+      summary: ''

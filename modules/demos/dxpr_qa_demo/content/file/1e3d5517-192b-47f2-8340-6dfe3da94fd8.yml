@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1e3d5517-192b-47f2-8340-6dfe3da94fd8
+  default_langcode: en
+default:
+  filename:
+    -
+      value: default-avatar.png
+  uri:
+    -
+      value: 'public://default-avatar.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 6192
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1604405629

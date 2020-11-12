@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 78d1afa4-08ef-4b2b-a629-403c7d375d44
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    538e086a-5854-46b7-aaf0-4671bda087c3: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'DXPR Builder Elements'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 538e086a-5854-46b7-aaf0-4671bda087c3
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e19cd7d8-7c34-4546-bf73-b07f2338b679
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Alert
+  created:
+    -
+      value: 1603201150
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-az-id="gbxu3f574p" data-azat-pid="gbxu3f574p" id="gbxu3f574p" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-alert alert alert-success" style="" data-az-id="gbl4fau0bf" data-azat-pid="gbl4fau0bf" id="gbl4fau0bf" data-azb="az_alert" data-azat-message="Success Alert" data-azat-type="alert-success">Success Alert</div><div class="az-element az-alert alert alert-info" style="" data-az-id="gb71oxm63r" data-azat-pid="gb71oxm63r" id="gb71oxm63r" data-azb="az_alert" data-azat-message="Info Alert" data-azat-type="alert-info">Info Alert</div><div class="az-element az-alert alert alert-warning" style="" data-az-id="gbwyo0mdsv" data-azat-pid="gbwyo0mdsv" id="gbwyo0mdsv" data-azb="az_alert" data-azat-message="Warning Alert" data-azat-type="alert-warning">Warning Alert</div><div class="az-element az-alert alert alert-danger" style="" data-az-id="gb7mivbj8q" data-azat-pid="gb7mivbj8q" id="gb7mivbj8q" data-azb="az_alert" data-azat-message="Danger Alert" data-azat-type="alert-danger">Danger Alert</div><div class="az-element az-alert alert alert-success" style="" data-az-id="gbupzqnuto" data-azat-pid="gbupzqnuto" id="gbupzqnuto" data-azb="az_alert" data-azat-message="Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. " data-azat-type="alert-success">Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. Success alert with long text. </div></div></div>'
+      format: ''
+      summary: ''

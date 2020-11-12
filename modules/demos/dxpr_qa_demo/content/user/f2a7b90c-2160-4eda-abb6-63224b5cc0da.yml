@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: f2a7b90c-2160-4eda-abb6-63224b5cc0da
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: editor1
+  pass:
+    -
+      value: editor1
+  mail:
+    -
+      value: editor1@dxpr.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603360224
+  access:
+    -
+      value: 1604407534
+  login:
+    -
+      value: 1604405801
+  init:
+    -
+      value: editor1@dxpr.com
+  roles:
+    -
+      target_id: page_creator
+    -
+      target_id: page_reviewer
+    -
+      target_id: media_creator
+    -
+      target_id: media_manager
+    -
+      target_id: dxpr_builder
+    -
+      target_id: drag_and_drop_page_creator
+    -
+      target_id: drag_and_drop_page_reviewer

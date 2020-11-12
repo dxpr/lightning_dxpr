@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5cc9d558-d876-46a9-b6a7-d74e9c47ea68
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    01984e0a-f947-4e23-8c52-359c5fe0efd1: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Positioned Layers'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 01984e0a-f947-4e23-8c52-359c5fe0efd1
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

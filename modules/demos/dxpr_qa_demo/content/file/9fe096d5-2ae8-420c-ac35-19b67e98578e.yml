@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9fe096d5-2ae8-420c-ac35-19b67e98578e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: themesettings-dxpr_theme.css
+  uri:
+    -
+      value: 'public://dxpr_theme/css/themesettings-dxpr_theme.css'
+  filemime:
+    -
+      value: text/css
+  filesize:
+    -
+      value: 7148
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1605093699

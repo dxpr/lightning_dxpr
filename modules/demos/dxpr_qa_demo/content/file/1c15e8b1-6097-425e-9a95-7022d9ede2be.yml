@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1c15e8b1-6097-425e-9a95-7022d9ede2be
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: aaron-burden-RgTI2KaQ5N4-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-10/aaron-burden-RgTI2KaQ5N4-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 814067
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603262268

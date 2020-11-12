@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ea7c27e6-219d-4358-af89-e1066ea4155c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bantersnaps-8n-3h1WkaQk-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-10/bantersnaps-8n-3h1WkaQk-unsplash_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 586145
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603203956

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a14d49fa-959e-4ac5-9e84-d4a7af7fe8aa
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
+    78f83c47-9bbb-440a-9dcd-45408282306d: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Drupal Views'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 78f83c47-9bbb-440a-9dcd-45408282306d
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:43baa380-06ef-4ec8-a187-e49fafde8208'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 936ab28b-d08d-40d0-8898-366954af97de
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: filip-bunkens-R5SrmZPoO40-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 735577
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603261901

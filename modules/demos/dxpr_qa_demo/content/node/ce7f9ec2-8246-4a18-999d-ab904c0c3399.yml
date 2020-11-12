@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce7f9ec2-8246-4a18-999d-ab904c0c3399
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Revision support'
+  created:
+    -
+      value: 1604918621
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb61r399ug" data-azat-pid="gbe4kkf65o" id="gbe4kkf65o" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbkycka4y1" data-azat-pid="gb0pz9g0nv" id="gb0pz9g0nv" data-azb="az_text" data-azcnt="true"><h2>Revisions support<br></h2><ul><li>Save this content item with DXPR Builder</li><li>Click the revisions tab</li><li>Check that a new revision was created</li></ul></div></div></div>'
+      format: ''
+      summary: ''

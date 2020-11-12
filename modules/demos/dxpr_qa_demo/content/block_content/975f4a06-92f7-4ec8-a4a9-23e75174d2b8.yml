@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 975f4a06-92f7-4ec8-a4a9-23e75174d2b8
+  bundle: drag_and_drop_block
+  default_langcode: en
+default:
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Empty DXPR Builder block'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '&nbsp;'
+      format: ''
+      summary: ''

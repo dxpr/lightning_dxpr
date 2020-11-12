@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 21da7df2-849d-43d3-8672-5d984a1caf6a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot 2020-11-09 at 12.08.02.jpg'
+  uri:
+    -
+      value: 'public://2020-11/Screenshot 2020-11-09 at 12.08.02.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 152017
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1604920102

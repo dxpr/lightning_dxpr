@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 26b7df18-d2d7-42e3-99a6-6aa38c48737d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bob-canning-r53rNKb_7s8-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-10/bob-canning-r53rNKb_7s8-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1714288
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603261901

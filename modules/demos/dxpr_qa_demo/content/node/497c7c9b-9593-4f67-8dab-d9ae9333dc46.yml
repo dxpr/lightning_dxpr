@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 497c7c9b-9593-4f67-8dab-d9ae9333dc46
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Text editor customization'
+  created:
+    -
+      value: 1604674521
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb4fvktnn4" data-azat-pid="gbuk08xiff" id="gbuk08xiff" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbgfhvpmen" data-azat-pid="gbq4l1kafy" id="gbq4l1kafy" data-azb="az_text" data-azcnt="true"><h2>Test Text Editor Settings Override</h2><ol><li>Click this text to make the inline editor show</li><li>Check the "warning text" is the only option in the Styles dropdown</li></ol></div></div></div>'
+      format: full_html
+      summary: ''

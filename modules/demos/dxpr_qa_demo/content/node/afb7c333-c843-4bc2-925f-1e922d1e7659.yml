@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: afb7c333-c843-4bc2-925f-1e922d1e7659
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Content Locking'
+  created:
+    -
+      value: 1603202320
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb45vz8erk" data-azat-pid="gbrlt9fjbn" id="gbrlt9fjbn" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbwnqm2ndh" data-azat-pid="gbbh6vac17" id="gbbh6vac17" data-azb="az_text" data-azcnt="true"><h2>Test Content Lock.</h2><ol><li>Check that the DXPR Builder Enterprise module is installed</li><li>Click this text to open the inline editor</li><li>You should see a green message in the top right that reads ''<em>The content "Content Locking" locked, other users cannot edit this content while you are editing.''</em></li><li>Open a new (<em>Private</em>) browser window and log in with editor2:editor2</li><li>Open this page with editor2</li><li>a yellow message should appear that reads ''<em>The content "Content Locking" is locked by admin, you can override this lock by clicking the lock button on the container controls.''</em></li><li>Try to edit this text, it should not work</li><li>Now <em>click the lock icon</em> on this container to remove the lock</li><li>Try editing this text, it should work now</li></ol></div></div></div>'
+      format: ''
+      summary: ''

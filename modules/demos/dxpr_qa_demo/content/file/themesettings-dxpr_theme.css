@@ -1,0 +1,190 @@
+
+body, .toooltip {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6,label,.field--label,.page-title, .html .tp-caption {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav,nav ul li,nav a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.site-name, .navbar-brand {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-style: normal;
+}
+
+blockquote, blockquote p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  font-style: normal;
+}
+
+  #dxpr-theme-main-menu,
+  #dxpr-theme-main-menu .menu__breadcrumbs,
+  #dxpr-theme-main-menu .menu__level {
+    text-align: left;
+  }
+.dxpr-theme-header--side .dxpr-theme-main-menu {
+  width: 300px;
+}
+.dxpr-theme-header--side .menu__level {
+  width: 300px;
+}
+
+.body--dxpr-theme-nav-desktop #navbar.dxpr-theme-header--top {
+  background-color: rgba(255,255,255,1);
+  opacity: 1;
+}
+.body--dxpr-theme-nav-desktop #navbar.dxpr-theme-header--top.affix {
+  background-color: rgba(255,255,255,1);
+  opacity: 1;
+}
+
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top .nav > li > a,
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top .wrap-branding,
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top .block-dxpr-theme-helper {
+  height: 100px;
+  line-height: 100px;
+}
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top .dxpr-theme-main-menu {
+  height: 100px;
+}
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .nav > li > a,
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .navbar-header .wrap-branding,
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .block-dxpr-theme-helper  {
+  height: 50px;
+  line-height: 50px;
+}
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .dxpr-theme-main-menu {
+  height: 50px;
+}
+.body--dxpr-theme-nav-desktop .nav-child-fixed-width {
+  top: 100px;
+}
+.body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix .nav-child-fixed-width {
+  top: 50;
+}
+.body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-header .wrap-branding,
+.body--dxpr-theme-nav-mobile .dxpr-theme-header .navbar-toggle {
+  height: 60px;
+}
+.body--dxpr-theme-nav-mobile .dxpr-theme-header .block-dxpr-theme-helper {
+  height: 60px;
+  line-height: 60px;
+}
+.html--dxpr-theme-sticky-footer .body--dxpr-theme-nav-desktop .dxpr-theme-header--top {
+  min-height: 100px;
+}
+.html--dxpr-theme-sticky-footer .body--dxpr-theme-nav-desktop .dxpr-theme-header--top.affix {
+  min-height: 50px;
+}
+.html--dxpr-theme-sticky-footer .body--dxpr-theme-nav-mobile .dxpr-theme-header {
+  min-height: 60px;
+}
+.html--dxpr-theme-sticky-footer .body--dxpr-theme-nav-mobile .dxpr-theme-header.affix {
+  min-height: 60px;
+}
+body, p, .lead { line-height:  1.4 } 
+body { font-size:  16px } 
+.dxpr-theme-header--top #dxpr-theme-main-menu .nav > li > a, .dxpr-theme-header--side #dxpr-theme-main-menu .nav a, .body--dxpr-theme-nav-desktop .dxpr-theme-header--top .nav .dropdown-menu li>a { font-size:  16px } 
+h1,h2,h3,h4,h5,h6 { line-height:  1.1; } 
+h1, .html #page-title .page-title { font-size:  39px; } 
+h2 { font-size:  31px; } 
+h3 { font-size:  25px; } 
+h4 { font-size:  20px; } 
+blockquote, .blockquote p { font-size:  20px } 
+hr { border-top-width:  4px; } 
+hr { margin-left: 0;margin-right: auto; }
+@media screen and (max-width: 768px) { 
+  body, p { font-size:  14px; } 
+  .dxpr-theme-header--top #dxpr-theme-main-menu .nav > li > a, .dxpr-theme-header--side #dxpr-theme-main-menu .nav a, .body--dxpr-theme-nav-desktop .dxpr-theme-header--top .nav .dropdown-menu li>a { font-size:  14px } 
+  h1, .html #page-title .page-title { font-size:  39px; } 
+  h2 { font-size:  31px; } 
+  h3 { font-size:  25px; } 
+  h4 { font-size:  20px; } 
+  blockquote, .blockquote p { font-size:  20px; } 
+} 
+
+.page-title-full-width-container .breadcrumb { right: 30px; left: auto; } 
+
+#page-title { text-align:  center } 
+
+#page-title .page-title { height:  120px } 
+
+.page-title-full-width-container:after { opacity:  1 } 
+
+.page-title-full-width-container:after { background-position: center center; }
+
+.dxpr-theme-boxed-container { background: #ffffff; }
+
+.dxpr-theme-boxed-container .nav-tabs >li.active a { border-bottom-color: #ffffff; }
+
+.dxpr-theme-boxed-container .tabs-left .nav-tabs .active>a { border-right-color: #ffffff; }
+
+.dxpr-theme-boxed-container .tabs-right .nav-tabs .active>a { border-left-color: #ffffff; }
+
+.container {
+  max-width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-container.dxpr-theme-fluid,
+.page-title-container.dxpr-theme-fluid,
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.dxpr-theme-boxed-container {
+  max-width: 4100px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.region-sidebar-first .block,
+.region-sidebar-second .block,
+.dxpr-theme-util-gutter-bottom {
+  margin-bottom: 30px;
+}
+.page-title-full-width-container {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-container.dxpr-theme-fluid,
+  .page-title-container.dxpr-theme-fluid,
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+body { background-position: center center; }
+
+body { background-attachment: fixed; }
+

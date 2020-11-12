@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 48c34607-d78d-47e9-9050-3c6033c665b7
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
+    fa84b254-32d6-454a-ad1e-c9c92022d306: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Drupal Blocks'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: fa84b254-32d6-454a-ad1e-c9c92022d306
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:43baa380-06ef-4ec8-a187-e49fafde8208'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

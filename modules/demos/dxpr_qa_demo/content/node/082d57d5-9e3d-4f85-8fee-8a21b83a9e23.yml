@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 082d57d5-9e3d-4f85-8fee-8a21b83a9e23
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Views Exposed Form demo'
+  created:
+    -
+      value: 1603296014
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-az-id="gb171zul07" data-azat-pid="gbnachy5ir" id="gbnachy5ir" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbi5a5nbmp" data-azat-pid="gbi5a5nbmp" id="gbi5a5nbmp" data-azb="az_text" data-azcnt="true"><h2>A views exposed form will only work for both anonymous users and editors if it has Ajax enabled.</h2></div><div class="az-element az-cms-element" style="" data-az-id="gbckbiaeif" data-azat-pid="gbsca8xcxg" id="gbsca8xcxg" data-azb="az_view-qa_views-exposed_filter" data-azat-settings="Search=" data-azat-display_exposed_filters="yes" data-azat-override_pager="no" data-azat-items="" data-azat-offset=""></div></div></div>'
+      format: full_html
+      summary: ''

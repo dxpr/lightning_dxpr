@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0d23f476-4999-45f2-ab06-cb28cada7efb
+  bundle: image
+  default_langcode: en
+  depends:
+    9739b4f1-f0c1-4b6e-af67-36a8660f2018: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: bantersnaps-VZOU5zZVgYM-unsplash.jpg
+  created:
+    -
+      value: 1603203956
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 9739b4f1-f0c1-4b6e-af67-36a8660f2018
+      alt: ''
+      title: ''
+      width: 3000
+      height: 1688
+  field_media_in_library:
+    -
+      value: true

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5089bb88-0af5-427c-bf3e-e690ea5da6c9
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
+    11b6486a-81ff-41f2-94b8-53bf33a38b68: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Page Templates'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 11b6486a-81ff-41f2-94b8-53bf33a38b68
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:43baa380-06ef-4ec8-a187-e49fafde8208'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

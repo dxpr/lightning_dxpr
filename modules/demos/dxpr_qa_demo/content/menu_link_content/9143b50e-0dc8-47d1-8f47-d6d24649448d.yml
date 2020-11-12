@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 9143b50e-0dc8-47d1-8f47-d6d24649448d
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    4f3cc600-e16a-4d55-abf2-241e0d0db392: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Number Counter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 4f3cc600-e16a-4d55-abf2-241e0d0db392
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1ee39c2c-9ba6-4cc5-99e8-7485f96b3e24
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    fd537700-ce74-4ce9-8d63-d2c78e4372a8: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Panel
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: fd537700-ce74-4ce9-8d63-d2c78e4372a8
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4afa2200-88c8-4f72-8c7d-d25121c8aa66
+  bundle: image
+  default_langcode: en
+  depends:
+    936ab28b-d08d-40d0-8898-366954af97de: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: filip-bunkens-R5SrmZPoO40-unsplash.jpg
+  created:
+    -
+      value: 1603261901
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: 936ab28b-d08d-40d0-8898-366954af97de
+      alt: ''
+      title: ''
+      width: 3000
+      height: 2000
+  field_media_in_library:
+    -
+      value: true

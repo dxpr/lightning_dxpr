@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: d8c89a5f-2e70-4649-8a5e-4415fc1adf28
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
+    2b937c2c-7430-44ef-98bc-7fbdced92bf3: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Image resuability'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 2b937c2c-7430-44ef-98bc-7fbdced92bf3
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:43baa380-06ef-4ec8-a187-e49fafde8208'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

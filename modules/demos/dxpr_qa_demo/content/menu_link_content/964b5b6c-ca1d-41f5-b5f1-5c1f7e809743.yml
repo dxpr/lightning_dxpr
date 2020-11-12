@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 964b5b6c-ca1d-41f5-b5f1-5c1f7e809743
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    ebeb79ba-1943-4938-a714-0729da6b62cc: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Map
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: ebeb79ba-1943-4938-a714-0729da6b62cc
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

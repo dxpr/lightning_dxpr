@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9739b4f1-f0c1-4b6e-af67-36a8660f2018
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: bantersnaps-VZOU5zZVgYM-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-10/bantersnaps-VZOU5zZVgYM-unsplash_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 429371
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1603203956

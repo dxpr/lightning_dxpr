@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 0665b09b-5e8a-467a-8eee-4e9b463f94c0
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
+    46de1acc-59be-4f49-be86-db0eeb38a982: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Style settings'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 46de1acc-59be-4f49-be86-db0eeb38a982
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:43baa380-06ef-4ec8-a187-e49fafde8208'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true

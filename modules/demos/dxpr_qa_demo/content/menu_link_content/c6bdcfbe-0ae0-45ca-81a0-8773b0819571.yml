@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: c6bdcfbe-0ae0-45ca-81a0-8773b0819571
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    d9572301-2049-40db-9e04-bf899214b5f4: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Tabs
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: d9572301-2049-40db-9e04-bf899214b5f4
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
+    -
+      value: true
