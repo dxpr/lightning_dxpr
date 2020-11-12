@@ -27,8 +27,10 @@
         "drupal/bootstrap": "^3.0",
         "drupal/default_content": "1.0-alpha9",
         "drupal/dxpr_theme": "^1.0",
-        "drupal/field_group": "^3.0",
         "drupal/dxpr_theme_helper": "^1.0",
+        "drupal/field_group": "^3.0",
+        "drupal/footnotes": "^2.0",
+        "drupal/olivero": "^1.0",
         "drupal/webform": "6.0.0-alpha12",
         "dxpr/dxpr_builder": "^1.0"
     }
