@@ -1,0 +1,8 @@
+<?php
+/**
+ * Implements hook_dxpr_builder_classes_alter().
+ */
+function example_dxpr_dxpr_builder_classes_alter(&$dxpr_builder_classes) {
+  $dxpr_builder_classes['optgroup-example-group'] = t('Example Option Group');
+  $dxpr_builder_classes['example-class'] = t('Example label');
+}
