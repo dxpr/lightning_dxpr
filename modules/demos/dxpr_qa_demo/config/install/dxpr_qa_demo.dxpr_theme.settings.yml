@@ -83,7 +83,7 @@ dropdown_hover_text_color_custom: ''
 header_side_align: left
 header_side_width: '300'
 header_side_direction: right
-hamburger_menu: three-dash
+hamburger_menu: two-dash
 mark_menu_with_children: 1
 menu_type: ''
 menu_hover: text

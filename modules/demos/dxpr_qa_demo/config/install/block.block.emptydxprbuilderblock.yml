@@ -25,5 +25,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /page-templates
+    pages: /node/45
     negate: false
