@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 08766ed7-a1bf-4e7e-a8c2-6cb120a8604f
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Section Background Video part 3'
+  created:
+    -
+      value: 1605270053
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /section-background-video-part-3
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<div class=\"az-element az-text\" style=\"\" data-az-id=\"gb3rebd1hq\" data-azat-pid=\"gbda6xzgmk\" id=\"gbda6xzgmk\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>\"Background effect\" set to YouTube video and setting \"Loop\" enabled</h2></div><div class=\"az-element az-section mb_YTPlayer\" style=\"\" data-dxpr-builder-libraries=\"ytplayer\" data-az-id=\"gbn1sx9qew\" data-azat-pid=\"gbj50flym7\" id=\"gbj50flym7\" data-azb=\"az_section\" data-azat-effect=\"youtube\" data-azat-video_options=\"loop\" data-azat-video_youtube=\"https://www.youtube.com/watch?v=64R2MYUt394\" data-property=\"{videoURL:'64R2MYUt394',containment:'[data-az-id=gbn1sx9qew]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:true, mute:false, optimizeDisplay:true, startAt:0, stopAt:0, useOnMobile:true, showYTLogo:false, isStandAlonePlayer: false}\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"padding-top:200px;padding-bottom:200px;\" data-az-id=\"gb2puuuyqw\" data-azat-pid=\"gbenwbixn1\" id=\"gbenwbixn1\" data-azb=\"az_text\" data-azat-style=\"padding-top:200px;padding-bottom:200px;\" data-azcnt=\"true\"><h2><span style=\"color:#ffffff;\">Section background test</span></h2></div></div></div><link rel=\"stylesheet\" type=\"text/css\" href=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/css/jquery.mb.YTPlayer.min.css\">\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/jquery.mb.YTPlayer.min.js\"></script>\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/vendor/jquery.waypoints/lib/jquery.waypoints.min.js\"></script>\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
+      format: ''
+      summary: ''

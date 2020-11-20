@@ -39,7 +39,7 @@ default:
     -
       alias: ''
       langcode: en
-      pathauto: 1
+      pathauto: 0
   content_translation_source:
     -
       value: und
@@ -72,7 +72,7 @@ translations:
       -
         alias: ''
         langcode: nl
-        pathauto: 1
+        pathauto: 0
     content_translation_source:
       -
         value: en
@@ -104,7 +104,7 @@ translations:
       -
         alias: ''
         langcode: ar
-        pathauto: 1
+        pathauto: 0
     content_translation_source:
       -
         value: en

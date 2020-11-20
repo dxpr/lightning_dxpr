@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9e95b600-c6d6-47f9-9c73-a419e7ae2b19
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: test
+  created:
+    -
+      value: 1605616875
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /test
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<div class=\"az-element az-section\" style=\"background-image: \n linear-gradient(\n 180deg,\n rgba( 40, 78, 217, 0.586 ) 0%,\n rgba( 5, 233, 147, 0.537 ) 100%)\n , url(/qa-demo/docroot/sites/default/files/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbk7fnpq3v\" data-azat-pid=\"gbk7fnpq3v\" id=\"gbk7fnpq3v\" data-azb=\"az_section\" data-azat-effect=\"gradient\" data-azat-gradient_start_color=\"rgba( 40, 78, 217, 0.586 )\" data-azat-gradient_end_color=\"rgba( 5, 233, 147, 0.537 )\" data-azat-style=\"background-image: url(/qa-demo/docroot/sites/default/files/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);\"><div class=\"az-ctnr container\" data-azcnt=\"true\"></div></div><script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
+      format: ''
+      summary: ''

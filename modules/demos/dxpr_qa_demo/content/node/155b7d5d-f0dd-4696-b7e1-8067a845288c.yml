@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 155b7d5d-f0dd-4696-b7e1-8067a845288c
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Positioned Layers'
+  created:
+    -
+      value: 1605851082
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /positioned-layers
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<div class="az-element az-row row az-row--sm" style="" data-az-id="gbeg3ega2h" data-azat-pid="gb1bym2e7t" id="gb1bym2e7t" data-azb="az_row" data-azat-device="sm" data-azcnt="true"><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gb1ejhej2h" data-azat-pid="gbrkam19rk" id="gbrkam19rk" data-azb="az_column" data-azat-width="1/2" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbxth4pkon" data-azat-pid="gbi8vza83k" id="gbi8vza83k" data-azb="az_text" data-azcnt="true"><h2>The <em>positioned layers</em>&nbsp;element is our freehand&nbsp;tool.</h2><p>It allows for freehand positioning of any element you put inside. In this example, the layers are icon elements, that could be used to link to different pages. Most sites will not need an advanced layout tool like this, but it''s good to know it''s there when you needed it.</p></div></div><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gb9wmgmxz1" data-azat-pid="gbxemvjvkx" id="gbxemvjvkx" data-azb="az_column" data-azat-width=" 1/2" data-azcnt="true"><div class="az-element az-layers" style="" data-az-id="gbpvj5228p" data-azat-pid="gbkstapviv" id="gbkstapviv" data-azb="az_layers" data-azat-width="84.07079646017698%" data-azat-height="403" data-azat-o_width="565"><div id="gbpvj5228p" class="az-ctnr" data-azcnt="true" style="width: 84.0708%; height: 403px;"><a href="#" class="az-element az-icon hover-style-gbtwi3hsav" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbtwi3hsav" data-azat-pid="gbf35lj4m3" id="gbf35lj4m3" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-3x" data-azat-link="#" data-azat-link_target="_self" data-azat-style="color:gold;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="66.52631578947368%" data-azat-pos_top="28.78411910669975%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 66.5263%; top: 28.7841%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-3x  undefined undefined   " style="color:gold;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gbexl33qdh" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbexl33qdh" data-azat-pid="gb78182zr0" id="gb78182zr0" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-4x" data-azat-link="#" data-azat-link_target="_self" data-azat-style="color:gold;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="38.10526315789474%" data-azat-pos_top="10.669975186104217%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 38.1053%; top: 10.67%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-4x  undefined undefined   " style="color:gold;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gbpevgpdz3" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbpevgpdz3" data-azat-pid="gb4l43ugk2" id="gb4l43ugk2" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-3x" data-azat-link="#" data-azat-link_target="_self" data-azat-style="color:gold;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="82.73684210526316%" data-azat-pos_top="6.451612903225806%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 82.7368%; top: 6.45161%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-3x  undefined undefined   " style="color:gold;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gbd6ehr0aj" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbd6ehr0aj" data-azat-pid="gb06zfmg9z" id="gb06zfmg9z" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-3x" data-azat-link="#" data-azat-link_target="_self" data-azat-style="color:#f5a21d;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="11.157894736842104%" data-azat-pos_top="36.972704714640194%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 11.1579%; top: 36.9727%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-3x  undefined undefined   " style="color:#f5a21d;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gb7upttvzz" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gb7upttvzz" data-azat-pid="gbluw766i5" id="gbluw766i5" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-2x" data-azat-link="#" data-azat-link_target="_self" data-azat-an_start="appear" data-azat-an_in="floatSmall" data-azat-an_infinite="yes" data-azat-an_duration="999" data-azat-style="color:#f5a21d;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="71.57894736842105%" data-azat-pos_top="77.66749379652605%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 71.5789%; top: 77.6675%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-2x  undefined undefined   " style="color:#f5a21d;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gb7izm6rbp" data-azat-pid="gb4725uwzm" id="gb4725uwzm" data-azb="az_icon" data-azat-icon="fal fa-rocket" data-azat-size="fa-2x" data-azat-animation="fa-spin" data-azat-link="#" data-azat-link_target="_self" data-azat-an_start="hover" data-azat-an_in="fadeOutRightBig" data-azat-an_hidden="after_in" data-azat-style="color:#9de8fa;" data-azat-pos_left="11.157894736842104%" data-azat-pos_top="59.30521091811414%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 11.1579%; top: 59.3052%; width: 17.2632%; height: 22.3325%; opacity: 0;"><div class="az-element az-icon "><i class="az-icon-content fal fa-rocket fa-2x  undefined undefined fa-spin  " style="color:#9de8fa;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gbacp4fx5h" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbacp4fx5h" data-azat-pid="gb1gjjuxif" id="gb1gjjuxif" data-azb="az_icon" data-azat-icon="fal fa-moon" data-azat-size="fa-5x" data-azat-link="#" data-azat-link_target="_self" data-azat-an_start="appear" data-azat-an_in="fadeInUpBig" data-azat-an_hidden="before_in" data-azat-an_duration="1200" data-azat-style="color:#f4f1a3;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="38.10526315789474%" data-azat-pos_top="39.950372208436725%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 38.1053%; top: 39.9504%; width: 17.2632%; height: 22.3325%; opacity: 1;"><div class="az-element az-icon "><i class="az-icon-content fal fa-moon fa-5x  undefined undefined   " style="color:#f4f1a3;color: undefined;background-color: undefined;"></i></div></a><a href="#" class="az-element az-icon hover-style-gbp5fiutfi" target="_self" data-dxpr-builder-libraries="icon_helpers font_awesome_5_pro" data-az-id="gbp5fiutfi" data-azat-pid="gbcg09davk" id="gbcg09davk" data-azb="az_icon" data-azat-icon="fal fa-star" data-azat-size="fa-4x" data-azat-link="#" data-azat-link_target="_self" data-azat-style="color:gold;" data-azat-hover_style="color:#ffffff !important;" data-azat-pos_left="29.05263157894737%" data-azat-pos_top="70.22332506203473%" data-azat-pos_width="17.263157894736842%" data-azat-pos_height="22.332506203473944%" style="z-index: 0; position: relative; left: 29.0526%; top: 70.2233%; width: 17.2632%; height: 22.3325%;"><div class="az-element az-icon "><i class="az-icon-content fal fa-star fa-4x  undefined undefined   " style="color:gold;color: undefined;background-color: undefined;"></i></div></a></div></div></div></div>'
+      format: full_html
+      summary: ''

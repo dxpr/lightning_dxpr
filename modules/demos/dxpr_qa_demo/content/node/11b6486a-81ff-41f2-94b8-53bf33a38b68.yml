@@ -19,7 +19,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Page Templates'
+      value: 'Page Template'
   created:
     -
       value: 1603368104
@@ -39,7 +39,7 @@ default:
     -
       alias: ''
       langcode: en
-      pathauto: 1
+      pathauto: 0
   content_translation_source:
     -
       value: und

@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b538a6d0-2c1b-4fdd-8487-72c6a9e92cb7
+  bundle: image
+  default_langcode: en
+  depends:
+    c57ca485-c634-4d2f-9604-85464463645c: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'in review'
+  created:
+    -
+      value: 1604915142
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: c57ca485-c634-4d2f-9604-85464463645c
+      alt: ''
+      title: ''
+      width: 552
+      height: 190
+  field_media_in_library:
+    -
+      value: true

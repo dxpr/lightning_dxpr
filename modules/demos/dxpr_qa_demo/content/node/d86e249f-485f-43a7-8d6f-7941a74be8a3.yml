@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d86e249f-485f-43a7-8d6f-7941a74be8a3
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: smurf
+  created:
+    -
+      value: 1605528449
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /smurf
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<div class=\"az-element az-section\" style=\"background-image: url(/qa-demo/docroot/sites/default/files/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7); background-image: \n linear-gradient(\n 180deg,\n rgba( 40, 78, 217, 0.436 ) 0%,\n rgba( 5, 233, 147, 0.442 ) 100%)\n ;\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbz9fty40x\" data-azat-pid=\"gbz9fty40x\" id=\"gbz9fty40x\" data-azb=\"az_section\" data-azat-effect=\"gradient\" data-azat-gradient_start_color=\"rgba( 40, 78, 217, 0.436 )\" data-azat-gradient_end_color=\"rgba( 5, 233, 147, 0.442 )\" data-azat-style=\"background-image: url(/qa-demo/docroot/sites/default/files/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);\"><div class=\"az-ctnr container\" data-azcnt=\"true\"></div></div><script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"/qa-demo/docroot/modules/contrib/dxpr_builder_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
+      format: full_html
+      summary: ''
+  field_dth_hide_regions:
+    -
+      value: navigation
+    -
+      value: secondary_header
+    -
+      value: page_title
+    -
+      value: slider
+    -
+      value: header
+    -
+      value: content_top
+    -
+      value: content_bottom
+    -
+      value: sidebar_first
+    -
+      value: sidebar_second
+    -
+      value: footer

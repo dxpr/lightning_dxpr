@@ -1,0 +1,34 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ca10d8be-a85b-411b-b348-5e8bc63c0c2a
+  bundle: image
+  default_langcode: en
+  depends:
+    e62f1b3b-0c8b-4d3f-93fb-046b6e623439: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: plant
+  created:
+    -
+      value: 1605802258
+  revision_translation_affected:
+    -
+      value: true
+  field_media_image:
+    -
+      entity: e62f1b3b-0c8b-4d3f-93fb-046b6e623439
+      alt: ''
+      title: ''
+      width: 1600
+      height: 1089
+  field_media_in_library:
+    -
+      value: true

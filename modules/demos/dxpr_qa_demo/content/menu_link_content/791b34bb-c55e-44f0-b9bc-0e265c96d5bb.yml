@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 791b34bb-c55e-44f0-b9bc-0e265c96d5bb
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f08ad53e-e50f-4dd0-8b83-6086b0c25a40: menu_link_content
+    eea85477-2f31-4766-8ad8-fe071d067d9b: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Section Background Video part 7'
+  menu_name:
+    -
+      value: secondary-navigation
+  link:
+    -
+      target_uuid: eea85477-2f31-4766-8ad8-fe071d067d9b
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -44
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:f08ad53e-e50f-4dd0-8b83-6086b0c25a40'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1605270152
