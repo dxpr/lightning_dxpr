@@ -18,7 +18,6 @@ dependencies:
   - dxpr_builder_block:dxpr_builder_block
   - dxpr_builder_page:dxpr_builder_page
   - dxpr_theme_helper:dxpr_theme_helper
-  - webform.webform.webform_test
 config_devel:
   install:
     - block.block.basicfooter
@@ -28,12 +27,13 @@ config_devel:
     - dxpr_builder.settings
     - dxpr_builder_e.dxpr_builder_e_profile.editor
     - dxpr_theme.settings
-    - views.view.qa_views
-    - workflows.workflow.editorial
     - language.entity.ar
-    - language.entity.en
     - language.entity.ar
     - pathauto.pattern.drag_and_drop_page
+    - system.menu.secondary-navigation
+    - views.view.qa_views
+    - webform.webform.webform_test
+    - workflows.workflow.editorial
 default_content:
   block_content:
     - 33644f9c-e6d7-4f18-b11f-3bfc160beaf9
