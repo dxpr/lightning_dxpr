@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 67e200b7-8dac-4821-bc24-9ede65e65d57
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: man-working-macbook-dxpr-builder-icon-selector.jpg
+  uri:
+    -
+      value: 'public://2020-11/man-working-macbook-dxpr-builder-icon-selector.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1435787
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1605801419

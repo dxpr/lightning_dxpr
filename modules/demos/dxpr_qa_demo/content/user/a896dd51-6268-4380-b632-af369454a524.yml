@@ -15,9 +15,7 @@ default:
       value: editor2
   pass:
     -
-      value: $S$Eg7Q/Ueen8ruB3H0ARSbljPdxK/6K4P0sO1jeiQNrE.HYY3txayo
-      existing: ''
-      pre_hashed: false
+      value: editor2
   mail:
     -
       value: editor2@dxpr.com

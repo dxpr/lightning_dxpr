@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e62f1b3b-0c8b-4d3f-93fb-046b6e623439
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: photo-1487700160041-babef9c3cb55.jpg
+  uri:
+    -
+      value: 'public://2020-11/photo-1487700160041-babef9c3cb55.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42436
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1605802258
