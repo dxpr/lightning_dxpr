@@ -1,0 +1,9 @@
+uuid: fed21a8b-e4f0-49b4-945c-b2fc77c588d8
+langcode: en
+status: true
+dependencies: {  }
+id: nl
+label: Dutch
+direction: ltr
+weight: 1
+locked: false

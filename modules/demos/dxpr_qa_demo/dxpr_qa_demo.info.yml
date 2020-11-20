@@ -28,7 +28,7 @@ config_devel:
     - dxpr_builder_e.dxpr_builder_e_profile.editor
     - dxpr_theme.settings
     - language.entity.ar
-    - language.entity.ar
+    - language.entity.nl
     - pathauto.pattern.drag_and_drop_page
     - system.menu.secondary-navigation
     - views.view.qa_views
@@ -38,6 +38,17 @@ default_content:
   block_content:
     - 33644f9c-e6d7-4f18-b11f-3bfc160beaf9
     - 975f4a06-92f7-4ec8-a4a9-23e75174d2b8
+  file:
+    - 94cd2ca9-97a9-470a-bad7-4ff520787b47
+    - ea7c27e6-219d-4358-af89-e1066ea4155c
+    - 26b7df18-d2d7-42e3-99a6-6aa38c48737d
+    - 936ab28b-d08d-40d0-8898-366954af97de
+    - 00a69af1-a347-437b-b510-a55deb093c01
+    - 6f238e66-8a88-4a2d-9aee-690235bd2acf
+    - 9739b4f1-f0c1-4b6e-af67-36a8660f2018
+    - 1c15e8b1-6097-425e-9a95-7022d9ede2be
+    - 67e200b7-8dac-4821-bc24-9ede65e65d57
+    - e62f1b3b-0c8b-4d3f-93fb-046b6e623439
   node:
     - 01984e0a-f947-4e23-8c52-359c5fe0efd1
     - 082d57d5-9e3d-4f85-8fee-8a21b83a9e23

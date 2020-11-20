@@ -1,7 +1,7 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://localhost/qa-demo/docroot/themes/contrib/dxpr_theme/favicon.ico'
+  url: 'http://localhost-base-url-/themes/contrib/dxpr_theme/favicon.ico'
   use_default: 1
 schemas:
   bootstrap: 8000
