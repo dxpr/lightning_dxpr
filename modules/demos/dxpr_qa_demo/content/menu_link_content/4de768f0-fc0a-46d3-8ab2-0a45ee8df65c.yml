@@ -12,7 +12,7 @@ default:
       value: true
   title:
     -
-      value: Introduction
+      value: Tour
   menu_name:
     -
       value: main

@@ -19,7 +19,7 @@ default:
       target_id: 1
   title:
     -
-      value: Introduction
+      value: Tour
   created:
     -
       value: 1605253569
@@ -37,7 +37,7 @@ default:
       value: published
   path:
     -
-      alias: /introduction
+      alias: /tour
       langcode: en
       pathauto: 1
   content_translation_source:
