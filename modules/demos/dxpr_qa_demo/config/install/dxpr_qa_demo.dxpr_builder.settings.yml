@@ -1,5 +1,5 @@
 offset_selector: '.dxpr-theme-header--sticky, .dxpr-theme-header--fixed'
-bootstrap: '2'
+bootstrap: '0'
 cke_fonts: 'Myriad, Calibri/myriad pro",myriad,calibri,arial,tahoma,verdana,sans-serif'
 cke_stylesset: Lead=p.lead
 development: 0
