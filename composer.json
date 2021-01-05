@@ -21,20 +21,6 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": [
-      {
-            "type": "package",
-            "package": {
-                "name": "ckeditor/fakeobjects",
-                "version": "4.15.1",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.15.1.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    ],
     "require": {
         "acquia/lightning": "^5.0",
         "ckeditor/fakeobjects": "^4.6",
