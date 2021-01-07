@@ -1,0 +1,24 @@
+name: "Trigger downstream"
+
+on:
+  push:
+
+jobs:
+  trigger-lightning_dxpr_project-exec-composer-install:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+    steps:
+    - name: Configure for the trigger
+      id: trigger-config
+      run: |
+        PAYLOAD="{\
+        \"repository\": {\"GITHUB_REF\": \"$GITHUB_REF\", \"GITHUB_SHA\": \"$GITHUB_SHA\"}\
+        }"
+        echo "::set-output name=payload::$PAYLOAD"
+
+    - uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.SM_GH_PAT }}
+        event-type: exec-composer-install
+        client-payload: ${{ steps.trigger-config.outputs.payload }}
+        repository: ${{ github.repository_owner }}/lightning_dxpr_project
