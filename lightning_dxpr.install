@@ -14,4 +14,9 @@ function lightning_dxpr_install() {
   $settings = \Drupal::configFactory()->getEditable('system.performance');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
+
+  $cfg = \Drupal::configFactory()->getEditable('lightning_dxpr.gin.settings');
+  $settings = \Drupal::configFactory()->getEditable('gin.settings');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
 }
