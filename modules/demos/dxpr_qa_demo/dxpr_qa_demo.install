@@ -6,6 +6,31 @@ function dxpr_qa_demo_install() {
   $settings = \Drupal::configFactory()->getEditable('dxpr_theme.settings');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.bootstrap4.settings');
+  $settings = \Drupal::configFactory()->getEditable('bootstrap4.settings');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_account_menu');
+  $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_account_menu');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_branding');
+  $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_branding');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_account_footer');
+  $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_account_footer');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_powered_by_drupal');
+  $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_powered_by_drupal');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_search_form');
+  $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_search_form');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
 
   $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.dxpr_builder.settings');
   $settings = \Drupal::configFactory()->getEditable('dxpr_builder.settings');

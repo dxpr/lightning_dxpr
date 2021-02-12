@@ -12,6 +12,7 @@ distribution:
 install:
   - color
   - field_group
+  - gin_toolbar
   - dxpr_theme_helper
   - search
   - webform
@@ -19,9 +20,11 @@ install:
   - footnotes
 
 themes:
-  - dxpr_theme
   - bootstrap
+  - bootstrap4
   - claro
+  - dxpr_theme
+  - gin
 
 exclude:
   - lightning_api
