@@ -27,7 +27,6 @@
         "drupal/better_normalizers": "1.0-beta4",
         "drupal/bootstrap": "^3.0",
         "drupal/bootstrap4": "^2.0",
-        "drupal/bootstrap4": "^1.0",
         "drupal/default_content": "2.0.0-alpha1",
         "drupal/dxpr_theme": "^1.0",
         "drupal/dxpr_theme_helper": "^1.0",
