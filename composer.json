@@ -79,7 +79,7 @@
         },
         "patches": {
             "drupal/gin_toolbar": {
-                "3181937 - Remove dialog libraries": "https://www.drupal.org/files/issues/2021-02-16/3181937-diffs.patch.txt"
+                "3181937 - Remove dialog libraries": "https://www.drupal.org/files/issues/2021-02-17/3181937-diffs.patch"
             }
         }
     }
