@@ -1,7 +1,7 @@
 {
     "name": "dxpr/lightning_dxpr",
     "type": "drupal-profile",
-    "description": "DXPR Drupal Marketing Technology configured with the Acquia Lightning distribution..",
+    "description": "Drupal distribution with DXPR Marketing features, based on Acquia Lightning distribution",
     "license": "GPL-2.0-or-later",
     "keywords": [
         "DXPR",
