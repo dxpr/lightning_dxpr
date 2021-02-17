@@ -22,6 +22,7 @@
         }
     ],
     "require": {
+        "cweagans/composer-patches": "^1.6",
         "acquia/lightning": "^5.0",
         "ckeditor/fakeobjects": "^4.6",
         "drupal/better_normalizers": "1.0-beta4",
