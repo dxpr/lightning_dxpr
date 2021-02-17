@@ -13,7 +13,6 @@ dependencies:
   - default_content:default_content
   - better_normalizers:better_normalizers
   - example_dxpr:example_dxpr
-  - footnotes:footnotes
   - dxpr_builder_e:dxpr_builder_e
   - dxpr_builder_block:dxpr_builder_block
   - dxpr_builder_page:dxpr_builder_page
@@ -76,7 +75,6 @@ default_content:
     - 50870669-5c4e-4ae5-a8a8-fa91c821b21c
     - 5260cc18-c2fb-4603-9d09-c417ee28900d
     - 538e086a-5854-46b7-aaf0-4671bda087c3
-    - 6a369b3b-4986-439f-8e23-51054935a64e
     - 7231632a-7c7d-4291-96de-2c43142a5d05
     - 78f83c47-9bbb-440a-9dcd-45408282306d
     - 79929820-ddff-4c24-bccd-a3f429de444f
