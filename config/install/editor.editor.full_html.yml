@@ -47,7 +47,6 @@ settings:
           items:
             - ShowBlocks
             - Source
-            - footnotes
   plugins:
     stylescombo:
       styles: ''

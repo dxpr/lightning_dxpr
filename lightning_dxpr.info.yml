@@ -17,7 +17,6 @@ install:
   - search
   - webform
   - webform_ui
-  - footnotes
 
 themes:
   - bootstrap
