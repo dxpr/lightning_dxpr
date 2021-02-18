@@ -34,7 +34,7 @@
         "drupal/field_group": "^3.0",
         "drupal/gin": "^3.0",
         "drupal/gin_toolbar": "^1.0",
-        "drupal/webform": "6.0.0-alpha12",
+        "drupal/webform": "^6.0",
         "dxpr/dxpr_builder": "^1.0"
     },
     "extra": {
