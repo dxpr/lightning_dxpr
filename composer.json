@@ -23,7 +23,7 @@
     ],
     "require": {
         "cweagans/composer-patches": "^1.6",
-        "dxpr/lightning": "~5.1.8",
+        "dxpr/lightning": "~5.2.6",
         "ckeditor/fakeobjects": "^4.6",
         "drupal/better_normalizers": "1.0-beta4",
         "drupal/bootstrap": "^3.0",
