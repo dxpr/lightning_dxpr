@@ -1,3 +1,5 @@
+a271ef9
+
 # Drupal Lightning DXPR 
 
 Lightning DXPR is a Drupal 9 installation profile that empowers your entire organization to build and maintain your digital experience effectively. 
