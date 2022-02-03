@@ -16,9 +16,6 @@ default:
   filemime:
     -
       value: image/jpeg
-  filesize:
-    -
-      value: 17027
   status:
     -
       value: true

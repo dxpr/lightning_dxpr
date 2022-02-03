@@ -16,9 +16,6 @@ default:
   filemime:
     -
       value: text/css
-  filesize:
-    -
-      value: 7148
   status:
     -
       value: true
