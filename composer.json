@@ -81,6 +81,9 @@
             },
             "drupal/default_content": {
                 "3219859 - Remove PHP min. version requirement": "https://www.drupal.org/files/issues/2021-06-21/3219859-remove-php-version-requirement.patch"
+            },
+            "drupal/core": {
+                "1650930 - Use READ COMMITTED by default for MySQL transactions": "https://www.drupal.org/files/issues/2021-10-12/1650930-140.patch"
             }
         }
     }
