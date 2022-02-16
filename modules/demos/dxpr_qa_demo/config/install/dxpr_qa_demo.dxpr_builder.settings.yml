@@ -1,8 +1,8 @@
 offset_selector: '.dxpr-theme-header--sticky, .dxpr-theme-header--fixed'
-bootstrap: '0'
+bootstrap: 0
 cke_fonts: 'Myriad, Calibri/myriad pro",myriad,calibri,arial,tahoma,verdana,sans-serif'
-cke_stylesset: Lead=p.lead
-development: 0
-format_filters: 0
-record_analytics: 1
-media_browser: image_browser
+cke_stylesset: 'Lead=p.lead'
+development: false
+format_filters: false
+media_browser: false
+record_analytics: true
