@@ -6,3 +6,4 @@ development: false
 format_filters: false
 media_browser: false
 record_analytics: true
+notifications: true
