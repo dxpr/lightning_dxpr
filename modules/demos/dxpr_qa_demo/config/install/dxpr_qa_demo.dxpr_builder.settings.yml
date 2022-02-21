@@ -4,6 +4,6 @@ cke_fonts: 'Myriad, Calibri/myriad pro",myriad,calibri,arial,tahoma,verdana,sans
 cke_stylesset: 'Lead=p.lead'
 development: false
 format_filters: false
-media_browser: false
+media_browser: 'image_browser'
 record_analytics: true
 notifications: true
