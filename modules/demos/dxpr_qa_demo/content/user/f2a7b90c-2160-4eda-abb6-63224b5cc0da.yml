@@ -15,9 +15,7 @@ default:
       value: editor1
   pass:
     -
-      value: $S$EU.KQLWai18Vk8X5UPS1KLc8mk3I810fcvK05mJ9a.mBH5MD7L/w
-      existing: ''
-      pre_hashed: false
+      value: editor1
   mail:
     -
       value: editor1@dxpr.com
@@ -54,8 +52,3 @@ default:
       target_id: drag_and_drop_page_creator
     -
       target_id: drag_and_drop_page_reviewer
-  path:
-    -
-      alias: ''
-      langcode: en
-      pathauto: 1

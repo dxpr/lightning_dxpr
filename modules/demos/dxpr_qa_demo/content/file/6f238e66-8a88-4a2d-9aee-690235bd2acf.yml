@@ -12,13 +12,10 @@ default:
       value: tim-stief-YFFGkE3y4F8-unsplash.jpg
   uri:
     -
-      value: 'public://2020-10/tim-stief-YFFGkE3y4F8-unsplash_0.jpg'
+      value: 'public://2020-10/tim-stief-YFFGkE3y4F8-unsplash.jpg'
   filemime:
     -
       value: image/jpeg
-  filesize:
-    -
-      value: 548826
   status:
     -
       value: true

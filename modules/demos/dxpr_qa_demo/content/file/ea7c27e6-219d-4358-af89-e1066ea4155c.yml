@@ -12,13 +12,10 @@ default:
       value: bantersnaps-8n-3h1WkaQk-unsplash.jpg
   uri:
     -
-      value: 'public://2020-10/bantersnaps-8n-3h1WkaQk-unsplash_0_0.jpg'
+      value: 'public://2020-10/bantersnaps-8n-3h1WkaQk-unsplash_0.jpg'
   filemime:
     -
       value: image/jpeg
-  filesize:
-    -
-      value: 230203
   status:
     -
       value: true

@@ -37,9 +37,14 @@ default:
       value: published
   path:
     -
-      alias: /page-template
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb8w60l1ot" data-azat-pid="gbfnupaq7n" id="gbfnupaq7n" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb3t1niu53" data-azat-pid="gbunarq6c3" id="gbunarq6c3" data-azb="az_text" data-azcnt="true"><h2>Test Page Templates Feature</h2><ol><li>In the empty block below click the "CHOOSE A TEMPLATE" button</li><li>Click the image labeled "Split Content and Buttons"</li><li>Check that the page templates displays correctly in the below block</li></ol></div></div></div>'

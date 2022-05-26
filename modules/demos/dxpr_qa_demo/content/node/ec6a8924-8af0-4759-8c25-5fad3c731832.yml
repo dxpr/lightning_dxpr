@@ -37,9 +37,14 @@ default:
       value: published
   path:
     -
-      alias: /custom-html-id-and-classes
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-az-id="gbpfyw41dw" data-azat-pid="gbpfyw41dw" id="gbpfyw41dw" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text test-custom-html-class" style="" data-az-id="gb9jrqjr5a" data-azat-pid="test-custom-html-id" id="test-custom-html-id" data-azb="az_text" data-azat-hash="test-custom-html-id" data-azat-el_class="test-custom-html-class" data-azcnt="true"><h2>This text element should have the HTML ID&nbsp;<em>test-custom-html-id&nbsp;</em>and the HTML Class&nbsp;<em>test-custom-html-class</em>&nbsp;</h2></div></div></div>'

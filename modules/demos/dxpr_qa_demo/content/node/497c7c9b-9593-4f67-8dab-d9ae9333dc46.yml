@@ -37,9 +37,14 @@ default:
       value: published
   path:
     -
-      alias: /text-editor-customization
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb4fvktnn4" data-azat-pid="gbuk08xiff" id="gbuk08xiff" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbgfhvpmen" data-azat-pid="gbq4l1kafy" id="gbq4l1kafy" data-azb="az_text" data-azcnt="true"><h2>Test Text Editor Settings Override</h2><ol><li>Click this text to make the inline editor show</li><li>Check the "warning text" is the only option in the Styles dropdown</li></ol></div></div></div>'

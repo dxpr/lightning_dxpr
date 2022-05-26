@@ -12,13 +12,10 @@ default:
       value: man-working-macbook-dxpr-builder-icon-selector.jpg
   uri:
     -
-      value: 'public://2020-11/man-working-macbook-dxpr-builder-icon-selector_0.jpg'
+      value: 'public://2020-11/man-working-macbook-dxpr-builder-icon-selector.jpg'
   filemime:
     -
       value: image/jpeg
-  filesize:
-    -
-      value: 536121
   status:
     -
       value: true

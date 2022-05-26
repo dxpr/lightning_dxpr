@@ -37,9 +37,14 @@ default:
       value: published
   path:
     -
-      alias: /filters-support
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbfb56tn97" data-azat-pid="gbpoyzzb1q" id="gbpoyzzb1q" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbyml7ohoi" data-azat-pid="gbwzthe44c" id="gbwzthe44c" data-azb="az_text" data-azcnt="true"><h2>Drupal <em>Text Format</em> Output Filters</h2><p><strong>Testing</strong></p><p>test<fn value="test">test</fn></p><p><em>@todo  update this page as we threw out the footnotes module which is dated and throwing errors in D9</em></p><p><strong>Background information</strong></p><p>DXPR Builder<fn value="https://dxpr.com/drupal-layout-builder">1</fn> supports Drupal''s filters. Filters are defined at "<em>Administration &gt; Configuration &gt; Content authoring &gt; Text formats and editors &gt; Configure &gt; Enabled filters</em>". By default DXPR Builder enabled fields ignore all content filters. This is done to prevent confusion about filters not working or partially working.&nbsp;</p><p>Some filters, like loading media objects or displaying footnotes, will not work at all when the DXPR Builder editor is active. For anonymous users these filters can work because the DXPR Builder will not be active for these users.</p><p>In order to make these filters work you have to enable the option at "<em>Administration &gt; Configuration &gt; Content authoring &gt; DXPR Builder Settings &gt; Text Format Filters</em>". The reason we disable this by default is that it can be confusing to editors to not have the filters work while the editor is active, and work fine when the editor is not active.</p></div></div></div>'

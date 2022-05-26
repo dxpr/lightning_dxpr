@@ -40,13 +40,14 @@ default:
       alias: /section-background-video-part-2
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
-      value: |
-        <div class="az-element az-text" style="" data-az-id="gbt7qa0iey" data-azat-pid="gb2wte0g71" id="gb2wte0g71" data-azb="az_text" data-azcnt="true"><h2>"Background effect" set to YouTube video and setting "Disable on mobile devices" enabled</h2></div><div class="az-element az-section mb_YTPlayer" style="" data-dxpr-builder-libraries="ytplayer" data-az-id="gbh9i71f2g" data-azat-pid="gbniffqe4d" id="gbniffqe4d" data-azb="az_section" data-azat-effect="youtube" data-azat-video_options="disMobile" data-azat-video_youtube="https://www.youtube.com/watch?v=64R2MYUt394" data-property="{videoURL:'64R2MYUt394',containment:'[data-az-id=gbh9i71f2g]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:false, mute:false, optimizeDisplay:true, startAt:0, stopAt:0, useOnMobile:false, showYTLogo:false, isStandAlonePlayer: false}"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="padding-top:200px;padding-bottom:200px;" data-az-id="gb2vlgj562" data-azat-pid="gbn50op4d6" id="gbn50op4d6" data-azb="az_text" data-azat-style="padding-top:200px;padding-bottom:200px;" data-azcnt="true"><h2><span style="color:#ffffff;">Section background test</span></h2></div></div></div><link rel="stylesheet" type="text/css" href="-base-url-/-module-directory-/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/css/jquery.mb.YTPlayer.min.css">
-        <script src="-base-url-/-module-directory-/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/jquery.mb.YTPlayer.min.js"></script>
-        <script src="-base-url-/-module-directory-/dxpr_builder/vendor/jquery.waypoints/lib/jquery.waypoints.min.js"></script>
-        <script src="-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js"></script>
-        <script src="-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js"></script>
+      value: "<div class=\"az-element az-text\" style=\"\" data-az-id=\"gbt7qa0iey\" data-azat-pid=\"gb2wte0g71\" id=\"gb2wte0g71\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>\"Background effect\" set to YouTube video and setting \"Disable on mobile devices\" enabled</h2></div><div class=\"az-element az-section mb_YTPlayer\" style=\"\" data-dxpr-builder-libraries=\"ytplayer\" data-az-id=\"gbh9i71f2g\" data-azat-pid=\"gbniffqe4d\" id=\"gbniffqe4d\" data-azb=\"az_section\" data-azat-effect=\"youtube\" data-azat-video_options=\"disMobile\" data-azat-video_youtube=\"https://www.youtube.com/watch?v=64R2MYUt394\" data-property=\"{videoURL:'64R2MYUt394',containment:'[data-az-id=gbh9i71f2g]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:false, mute:false, optimizeDisplay:true, startAt:0, stopAt:0, useOnMobile:false, showYTLogo:false, isStandAlonePlayer: false}\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"padding-top:200px;padding-bottom:200px;\" data-az-id=\"gb2vlgj562\" data-azat-pid=\"gbn50op4d6\" id=\"gbn50op4d6\" data-azb=\"az_text\" data-azat-style=\"padding-top:200px;padding-bottom:200px;\" data-azcnt=\"true\"><h2><span style=\"color:#ffffff;\">Section background test</span></h2></div></div></div><link rel=\"stylesheet\" type=\"text/css\" href=\"-base-url-/-module-directory-/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/css/jquery.mb.YTPlayer.min.css\">\n<script src=\"-base-url-/-module-directory-/dxpr_builder/vendor/jquery.mb.YTPlayer/dist/jquery.mb.YTPlayer.min.js\"></script>\n<script src=\"-base-url-/-module-directory-/dxpr_builder/vendor/jquery.waypoints/lib/jquery.waypoints.min.js\"></script>\n<script src=\"-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
       format: ''
       summary: ''
