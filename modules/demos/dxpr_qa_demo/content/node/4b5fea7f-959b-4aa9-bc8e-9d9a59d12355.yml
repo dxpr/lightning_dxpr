@@ -37,13 +37,16 @@ default:
       value: review
   path:
     -
-      alias: /workflow-support
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
-      value: |
-        <div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbfivedccs" data-azat-pid="gbysopmblu" id="gbysopmblu" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-row row az-row--sm" style="" data-az-id="gbfi23xqr8" data-azat-pid="gburua0bjs" id="gburua0bjs" data-azb="az_row" data-azat-device="sm" data-azcnt="true"><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbhae47apj" data-azat-pid="gbhw4jhs88" id="gbhw4jhs88" data-azb="az_column" data-azat-width="1/2" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbtgojfjg7" data-azat-pid="gbgxjdogap" id="gbgxjdogap" data-azb="az_text" data-azcnt="true"><h2>Test Editorial Workflow</h2><ol><li>Check in the toolbar that this content is in "In Review" state</li><li>Edit and save this content with DXPR Builder</li><li>Reload this page and check that the content is updated but still in "In Review" state</li></ol><p><br></p></div></div><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbj1q16b9s" data-azat-pid="gbcqj7913c" id="gbcqj7913c" data-azb="az_column" data-azat-width=" 1/2" data-azcnt="true"><div class="az-element az-image" data-az-id="gbc4gkl4t8" data-azat-pid="gbphy2qc99" id="gbphy2qc99" data-azb="az_image" data-azat-image="-base-url-/-files-directory-/2020-11/Screenshot%202020-11-09%20at%2010.45.26.jpg?fid=12" data-azat-height=""><img class="az-image-content" style="width: 100%;" src="-base-url-/-files-directory-/2020-11/Screenshot%202020-11-09%20at%2010.45.26.jpg?fid=12" alt="" title=""></div></div></div></div></div><script src="-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js"></script>
-        <script src="-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js"></script>
+      value: "<div class=\"az-element az-section\" style=\"\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbfivedccs\" data-azat-pid=\"gbysopmblu\" id=\"gbysopmblu\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gbfi23xqr8\" data-azat-pid=\"gburua0bjs\" id=\"gburua0bjs\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbhae47apj\" data-azat-pid=\"gbhw4jhs88\" id=\"gbhw4jhs88\" data-azb=\"az_column\" data-azat-width=\"1/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbtgojfjg7\" data-azat-pid=\"gbgxjdogap\" id=\"gbgxjdogap\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test Editorial Workflow</h2><ol><li>Check in the toolbar that this content is in \"In Review\" state</li><li>Edit and save this content with DXPR Builder</li><li>Reload this page and check that the content is updated but still in \"In Review\" state</li></ol><p><br></p></div></div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbj1q16b9s\" data-azat-pid=\"gbcqj7913c\" id=\"gbcqj7913c\" data-azb=\"az_column\" data-azat-width=\" 1/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"gbc4gkl4t8\" data-azat-pid=\"gbphy2qc99\" id=\"gbphy2qc99\" data-azb=\"az_image\" data-azat-image=\"-base-url-/-files-directory-/2020-11/Screenshot%202020-11-09%20at%2010.45.26.jpg?fid=12\" data-azat-height=\"\"><img class=\"az-image-content\" style=\"width: 100%;\" src=\"-base-url-/-files-directory-/2020-11/Screenshot%202020-11-09%20at%2010.45.26.jpg?fid=12\" alt=\"\" title=\"\"></div></div></div></div></div><script src=\"-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
       format: full_html
       summary: ''

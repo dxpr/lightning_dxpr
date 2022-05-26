@@ -37,13 +37,16 @@ default:
       value: published
   path:
     -
-      alias: /jumbotron
       langcode: en
       pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
   body:
     -
-      value: |-
-        <div class="az-element az-section" style="" data-az-id="gbs96ivcb7" data-azat-pid="gbs96ivcb7" id="gbs96ivcb7" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-ctnr az-jumbotron jumbotron" style="" data-az-id="gbn553cupd" data-azat-pid="gbn553cupd" id="gbn553cupd" data-azb="az_jumbotron" data-azcnt="true">
-                <div class="az-element az-text" style="" data-az-id="gbr3r4tl65" data-azat-pid="gbr3r4tl65" id="gbr3r4tl65" data-azb="az_text" data-azcnt="true"><h2>Jumbotron with default settings</h2><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div></div></div>
+      value: "<div class=\"az-element az-section\" style=\"\" data-az-id=\"gbs96ivcb7\" data-azat-pid=\"gbs96ivcb7\" id=\"gbs96ivcb7\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-jumbotron jumbotron\" style=\"\" data-az-id=\"gbn553cupd\" data-azat-pid=\"gbn553cupd\" id=\"gbn553cupd\" data-azb=\"az_jumbotron\" data-azcnt=\"true\">\n        <div class=\"az-element az-text\" style=\"\" data-az-id=\"gbr3r4tl65\" data-azat-pid=\"gbr3r4tl65\" id=\"gbr3r4tl65\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Jumbotron with default settings</h2><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div></div></div>"
       format: ''
       summary: ''

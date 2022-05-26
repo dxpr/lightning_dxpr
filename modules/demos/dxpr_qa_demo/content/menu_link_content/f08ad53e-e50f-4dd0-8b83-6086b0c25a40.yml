@@ -5,6 +5,7 @@ _meta:
   bundle: menu_link_content
   default_langcode: en
   depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
     8d3b92eb-58ca-4118-90d5-7bb448553687: node
 default:
   enabled:
@@ -34,5 +35,14 @@ default:
     -
       value: true
   revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_status:
     -
       value: true
