@@ -34,14 +34,9 @@ default:
       value: published
   path:
     -
+      alias: /dxpr-builder-features
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '&nbsp;'

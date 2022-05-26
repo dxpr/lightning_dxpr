@@ -23,12 +23,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbb1ik6eqf" data-azat-pid="gb9vt7hn2s" id="gb9vt7hn2s" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbzabdjdmd" data-azat-pid="gbdgfsnw95" id="gbdgfsnw95" data-azb="az_text" data-azcnt="true"><p style="text-align: center;">Copyright DXPR 2020+</p></div></div></div>'

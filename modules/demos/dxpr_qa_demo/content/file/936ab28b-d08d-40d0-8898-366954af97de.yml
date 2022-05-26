@@ -12,10 +12,13 @@ default:
       value: filip-bunkens-R5SrmZPoO40-unsplash.jpg
   uri:
     -
-      value: 'public://2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg'
+      value: 'public://2020-10/filip-bunkens-R5SrmZPoO40-unsplash_0.jpg'
   filemime:
     -
       value: image/jpeg
+  filesize:
+    -
+      value: 338058
   status:
     -
       value: true

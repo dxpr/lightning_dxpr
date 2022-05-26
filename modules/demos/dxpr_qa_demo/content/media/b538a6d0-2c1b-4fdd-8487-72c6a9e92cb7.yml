@@ -22,6 +22,11 @@ default:
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: /media/image/8
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: c57ca485-c634-4d2f-9604-85464463645c

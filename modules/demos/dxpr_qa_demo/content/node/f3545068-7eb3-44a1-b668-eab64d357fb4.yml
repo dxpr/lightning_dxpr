@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /translation-support-pt-2
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbzrtej7z3" data-azat-pid="gbr4a2hfju" id="gbr4a2hfju" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbiznuyv4r" data-azat-pid="gbh254zwu6" id="gbh254zwu6" data-azb="az_text" data-azcnt="true"><h2>Multilingual content test</h2><ol><li>Edit and save the default (English) version of this content with DXPR Builder</li><li>Reload the page</li><li>Check that your edits are visible</li><li>Use the language menu in the header to check that the Dutch and Arabic translations are not updated and still contain content in these respective languages&nbsp;</li></ol></div></div></div>'
@@ -64,6 +59,15 @@ translations:
     created:
       -
         value: 1604915264
+    promote:
+      -
+        value: true
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
     moderation_state:
       -
         value: published
@@ -72,12 +76,6 @@ translations:
         alias: ''
         langcode: nl
         pathauto: 1
-    content_translation_source:
-      -
-        value: en
-    content_translation_outdated:
-      -
-        value: false
     body:
       -
         value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbbj7vetme" data-azat-pid="gbr4a2hfju" id="gbr4a2hfju" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb370b8z4z" data-azat-pid="gbh254zwu6" id="gbh254zwu6" data-azb="az_text" data-azcnt="true"><h2>Nederlands</h2><p><br></p><ul><li>Bewerk en bewaar de standaard (Engelse) versie van deze tekst met DXPR Builder</li><li>Herlaad de pagina</li><li>Controleer of uw bewerkingen zichtbaar zijn</li><li>Gebruik het taalmenu bovenin&nbsp;om te controleren of de Nederlandse en Arabische vertalingen niet zijn bijgewerkt en nog steeds in deze respectievelijke talen bewaard zijn</li></ul></div></div></div>'
@@ -96,6 +94,15 @@ translations:
     created:
       -
         value: 1604915274
+    promote:
+      -
+        value: true
+    sticky:
+      -
+        value: false
+    revision_translation_affected:
+      -
+        value: true
     moderation_state:
       -
         value: published
@@ -104,12 +111,6 @@ translations:
         alias: ''
         langcode: ar
         pathauto: 1
-    content_translation_source:
-      -
-        value: en
-    content_translation_outdated:
-      -
-        value: false
     body:
       -
         value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbx3fqzriv" data-azat-pid="gbr4a2hfju" id="gbr4a2hfju" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb8rkj1cqj" data-azat-pid="gbh254zwu6" id="gbh254zwu6" data-azb="az_text" data-azcnt="true"><h2>Arabic</h2><p>خذ المخاطر. لا شيء يمكن أن يحل محل التجربة<br>تأكد من أن تعديلاتك مرئية<br>استخدم قائمة اللغة في العنوان للتحقق من عدم تحديث الترجمات الهولندية والعربية وما زالت تحتوي<br></p></div></div></div>'

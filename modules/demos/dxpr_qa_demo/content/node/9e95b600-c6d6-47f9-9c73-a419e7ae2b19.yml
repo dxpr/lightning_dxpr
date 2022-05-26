@@ -40,14 +40,15 @@ default:
       alias: /test
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
-      value: "<div class=\"az-element az-section\" style=\"background-image: \n linear-gradient(\n 180deg,\n rgba( 40, 78, 217, 0.586 ) 0%,\n rgba( 5, 233, 147, 0.537 ) 100%)\n , url(-base-url-/-files-directory-/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbk7fnpq3v\" data-azat-pid=\"gbk7fnpq3v\" id=\"gbk7fnpq3v\" data-azb=\"az_section\" data-azat-effect=\"gradient\" data-azat-gradient_start_color=\"rgba( 40, 78, 217, 0.586 )\" data-azat-gradient_end_color=\"rgba( 5, 233, 147, 0.537 )\" data-azat-style=\"background-image: url(-base-url-/-files-directory-/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);\"><div class=\"az-ctnr container\" data-azcnt=\"true\"></div></div><script src=\"-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
+      value: |
+        <div class="az-element az-section" style="background-image: 
+         linear-gradient(
+         180deg,
+         rgba( 40, 78, 217, 0.586 ) 0%,
+         rgba( 5, 233, 147, 0.537 ) 100%)
+         , url(-base-url-/-files-directory-/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);" data-dxpr-builder-libraries="" data-az-id="gbk7fnpq3v" data-azat-pid="gbk7fnpq3v" id="gbk7fnpq3v" data-azb="az_section" data-azat-effect="gradient" data-azat-gradient_start_color="rgba( 40, 78, 217, 0.586 )" data-azat-gradient_end_color="rgba( 5, 233, 147, 0.537 )" data-azat-style="background-image: url(-base-url-/-files-directory-/2020-10/filip-bunkens-R5SrmZPoO40-unsplash.jpg?fid=7);"><div class="az-ctnr container" data-azcnt="true"></div></div><script src="-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js"></script>
+        <script src="-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js"></script>
       format: ''
       summary: ''
