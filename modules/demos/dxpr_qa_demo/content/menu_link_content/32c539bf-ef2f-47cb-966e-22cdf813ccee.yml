@@ -30,7 +30,7 @@ default:
       value: false
   weight:
     -
-      value: -50
+      value: -99
   expanded:
     -
       value: false
