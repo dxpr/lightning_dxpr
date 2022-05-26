@@ -1,25 +1,25 @@
 _meta:
   version: '1.0'
   entity_type: menu_link_content
-  uuid: ebfc77a5-6067-4bb2-9507-d34e87fe8aaf
+  uuid: 32c539bf-ef2f-47cb-966e-22cdf813ccee
   bundle: menu_link_content
   default_langcode: en
   depends:
-    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
-    e39479e5-0864-415f-8c39-83a81041f22d: node
+    f08ad53e-e50f-4dd0-8b83-6086b0c25a40: menu_link_content
+    5dca5120-8dc2-4b2b-8312-1b4a7dc3992b: node
 default:
   enabled:
     -
       value: true
   title:
     -
-      value: 'Countdown Timer'
+      value: 'Section Parallax Backgrounds'
   menu_name:
     -
-      value: main
+      value: secondary-navigation
   link:
     -
-      target_uuid: e39479e5-0864-415f-8c39-83a81041f22d
+      target_uuid: 5dca5120-8dc2-4b2b-8312-1b4a7dc3992b
       title: ''
       options: {  }
   external:
@@ -30,13 +30,13 @@ default:
       value: false
   weight:
     -
-      value: 0
+      value: -50
   expanded:
     -
       value: false
   parent:
     -
-      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+      value: 'menu_link_content:f08ad53e-e50f-4dd0-8b83-6086b0c25a40'
   revision_translation_affected:
     -
       value: true

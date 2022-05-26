@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /global-templates
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbzmvy10id" data-azat-pid="gb7iuu4bsk" id="gb7iuu4bsk" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbedc18vra" data-azat-pid="gbf7zim85i" id="gbf7zim85i" data-azb="az_text" data-azcnt="true"><h2>Test Global Templates.</h2><ol><li>Check that the DXPR Builder Enterprise module is installed</li><li>Click the disk icon on this text element</li><li>Enter a template name, for example "Test Global"</li><li>Check the "Global template" checkbox</li><li>Click Save</li><li>Open a new (Private) browser window</li><li>Log in with editor2:editor2</li><li>Click the + Icon in any DXPR Builder container</li><li>Check that the template you just saved is available for this user</li><li>Click the template and check that it''s contents show in the container</li></ol></div></div></div>'

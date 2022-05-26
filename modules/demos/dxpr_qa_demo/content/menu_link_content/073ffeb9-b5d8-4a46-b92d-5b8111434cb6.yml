@@ -3,7 +3,7 @@ _meta:
   entity_type: menu_link_content
   uuid: 073ffeb9-b5d8-4a46-b92d-5b8111434cb6
   bundle: menu_link_content
-  default_langcode: nl
+  default_langcode: en
   depends:
     43baa380-06ef-4ec8-a187-e49fafde8208: menu_link_content
     26f18523-c6af-472f-ac50-fc20047e2833: node
@@ -40,18 +40,3 @@ default:
   revision_translation_affected:
     -
       value: true
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
-  content_translation_uid:
-    -
-      target_id: 1
-  content_translation_status:
-    -
-      value: true
-  content_translation_created:
-    -
-      value: 1604915050

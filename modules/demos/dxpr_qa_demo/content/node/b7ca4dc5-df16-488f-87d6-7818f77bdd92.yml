@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /blockquote
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-az-id="gbrvgjqtww" data-azat-pid="gbrvgjqtww" id="gbrvgjqtww" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><blockquote class="az-element az-blockquote" style="" data-az-id="gbceiw4kq7" data-azat-pid="gbceiw4kq7" id="gbceiw4kq7" data-azb="az_blockquote" data-azat-cite="John Doe" data-azcnt="true">Blockquote element with Cite field filled out<footer><cite>John Doe</cite></footer></blockquote><blockquote class="az-element az-blockquote" style="" data-az-id="gbf6eznpno" data-azat-pid="gbf6eznpno" id="gbf6eznpno" data-azb="az_blockquote" data-azcnt="true">Blockquote element with default settings</blockquote><blockquote class="az-element az-blockquote blockquote-reverse" style="" data-az-id="gbf2ithnkz" data-azat-pid="gbf2ithnkz" id="gbf2ithnkz" data-azb="az_blockquote" data-azat-reverse="blockquote-reverse" data-azcnt="true">Blockquote element with Reverse option enabled</blockquote><blockquote class="az-element az-blockquote blockquote-reverse" style="" data-az-id="gb3699tnnp" data-azat-pid="gb3699tnnp" id="gb3699tnnp" data-azb="az_blockquote" data-azat-cite="John Doe" data-azat-reverse="blockquote-reverse" data-azcnt="true">Blockquote element with Cite field filled out and Reverse option enabled<footer><cite>John Doe</cite></footer></blockquote></div></div>'
