@@ -20,6 +20,7 @@ install:
 themes:
   - bootstrap
   - bootstrap4
+  - bootstrap5
   - claro
   - dxpr_theme
 
