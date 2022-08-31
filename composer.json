@@ -34,6 +34,7 @@
         "drupal/dxpr_theme": "^1.0",
         "drupal/dxpr_theme_helper": "^1.0",
         "drupal/field_group": "^3.0",
+        "drupal/moderation_dashboard": "1.1",
         "drupal/webform": "^6.0",
         "dxpr/dxpr_builder": "^1.0"
     },
