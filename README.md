@@ -1,6 +1,4 @@
-b482b74
-
-# Drupal Lightning DXPR 
+## Warning: This project is deprecated because Acquia lightning is discontinued
 
 Lightning DXPR is a Drupal 9 installation profile that empowers your entire organization to build and maintain your digital experience effectively. 
 
