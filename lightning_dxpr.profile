@@ -46,7 +46,7 @@ function lightning_dxpr_module_install(array &$install_state) {
   $batch = [];
   if ($install_state['demo_select'] !== 'none') {
     $operations = [];
-    $modules = ['default_content', 'better_normalizers', $install_state['demo_select']];
+    $modules = ['default_content', $install_state['demo_select']];
 
     foreach ($modules as $module) {
       $operations[] = ['lightning_dxpr_install_module_batch', [$module]];
@@ -78,7 +78,7 @@ function lightning_dxpr_install_module_batch($module, &$context) {
  * Implements callback_batch_operation().
  */
 function lightning_dxpr_cleanup_batch($module, &$context) {
-  Drupal::service('module_installer')->uninstall(['default_content', 'better_normalizers'], FALSE);
+  Drupal::service('module_installer')->uninstall(['default_content'], FALSE);
 
   // Update url aliases with menu tokens (only needed for alises that reflect menu structure)
   $result = \Drupal::entityQuery('node')->execute();
