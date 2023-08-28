@@ -37,16 +37,13 @@ default:
       value: published
   path:
     -
+      alias: /video-streaming
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
-      value: "<div class=\"az-element az-section\" style=\"\" data-dxpr-builder-libraries=\"\" data-az-id=\"gbd1v8bdwy\" data-azat-pid=\"gb4j3yeetu\" id=\"gb4j3yeetu\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gb15zuchzs\" data-azat-pid=\"gbdmhyk6dx\" id=\"gbdmhyk6dx\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gbje47iv3p\" data-azat-pid=\"gbv29eyzae\" id=\"gbv29eyzae\" data-azb=\"az_column\" data-azat-width=\"1/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gbkjtvpm5y\" data-azat-pid=\"gbe4kw5njr\" id=\"gbe4kw5njr\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Test Local Video.</h2><ol><li>Check that the DXPR Builder Enterprise module is installed</li><li>In the adjacent column click the + icon</li><li>From the Content tab select the \"Local Video\" element</li><li>Click the Select Video button</li><li>Select a video from your local storage</li><li>Upload the video</li><li>Test that it shows and plays in the browser</li></ol><p><br></p></div></div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"gba9ysussd\" data-azat-pid=\"gbgxrs2nya\" id=\"gbgxrs2nya\" data-azb=\"az_column\" data-azat-width=\" 1/2\" data-azcnt=\"true\"></div></div></div></div><script src=\"-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js\"></script>\n<script src=\"-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js\"></script>\n"
+      value: |
+        <div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbd1v8bdwy" data-azat-pid="gb4j3yeetu" id="gb4j3yeetu" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-row row az-row--sm" style="" data-az-id="gb15zuchzs" data-azat-pid="gbdmhyk6dx" id="gbdmhyk6dx" data-azb="az_row" data-azat-device="sm" data-azcnt="true"><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbje47iv3p" data-azat-pid="gbv29eyzae" id="gbv29eyzae" data-azb="az_column" data-azat-width="1/2" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbkjtvpm5y" data-azat-pid="gbe4kw5njr" id="gbe4kw5njr" data-azb="az_text" data-azcnt="true"><h2>Test Local Video.</h2><ol><li>Check that the DXPR Builder Enterprise module is installed</li><li>In the adjacent column click the + icon</li><li>From the Content tab select the "Local Video" element</li><li>Click the Select Video button</li><li>Select a video from your local storage</li><li>Upload the video</li><li>Test that it shows and plays in the browser</li></ol><p><br></p></div></div><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gba9ysussd" data-azat-pid="gbgxrs2nya" id="gbgxrs2nya" data-azb="az_column" data-azat-width=" 1/2" data-azcnt="true"></div></div></div></div><script src="-base-url-/-module-directory-/dxpr_builder/dxpr_frontend.min.js"></script>
+        <script src="-base-url-/-module-directory-_e/dxpr_builder_e/dxpr_frontend_e.min.js"></script>
       format: ''
       summary: ''

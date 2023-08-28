@@ -29,6 +29,9 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
   moderation_state:
     -
       value: published

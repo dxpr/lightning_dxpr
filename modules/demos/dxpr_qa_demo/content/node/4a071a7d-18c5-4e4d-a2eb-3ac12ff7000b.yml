@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a071a7d-18c5-4e4d-a2eb-3ac12ff7000b
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'BS5 Card'
+  created:
+    -
+      value: 1693228544
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /bs5-card
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbob8ovlf4" data-azat-pid="gbcvqc59ab" id="gbcvqc59ab" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-card card" style="" data-az-id="gbi8m3o10k" data-azat-pid="gb7etdoavf" id="gb7etdoavf" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbm32t5ji3" data-azat-pid="gbzcjt1e6c" id="gbzcjt1e6c" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Default</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-primary" style="" data-az-id="gb8rxary1j" data-azat-pid="gbo83zotpl" id="gbo83zotpl" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-primary" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbtb2jbjxe" data-azat-pid="gbba51yqby" id="gbba51yqby" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Primary</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-secondary" style="" data-az-id="gbgflutiy3" data-azat-pid="gb3fn1symx" id="gb3fn1symx" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-secondary" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbh1ds2upx" data-azat-pid="gb7i7qejvp" id="gb7i7qejvp" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Secondary</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-success" style="" data-az-id="gby8jav5s0" data-azat-pid="gbf09wuevb" id="gbf09wuevb" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-success" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gb5o2vdwvu" data-azat-pid="gbqpieg0xq" id="gbqpieg0xq" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Success</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-info" style="" data-az-id="gb2owj4te5" data-azat-pid="gb1ekx39ds" id="gb1ekx39ds" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-info" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gboubne0yh" data-azat-pid="gbpcg9176b" id="gbpcg9176b" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Info</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-warning" style="" data-az-id="gb6e25hkql" data-azat-pid="gbn9wwh7d2" id="gbn9wwh7d2" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-warning" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gb7d0gfdz9" data-azat-pid="gb839wyp5d" id="gb839wyp5d" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Warning</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-danger" style="" data-az-id="gb1p5epqy4" data-azat-pid="gb87bja0vv" id="gb87bja0vv" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-danger" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbt352dgwc" data-azat-pid="gb9oh5iz54" id="gb9oh5iz54" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Danger</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card text-white bg-dark" style="" data-az-id="gb6x59bv9v" data-azat-pid="gbk66tcols" id="gbk66tcols" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="text-white bg-dark" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbtqddj05f" data-azat-pid="gbyvyyy3m8" id="gbyvyyy3m8" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Dark</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div><div class="az-element az-card card bg-light" style="" data-az-id="gbn3q2jshc" data-azat-pid="gbke1995n0" id="gbke1995n0" data-azb="az_card" data-az-human-readable="Card" data-az-human-readable-en="Card" data-azat-header="Card header" data-azat-title="Card title" data-azat-type="bg-light" data-azat-box_model="000000"><div class="card-header">Card header</div><div class="card-body az-ctnr" data-azcnt="true"><h5 class="card-title">Card title</h5><div class="az-element az-text" style="" data-az-id="gbyeh1k2c4" data-azat-pid="gbfrox0zlu" id="gbfrox0zlu" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azat-box_model="000000" data-azcnt="true"><h2>Card Light</h2><p>Your actual content will go here. Edit this to include your own information.</p></div></div></div></div></div>'
+      format: ''
+      summary: ''

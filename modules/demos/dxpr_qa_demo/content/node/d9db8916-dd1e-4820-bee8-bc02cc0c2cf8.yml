@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /container-saving
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbfc54j9cq" data-azat-pid="gb08ar1it7" id="gb08ar1it7" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbvb4jz0ns" data-azat-pid="gb1n8e3exk" id="gb1n8e3exk" data-azb="az_text" data-azcnt="true"><h2>Container Saving</h2><ol><li>Edit and save this content item with DXPR Builder</li><li>Edit and&nbsp;save footer content with DXPR Builder</li><li>Reload this page</li><li>Check that your edits are live</li></ol></div></div></div>'

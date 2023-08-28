@@ -39,14 +39,9 @@ default:
       value: published
   path:
     -
+      alias: /text
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbbeapdefz" data-azat-pid="gbwucugs8k" id="gbwucugs8k" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbzyqkeak8" data-azat-pid="gbdlz2vfzi" id="gbdlz2vfzi" data-azb="az_text" data-azcnt="true"><h1>The Flavorful Tuscany Meetup</h1><h2><strong>Welcome letter</strong></h2><p>Dear Guest,</p><p>We are delighted to welcome you to the annual <em>Flavorful Tuscany Meetup</em> and hope you will enjoy the programme as well as your stay at the <a data-cke-saved-href="https://ckeditor.com" href="https://ckeditor.com">Bilancino Hotel</a>.</p><p class="alert alert-warning"><span style="font-family:myriad pro&quot;,myriad,calibri,arial,tahoma,verdana,sans-serif;">Please find attached the full schedule of the event.</span></p><blockquote><p>The annual Flavorful Tuscany meetups are always a culinary discovery. You get the best of Tuscan flavors during an intense one-day stay at one of the top hotels of the region. All the sessions are lead by top chefs passionate about their profession. I would certainly recommend to save the date in your calendar for this one!</p><p>Angelina Calvino, food journalist</p></blockquote><p>Please arrive at the <a data-cke-saved-href="https://ckeditor.com" href="https://ckeditor.com">Bilancino Hotel</a> reception desk at least <strong>half an hour earlier</strong> to make sure that the registration process goes as smoothly as possible.</p><p>We look forward to welcoming you to the event.</p><p><img alt="Victoria Valc signature" height="101" data-cke-saved-src="https://ckeditor.com/docs/ckeditor4/latest/examples/assets/image/signature.png" src="https://ckeditor.com/docs/ckeditor4/latest/examples/assets/image/signature.png" width="180"></p><p><strong>Victoria Valc</strong></p><p><strong>Event Manager</strong><br>Bilancino Hotel</p><p><br></p><p><br></p><h2><strong>The Flavorful Tuscany Meetup Schedule</strong></h2><table align="center" cellpadding="15" cellspacing="0" class=" cke_show_border"><thead><tr><th colspan="2">Saturday, July 14</th></tr></thead><tbody><tr><td>9:30 AM - 11:30 AM</td><td><p><strong>Americano vs. Brewed - “know your coffee”</strong> with:&nbsp;</p><ul><li>Giulia Bianchi</li><li>Stefano Garau</li><li>Giuseppe Russo</li></ul></td></tr><tr><td>1:00 PM - 3:00 PM</td><td><p><strong>Pappardelle al pomodoro</strong> - live cooking</p><p>Incorporate the freshest ingredients&nbsp;<br>with Rita Fresco</p></td></tr><tr><td>5:00 PM - 8:00 PM</td><td><p><strong>Tuscan vineyards at a glance</strong> - wine-tasting&nbsp;<br>with Frederico Riscoli</p></td></tr></tbody></table><p><br></p><p><br></p><p><br></p></div></div></div>'

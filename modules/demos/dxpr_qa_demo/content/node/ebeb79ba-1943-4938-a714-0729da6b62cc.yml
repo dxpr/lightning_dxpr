@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /map
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbvafoy98k" data-azat-pid="gbvafoy98k" id="gbvafoy98k" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-map" style="line-height: 0;" data-az-id="gbac6vajyu" data-azat-pid="gbac6vajyu" id="gbac6vajyu" data-azb="az_map" data-az-human-readable="Map" data-az-human-readable-en="Map" data-azat-address="25.218133017677626, 29.86766756599753"><iframe src="https://maps.google.com/maps?q=25.218133017677626,+29.86766756599753&amp;iwloc=near&amp;output=embed" style="width: 100%;height: 400px;" frameborder="0"></iframe></div></div></div>'

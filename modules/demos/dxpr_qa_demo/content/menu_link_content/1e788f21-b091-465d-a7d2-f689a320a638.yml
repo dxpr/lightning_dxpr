@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1e788f21-b091-465d-a7d2-f689a320a638
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    3f8accbe-b26e-4717-b234-bffd42b97931: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'BS5 Jumbotron'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 3f8accbe-b26e-4717-b234-bffd42b97931
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true

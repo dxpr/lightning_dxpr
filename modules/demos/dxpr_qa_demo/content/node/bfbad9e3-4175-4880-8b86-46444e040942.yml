@@ -37,14 +37,9 @@ default:
       value: published
   path:
     -
+      alias: /extendability-utility-classes
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
       value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbu096iewr" data-azat-pid="gbu096iewr" id="gbu096iewr" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb98do2tnh" data-azat-pid="gb98do2tnh" id="gb98do2tnh" data-azb="az_text" data-azcnt="true"><h2>Test Utility Class Added via API</h2><ul><li>Click the pencil icon on this section element</li><li>Click in the HTML Classes field</li><li>Scroll to the bottom</li><li>The last class should read "Example label" and should be in the option group "Example Option Group"</li></ul></div></div></div>'
