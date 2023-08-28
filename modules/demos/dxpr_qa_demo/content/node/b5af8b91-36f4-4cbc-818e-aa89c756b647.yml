@@ -29,24 +29,18 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   moderation_state:
     -
       value: published
   path:
     -
+      alias: /html
       langcode: en
       pathauto: 1
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   body:
     -
-      value: '<div class="az-element az-section" style="" data-az-id="gb6azvbnhq" data-azat-pid="gb6azvbnhq" id="gb6azvbnhq" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb62uz9x2o" data-azat-pid="gb62uz9x2o" id="gb62uz9x2o" data-azb="az_text" data-azcnt="true"><h2>The below HTML block should render a single Tweet. When editing and saving the element there should still be a single tweet.</h2><p>(watch out for duplication of content in this element)</p></div></div></div><div class="az-element az-section" style="" data-az-id="gbcdoplcij" data-azat-pid="gbs6fh2hkd" id="gbs6fh2hkd" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-html" style="" data-az-persist="PGJsb2NrcXVvdGUgY2xhc3M9InR3aXR0ZXItdHdlZXQiPjxwIGxhbmc9ImVuIiBkaXI9Imx0ciI+QSBMaWZlIE9uIE91ciBQbGFuZXQuPGJyPjxicj5UaGlzIHNob3VsZCBiZSBjb21wdWxzb3J5IHZpZXdpbmcgZm9yIGFsbCBjaGlsZHJlbiBhbmQgYWR1bHRzIGFsaWtlLiA8YSBocmVmPSJodHRwczovL3QuY28vMWdmOVlaR2YwNSI+cGljLnR3aXR0ZXIuY29tLzFnZjlZWkdmMDU8L2E+PC9wPuKAlCBEYXZpZCBBdHRlbmJvcm91Z2ggKEBBdHRlbmJvcm91Z2hTaXIpIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vQXR0ZW5ib3JvdWdoU2lyL3N0YXR1cy8xMzEzMzMzODc2NTI2MjU2MTI4P3JlZl9zcmM9dHdzcmMlNUV0ZnciPk9jdG9iZXIgNiwgMjAyMDwvYT48L2Jsb2NrcXVvdGU+IDxzY3JpcHQgYXN5bmM9IiIgc3JjPSJodHRwczovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMuanMiIGNoYXJzZXQ9InV0Zi04Ij48L3NjcmlwdD4=" data-az-id="gb4wtx1xqp" data-azat-pid="gb4wtx1xqp" id="gb4wtx1xqp" data-azb="az_html" data-azcnt="true"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">A Life On Our Planet.<br><br>This should be compulsory viewing for all children and adults alike. <a href="https://t.co/1gf9YZGf05">pic.twitter.com/1gf9YZGf05</a></p>— David Attenborough (@AttenboroughSir) <a href="https://twitter.com/AttenboroughSir/status/1313333876526256128?ref_src=twsrc%5Etfw">October 6, 2020</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div></div></div>'
+      value: |-
+        <div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbeo79xm7e" data-azat-pid="gb6azvbnhq" id="gb6azvbnhq" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gb980vyaqb" data-azat-pid="gb62uz9x2o" id="gb62uz9x2o" data-azb="az_text" data-az-human-readable="Text" data-az-human-readable-en="Text" data-azcnt="true"><h2>The below HTML block should render a single Pastebin embed. When editing and saving the element there should still be a single Pastebin embed.</h2><p>(watch out for duplication of content in this element)</p></div></div></div><div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbn15bwao7" data-azat-pid="gbs6fh2hkd" id="gbs6fh2hkd" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-html" style="" data-az-persist="PGlmcmFtZSBzcmM9Imh0dHBzOi8vcGFzdGViaW4uY29tL2VtYmVkX2lmcmFtZS90QzFGQ2FDZCIgc3R5bGU9ImJvcmRlcjpub25lO3dpZHRoOjEwMCUiPjwvaWZyYW1lPgo=" data-az-id="gbgeyg4wq9" data-azat-pid="gbgeyg4wq9" id="gbgeyg4wq9" data-azb="az_html" data-az-human-readable="HTML" data-az-human-readable-en="HTML" data-azat-box_model="000000" data-azcnt="true"><iframe src="https://pastebin.com/embed_iframe/tC1FCaCd" style="border:none;width:100%"></iframe>
+        </div></div></div>
       format: ''
       summary: ''
