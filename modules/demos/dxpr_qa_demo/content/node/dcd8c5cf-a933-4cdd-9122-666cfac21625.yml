@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dcd8c5cf-a933-4cdd-9122-666cfac21625
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'BS5 Blockquote'
+  created:
+    -
+      value: 1693223789
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /bs5-blockquote
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbyrw2845b" data-azat-pid="gbrvgjqtww" id="gbrvgjqtww" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><blockquote class="az-element az-blockquote blockquote" style="" data-az-id="gbmnq8rjdv" data-azat-pid="gbzwiftyjj" id="gbzwiftyjj" data-azb="az_blockquote" data-az-human-readable="Block quote" data-az-human-readable-en="Blockquote" data-azat-cite="John Doe" data-azat-reverse="no" data-azat-box_model="000000" data-azcnt="true"><div class="az-blockquote-inner">Blockquote element with Cite field filled out</div><footer class="blockquote-footer"><cite>John Doe</cite></footer></blockquote><blockquote class="az-element az-blockquote blockquote" style="" data-az-id="gb8s2wmqnx" data-azat-pid="gbf6eznpno" id="gbf6eznpno" data-azb="az_blockquote" data-az-human-readable="Block quote" data-az-human-readable-en="Blockquote" data-azcnt="true"><div class="az-blockquote-inner">Blockquote element with default settings</div></blockquote><blockquote class="az-element az-blockquote blockquote text-end" style="" data-az-id="gb1obzwnfj" data-azat-pid="gbf2ithnkz" id="gbf2ithnkz" data-azb="az_blockquote" data-az-human-readable="Block quote" data-az-human-readable-en="Blockquote" data-azat-reverse="blockquote-reverse" data-azcnt="true"><div class="az-blockquote-inner">Blockquote element with Reverse option enabled</div></blockquote><blockquote class="az-element az-blockquote blockquote text-end" style="" data-az-id="gbwk0pc6hs" data-azat-pid="gb6te9vil5" id="gb6te9vil5" data-azb="az_blockquote" data-az-human-readable="Block quote" data-az-human-readable-en="Blockquote" data-azat-cite="John Doe" data-azat-reverse="blockquote-reverse" data-azat-box_model="000000" data-azcnt="true"><div class="az-blockquote-inner">Blockquote element with Cite field filled out and Reverse option enabled</div><footer class="blockquote-footer"><cite>John Doe</cite></footer></blockquote></div></div>'
+      format: ''
+      summary: ''

@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 01f3a517-8807-4781-ba83-e9100c7664fe
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    dcd8c5cf-a933-4cdd-9122-666cfac21625: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'BS5 Blockquote'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: dcd8c5cf-a933-4cdd-9122-666cfac21625
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true

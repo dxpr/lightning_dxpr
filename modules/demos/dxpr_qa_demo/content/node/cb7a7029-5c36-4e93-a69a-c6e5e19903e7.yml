@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cb7a7029-5c36-4e93-a69a-c6e5e19903e7
+  bundle: drag_and_drop_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Saved with DXPR builder'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'BS5 Button'
+  created:
+    -
+      value: 1693223790
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /bs5-button
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: |
+        <div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb72b5ztal" data-azat-pid="gb822cuiql" id="gb822cuiql" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-row row az-row--sm" style="" data-az-id="gbmtxk8jpe" data-azat-pid="gb2qkyhyj9" id="gb2qkyhyj9" data-azb="az_row" data-az-human-readable="Row" data-az-human-readable-en="Row" data-azat-device="sm" data-azcnt="true"><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbghnz3xvi" data-azat-pid="gb01sppa2u" id="gb01sppa2u" data-azb="az_column" data-az-human-readable="Column" data-az-human-readable-en="Column" data-azat-width="1/2" data-azcnt="true"><div class="az-element az-button az-button-content" data-az-id="gbpjwgg7uo" data-azat-pid="gbqyfmh7as" id="gbqyfmh7as" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button with default settings" data-azat-type="btn-default"><button type="button" class="btn btn-default" style="">
+            Button with default settings
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbkv93hp0m" data-azat-pid="gbl2jpjcjk" id="gbl2jpjcjk" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button primary" data-azat-type="btn-primary"><button type="button" class="btn btn-primary" style="">
+            Button primary
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gb0gphulhq" data-azat-pid="gbqsyxsm64" id="gbqsyxsm64" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button secondary" data-azat-type="secondary" data-azat-block="no" data-azat-outlined="no" data-azat-box_model="000000"><button type="button" class="btn btn-secondary" style="">
+            Button secondary
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbw81bjps2" data-azat-pid="gbxsy5wmd1" id="gbxsy5wmd1" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: success" data-azat-type="btn-success"><button type="button" class="btn btn-success" style="">
+            Button Type: success
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbj51f9wdp" data-azat-pid="gb5375tg6t" id="gb5375tg6t" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: warning" data-azat-type="btn-warning"><button type="button" class="btn btn-warning" style="">
+            Button Type: warning
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbyb5p6ua9" data-azat-pid="gbl56p5taw" id="gbl56p5taw" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: info" data-azat-type="btn-info"><button type="button" class="btn btn-info" style="">
+            Button Type: info
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbeydtzh29" data-azat-pid="gbrwkaaxpt" id="gbrwkaaxpt" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: danger" data-azat-link_target="_self" data-azat-type="primary" data-azat-block="no" data-azat-outlined="no" data-azat-an_infinite="no" data-azat-box_model="000000"><button type="button" class="btn btn-primary" style="">
+            Button Type: danger
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbh4fqn092" data-azat-pid="gbaqln9h8n" id="gbaqln9h8n" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: link" data-azat-type="btn-link"><button type="button" class="btn btn-link" style="">
+            Button Type: link
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gby7qsg8lz" data-azat-pid="gbfo2diej8" id="gbfo2diej8" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: light" data-azat-type="light" data-azat-block="no" data-azat-outlined="no" data-azat-box_model="000000"><button type="button" class="btn btn-light" style="">
+            Button Type: light
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbvg02y2gp" data-azat-pid="gba7k3p1oj" id="gba7k3p1oj" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: dark" data-azat-type="dark" data-azat-block="no" data-azat-outlined="no" data-azat-box_model="000000"><button type="button" class="btn btn-dark" style="">
+            Button Type: dark
+        </button></div></div><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbroistqon" data-azat-pid="gbmlaq5smk" id="gbmlaq5smk" data-azb="az_column" data-az-human-readable="Column" data-az-human-readable-en="Column" data-azat-width=" 1/2" data-azcnt="true"><div class="az-element az-button az-button-content" data-az-id="gbj7kpq6yw" data-azat-pid="gbtboh3r1v" id="gbtboh3r1v" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline with default settings" data-azat-link_target="_self" data-azat-type="primary" data-azat-block="no" data-azat-outlined="outline" data-azat-an_infinite="no" data-azat-box_model="000000"><button type="button" class="btn btn-outline-primary" style="">
+            Button outline with default settings
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbuflzoisn" data-azat-pid="gbwbakkl5d" id="gbwbakkl5d" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline primary" data-azat-type="primary" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-primary" style="">
+            Button outline primary
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gb341nmwh1" data-azat-pid="gbhtsvrxds" id="gbhtsvrxds" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline secondary" data-azat-type="secondary" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-secondary" style="">
+            Button outline secondary
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbzvh8tvtc" data-azat-pid="gbjhc0pjh3" id="gbjhc0pjh3" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline Type: success" data-azat-type="success" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-success" style="">
+            Button outline Type: success
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbxz5yyed3" data-azat-pid="gbhb68bq3s" id="gbhb68bq3s" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline Type: warning" data-azat-type="warning" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-warning" style="">
+            Button outline Type: warning
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbtiv5e7tr" data-azat-pid="gblipbacco" id="gblipbacco" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button outline Type: info" data-azat-type="info" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-info" style="">
+            Button outline Type: info
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbtrq2yl0l" data-azat-pid="gbrh8xu6q6" id="gbrh8xu6q6" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: danger outline" data-azat-link_target="_self" data-azat-type="danger" data-azat-block="no" data-azat-outlined="outline" data-azat-an_infinite="no" data-azat-box_model="000000"><button type="button" class="btn btn-outline-danger" style="">
+            Button Type: danger outline
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbtgqmofr5" data-azat-pid="gb0un79kve" id="gb0un79kve" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: link" data-azat-type="link" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-link" style="">
+            Button Type: link
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gb8tq72unj" data-azat-pid="gbou65x96j" id="gbou65x96j" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: light" data-azat-type="light" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-light" style="">
+            Button Type: light
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbev9rq60c" data-azat-pid="gbudj6td3p" id="gbudj6td3p" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Type: dark" data-azat-type="dark" data-azat-block="no" data-azat-outlined="outline" data-azat-box_model="000000"><button type="button" class="btn btn-outline-dark" style="">
+            Button Type: dark
+        </button></div></div></div></div></div><div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbie3tl3vf" data-azat-pid="gbubgv2hku" id="gbubgv2hku" data-azb="az_section" data-az-human-readable="Section" data-az-human-readable-en="Section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-row row az-row--sm" style="" data-az-id="gbicyr18sa" data-azat-pid="gbvgiraeaj" id="gbvgiraeaj" data-azb="az_row" data-az-human-readable="Row" data-az-human-readable-en="Row" data-azat-device="sm" data-azcnt="true"><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gb5a48c3q4" data-azat-pid="gb0esytv1r" id="gb0esytv1r" data-azb="az_column" data-az-human-readable="Column" data-az-human-readable-en="Column" data-azat-width="1/2" data-azcnt="true"><div class="az-element az-button az-button-content" data-az-id="gb5ep8op7u" data-azat-pid="gbsbyfj7d0" id="gbsbyfj7d0" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button with default settings, Link set to dxpr.com" data-azat-link="https://dxpr.com" data-azat-link_target="_self" data-azat-type="btn-default"><a href="https://dxpr.com" class="az-button-content btn btn-default" style="" target="_self" role="button">
+            Button with default settings, Link set to dxpr.com
+        </a></div><div class="az-element az-button az-button-content" data-az-id="gbkfwjtqme" data-azat-pid="gb5t61hc6m" id="gb5t61hc6m" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. " data-azat-type="btn-default"><button type="button" class="btn btn-default" style="">
+            Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text. Button with long text.
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gby5l0rsus" data-azat-pid="gbytsmzabv" id="gbytsmzabv" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button, open in new window" data-azat-link="https://dxpr.com" data-azat-link_target="_blank" data-azat-type="btn-default"><a href="https://dxpr.com" class="az-button-content btn btn-default" style="" target="_blank" role="button">
+            Button, open in new window
+        </a></div><div class="az-element az-button az-button-content" data-az-id="gbk7uo3u4u" data-azat-pid="gbar891uyn" id="gbar891uyn" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button, Block button enabled" data-azat-link_target="_self" data-azat-type="btn-default" data-azat-block="btn-block"><button type="button" class="btn btn-default btn-block" style="">
+            Button, Block button enabled
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbdk6otg2e" data-azat-pid="gb6a37ed9d" id="gb6a37ed9d" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Size: Large" data-azat-link_target="_self" data-azat-type="btn-default" data-azat-size="btn-lg"><button type="button" class="btn btn-lg btn-default" style="">
+            Button Size: Large
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gblwssi2j7" data-azat-pid="gb78juiqpp" id="gb78juiqpp" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Size: Small" data-azat-link_target="_self" data-azat-type="btn-default" data-azat-size="btn-sm"><button type="button" class="btn btn-sm btn-default" style="">
+            Button Size: Small
+        </button></div><div class="az-element az-button az-button-content" data-az-id="gbaurk4vvr" data-azat-pid="gb8m2d24fz" id="gb8m2d24fz" data-azb="az_button" data-az-human-readable="Button" data-az-human-readable-en="Button" data-azat-title="Button Size: Extra small" data-azat-link_target="_self" data-azat-type="btn-default" data-azat-size="btn-xs"><button type="button" class="btn btn-xs btn-default" style="">
+            Button Size: Extra small
+        </button></div></div><div class="az-element az-ctnr az-column col-sm-6" style="" data-az-id="gbv7p6co0f" data-azat-pid="gb9gv3jsgo" id="gb9gv3jsgo" data-azb="az_column" data-az-human-readable="Column" data-az-human-readable-en="Column" data-azat-width=" 1/2" data-azcnt="true"></div></div></div></div><script src="/modules/contrib/dxpr_builder/dxpr_builder/dxpr_frontend.js"></script>
+      format: ''
+      summary: ''

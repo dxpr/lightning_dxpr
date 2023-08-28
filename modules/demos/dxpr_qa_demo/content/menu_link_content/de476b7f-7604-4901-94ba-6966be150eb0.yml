@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: de476b7f-7604-4901-94ba-6966be150eb0
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    612a2c2b-ce5b-4de0-8883-ac91c630453c: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'BS5 Tabs'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 612a2c2b-ce5b-4de0-8883-ac91c630453c
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true

@@ -12,7 +12,6 @@ dependencies:
   - drupal:locale
   - default_content:default_content
   - example_dxpr:example_dxpr
-  - dxpr_builder_e:dxpr_builder_e
   - dxpr_builder_block:dxpr_builder_block
   - dxpr_builder_page:dxpr_builder_page
   - dxpr_theme_helper:dxpr_theme_helper
@@ -25,7 +24,6 @@ config_devel:
     - block.block.secondarynavigation
     - color.theme.dxpr
     - dxpr_builder.settings
-    - dxpr_builder_e.dxpr_builder_e_profile.editor
     - dxpr_theme.settings
     - language.entity.ar
     - language.entity.nl
@@ -117,6 +115,12 @@ default_content:
     - fa84b254-32d6-454a-ad1e-c9c92022d306
     - fce29fa3-eb92-4d22-bcfa-7846e7941b7c
     - fd537700-ce74-4ce9-8d63-d2c78e4372a8
+    - dcd8c5cf-a933-4cdd-9122-666cfac21625
+    - cb7a7029-5c36-4e93-a69a-c6e5e19903e7
+    - 13f9d06a-f7e0-4455-b25e-8253f97354a0
+    - 3f8accbe-b26e-4717-b234-bffd42b97931
+    - 612a2c2b-ce5b-4de0-8883-ac91c630453c
+    - 4a071a7d-18c5-4e4d-a2eb-3ac12ff7000b
   media:
     - 0d23f476-4999-45f2-ab06-cb28cada7efb
     - 104c66dc-fee5-426b-a901-203d2cd9e07c
@@ -191,6 +195,12 @@ default_content:
     - f48fdae3-5525-40e3-8840-cc369f07e60b
     - fe2ab8d2-b84a-4cbc-91dd-0db94ab556b1
     - fec9ddd4-cc7b-42c6-ae9e-7a2946afdfd2
+    - 01f3a517-8807-4781-ba83-e9100c7664fe
+    - 35a2db7b-7a64-4726-8abd-137ebf04f50e
+    - 312c1f9b-dc58-441e-93b2-2fd978860c56
+    - 1e788f21-b091-465d-a7d2-f689a320a638
+    - de476b7f-7604-4901-94ba-6966be150eb0
+    - 7a32628c-0d53-4866-a82c-f2c584ccd960
   user:
     - f2a7b90c-2160-4eda-abb6-63224b5cc0da
     - a896dd51-6268-4380-b632-af369454a524
