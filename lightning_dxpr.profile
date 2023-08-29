@@ -79,6 +79,7 @@ function lightning_dxpr_install_module_batch($module, &$context) {
  */
 function lightning_dxpr_cleanup_batch($module, &$context) {
   Drupal::service('module_installer')->uninstall(['default_content'], FALSE);
+  Drupal::service('module_installer')->uninstall(['moderation_dashboard'], FALSE);
 
   // Update url aliases with menu tokens (only needed for alises that reflect menu structure)
   $result = \Drupal::entityQuery('node')->execute();
