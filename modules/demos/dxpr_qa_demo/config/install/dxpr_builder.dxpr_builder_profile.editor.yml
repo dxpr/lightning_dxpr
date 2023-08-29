@@ -42,8 +42,6 @@ blocks:
   - 'az_block-block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
   - az_block-full_screen_search
   - az_block-dxpr_theme_helper_user_register
-  - az_block-moderation_dashboard_activity
-  - az_block-moderation_dashboard_add_links
   - az_block-search_form_block
   - az_block-system_branding_block
   - az_block-system_breadcrumb_block
