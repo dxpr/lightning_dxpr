@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_page_attachments() for adding CSS.
+ */
+function dxpr_qa_demo_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'dxpr_qa_demo/bs_normalizer';
+}

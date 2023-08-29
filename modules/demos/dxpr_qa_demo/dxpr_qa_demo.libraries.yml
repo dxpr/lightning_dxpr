@@ -1,0 +1,5 @@
+bs_normalizer:
+  css:
+    theme:
+      css/bs_normalizer.css: {}
+  weight: 999

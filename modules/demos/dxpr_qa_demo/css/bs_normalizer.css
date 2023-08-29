@@ -1,0 +1,10 @@
+/* These styles exist only for the QA team to be able to share base images when the demo page contains text elements that are styled slightly differently between bs3 and bs5 */
+
+.az-container p {
+  margin-bottom: 10px;
+}
+
+.az-container ul {
+  padding-left: 1.5em;
+  margin-bottom: 10px;
+}
