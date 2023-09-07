@@ -8,3 +8,7 @@
   padding-left: 1.5em;
   margin-bottom: 10px;
 }
+
+.az-container .lead {
+  font-size: 21px !important;
+}
