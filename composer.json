@@ -77,9 +77,6 @@
             "drupal/core": "-p2"
         },
         "patches": {
-            "drupal/gin_toolbar": {
-                "3181937 - Remove dialog libraries": "https://www.drupal.org/files/issues/2021-02-17/3181937-diffs.patch"
-            },
             "drupal/core": {
                 "1650930 - Use READ COMMITTED by default for MySQL transactions": "https://www.drupal.org/files/issues/2021-10-12/1650930-140.patch"
             }
