@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 4191f4d3-b267-4558-913e-824649393796
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    65255689-b672-4376-849d-4ce4c51b88c2: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'BS5 Image Carousel'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 65255689-b672-4376-849d-4ce4c51b88c2
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
