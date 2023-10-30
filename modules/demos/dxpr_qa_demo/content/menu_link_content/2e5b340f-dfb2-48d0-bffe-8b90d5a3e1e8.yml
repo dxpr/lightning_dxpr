@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2e5b340f-dfb2-48d0-bffe-8b90d5a3e1e8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    78d1afa4-08ef-4b2b-a629-403c7d375d44: menu_link_content
+    33379d0d-44a8-4ccb-ba01-7a239d3f2a1f: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'BS5 Rows'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 33379d0d-44a8-4ccb-ba01-7a239d3f2a1f
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:78d1afa4-08ef-4b2b-a629-403c7d375d44'
+  revision_translation_affected:
+    -
+      value: true
