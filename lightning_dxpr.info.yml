@@ -10,6 +10,7 @@ distribution:
   name: DXPR
 
 install:
+  - color
   - field_group
   - dxpr_theme_helper
   - search
