@@ -6,7 +6,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: JH0lJ3Uzm1QlIcD9sQfytsVh-ky-v5voI9AyBw8f_nA
+  default_config_hash: qQhAEcyHU4z1t_ZYOZDoUrInEugiemLnJ0QpqTL0M0c
 id: qa_views
 label: 'QA Views'
 module: views
@@ -124,7 +124,7 @@ display:
           expose:
             label: Title
             field_identifier: title
-          exposed: true
+          exposed: false
       arguments:
         nid:
           id: nid
@@ -208,8 +208,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -305,8 +303,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -514,8 +510,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
@@ -525,6 +519,22 @@ display:
     display_plugin: block
     position: 1
     display_options:
+      sorts:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: standard
+          order: ASC
+          expose:
+            label: Title
+            field_identifier: title
+          exposed: false
       arguments:
         nid:
           id: nid
@@ -563,6 +573,7 @@ display:
           break_phrase: false
           not: false
       defaults:
+        sorts: false
         arguments: false
       display_description: ''
       display_extenders: {  }
@@ -573,8 +584,6 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args:sort_by'
-        - 'url.query_args:sort_order'
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
