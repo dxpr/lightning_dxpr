@@ -38,6 +38,25 @@ class ParseTestController extends ControllerBase {
   }
 
   /**
+   * Replaces all image URLs in HTML content with a placeholder URL.
+   *
+   * @param string $content
+   *   The HTML content to process.
+   *
+   * @return string
+   *   The processed HTML content with replaced image URLs.
+   */
+  protected function replaceImageUrls($content) {
+    // Replace src attributes in img tags
+    $content = preg_replace('/src=["\'](.*?)["\']/', 'src="https://promptahuman.com/400x300"', $content);
+    
+    // Replace background-image URLs in style attributes
+    $content = preg_replace('/background-image:\s*url\(["\']?(.*?)["\']?\)/', 'background-image: url("https://promptahuman.com/400x300")', $content);
+    
+    return $content;
+  }
+
+  /**
    * Returns the parse_html_test template.
    */
   public function parseHtmlTest() {
@@ -75,6 +94,8 @@ class ParseTestController extends ControllerBase {
         if ($file != '.' && $file != '..' && strpos($file, '.html') !== FALSE) {
           $content = file_get_contents($dir_path . '/' . $file);
           if ($content !== FALSE) {
+            // Replace image URLs in the HTML content
+            $content = $this->replaceImageUrls($content);
             $examples[$dir][$file] = $content;
           }
         }
@@ -103,7 +124,7 @@ class ParseTestController extends ControllerBase {
    * @return \Drupal\node\NodeInterface|null
    *   The loaded node or null if not found.
    */
-  private function loadNodeByUuid($uuid) {
+  protected function loadNodeByUuid($uuid) {
     $node = \Drupal::entityTypeManager()
       ->getStorage('node')
       ->loadByProperties(['uuid' => $uuid]);

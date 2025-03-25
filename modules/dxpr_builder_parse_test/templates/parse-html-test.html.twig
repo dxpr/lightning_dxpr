@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12">
       <h1>Parse HTML Test</h1>
-      <h2 class="bg-primary">Loading BS5 Rows Demo page (not a dummy page):</h2>
+      <h2 class="bg-primary text-light">Loading BS5 Rows Demo page (not a dummy page):</h2>
       {% if node %}
         <div class="node-content">
           {{ node_render }}
@@ -17,11 +17,11 @@
         <div class="html-examples">
           {% for dir, files in examples %}
             <hr>
-            <h2 class="bg-primary">{{ dir }}</h2>
+            <h2 class="bg-primary text-light">{{ dir }}</h2>
             {% for filename, content in files %}
               <br>
               <hr>
-              <h3 class="bg-primary">{{ filename }}</h3>
+              <h3 class="bg-primary text-light">{{ filename }}</h3>
               <br>
               <div class="row">
                 <div class="col-md-6">
