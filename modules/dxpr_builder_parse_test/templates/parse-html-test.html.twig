@@ -1,0 +1,44 @@
+<div class="container-fluid parse-html-test-container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Parse HTML Test</h1>
+      <h2 class="bg-primary">Loading BS5 Rows Demo page (not a dummy page):</h2>
+      {% if node %}
+        <div class="node-content">
+          {{ node_render }}
+        </div>
+      {% else %}
+        <div class="alert alert-danger">
+          No node found with UUID: 33379d0d-44a8-4ccb-ba01-7a239d3f2a1f
+        </div>
+      {% endif %}
+
+      {% if examples %}
+        <div class="html-examples">
+          {% for dir, files in examples %}
+            <hr>
+            <h2 class="bg-primary">{{ dir }}</h2>
+            {% for filename, content in files %}
+              <br>
+              <hr>
+              <h3 class="bg-primary">{{ filename }}</h3>
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4>With Container:</h4>
+                  <div class="az-element az-container dxpr az-ctnr az-element--controls-top-left dxpr-editor" data-az-type="dummy|dummy" data-az-name="999999|999999|placeholder" data-az-human-readable="RFhQUiBjb250YWluZXI=" data-az-langcode="en" data-az-mode="static" data-az-id="gbgbafl4dg" data-azb="az_container" data-azcnt="true" tabindex="0">
+                    {{ content|raw }}
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h4>Without Container:</h4>
+                  {{ content|raw }}
+                </div>
+              </div>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div> 

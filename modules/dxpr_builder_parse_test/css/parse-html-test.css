@@ -1,0 +1,35 @@
+.parse-html-test-container {
+  max-width: 100% !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Override main container width */
+.main-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.parse-html-test-container .html-examples h4 {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.parse-html-test-container .html-examples .row {
+  margin-bottom: 30px;
+}
+
+/* Add some spacing between columns */
+.parse-html-test-container .html-examples .col-xl-6 {
+  padding: 15px;
+}
+
+/* Add a subtle border to distinguish the columns */
+.parse-html-test-container .html-examples .col-xl-6 {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+} 

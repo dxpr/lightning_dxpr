@@ -12,7 +12,7 @@ use Drupal\Core\Routing\RouteMatchInterface;
  */
 function dxpr_builder_parse_test_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    case 'help.page.dxpr_builder_parse_test':
+    case 'help.page.parse_html_test':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
       $output .= '<p>' . t('Test module for DXPR Builder HTML parsing functionality.') . '</p>';
@@ -25,19 +25,22 @@ function dxpr_builder_parse_test_help($route_name, RouteMatchInterface $route_ma
 /**
  * Implements hook_theme().
  */
-function dxpr_builder_parse_test_theme() {
+function dxpr_builder_parse_test_theme($existing, $type, $theme, $path) {
   return [
-    'parse_html_editor' => [
+    'parse_html_test' => [
       'variables' => [
         'node' => NULL,
         'node_render' => NULL,
+        'examples' => NULL,
       ],
-    ],
-    'parse_html_anon' => [
-      'variables' => [
-        'node' => NULL,
-        'node_render' => NULL,
-      ],
+      'template' => 'parse-html-test',
     ],
   ];
+}
+
+/**
+ * Implements template_preprocess_HOOK().
+ */
+function template_preprocess_parse_html_test(&$variables) {
+  $variables['#attached']['library'][] = 'dxpr_builder_parse_test/parse-html-test';
 } 

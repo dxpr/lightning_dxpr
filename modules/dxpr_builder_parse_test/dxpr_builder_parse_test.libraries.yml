@@ -1,0 +1,5 @@
+parse-html-test:
+  version: VERSION
+  css:
+    theme:
+      css/parse-html-test.css: {} 

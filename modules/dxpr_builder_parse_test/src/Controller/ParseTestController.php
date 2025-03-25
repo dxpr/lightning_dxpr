@@ -38,14 +38,14 @@ class ParseTestController extends ControllerBase {
   }
 
   /**
-   * Returns the parse_html_editor template.
+   * Returns the parse_html_test template.
    */
-  public function parseHtmlEditor() {
+  public function parseHtmlTest() {
     $node = $this->loadNodeByUuid('33379d0d-44a8-4ccb-ba01-7a239d3f2a1f');
     if (!$node) {
       \Drupal::messenger()->addError('Node not found');
       return [
-        '#theme' => 'parse_html_editor',
+        '#theme' => 'parse_html_test',
         '#node' => NULL,
       ];
     }
@@ -53,38 +53,39 @@ class ParseTestController extends ControllerBase {
     $view_builder = $this->entityTypeManager->getViewBuilder('node');
     $build = $view_builder->view($node);
 
-    return [
-      '#theme' => 'parse_html_editor',
-      '#node' => $node,
-      '#node_render' => $build,
-      '#attached' => [
-        'library' => [
-          'dxpr_builder_parse_test/parse-test',
-        ],
-      ],
-    ];
-  }
+    // Get the module path
+    $module_path = \Drupal::service('module_handler')->getModule('dxpr_builder_parse_test')->getPath();
+    $html_examples_path = $module_path . '/html-examples';
 
-  /**
-   * Returns the parse_html_anon template.
-   */
-  public function parseHtmlAnon() {
-    $node = $this->loadNodeByUuid('33379d0d-44a8-4ccb-ba01-7a239d3f2a1f');
-    if (!$node) {
-      \Drupal::messenger()->addError('Node not found');
-      return [
-        '#theme' => 'parse_html_anon',
-        '#node' => NULL,
-      ];
+    // Initialize array to store examples
+    $examples = [];
+
+    // Get all directories in html-examples
+    $dirs = array_filter(scandir($html_examples_path), function($item) use ($html_examples_path) {
+      return is_dir($html_examples_path . '/' . $item) && !in_array($item, ['.', '..']);
+    });
+
+    // Loop through discovered directories
+    foreach ($dirs as $dir) {
+      $dir_path = $html_examples_path . '/' . $dir;
+      $files = scandir($dir_path);
+      $examples[$dir] = [];
+      
+      foreach ($files as $file) {
+        if ($file != '.' && $file != '..' && strpos($file, '.html') !== FALSE) {
+          $content = file_get_contents($dir_path . '/' . $file);
+          if ($content !== FALSE) {
+            $examples[$dir][$file] = $content;
+          }
+        }
+      }
     }
 
-    $view_builder = $this->entityTypeManager->getViewBuilder('node');
-    $build = $view_builder->view($node);
-
     return [
-      '#theme' => 'parse_html_anon',
+      '#theme' => 'parse_html_test',
       '#node' => $node,
       '#node_render' => $build,
+      '#examples' => $examples,
       '#attached' => [
         'library' => [
           'dxpr_builder_parse_test/parse-test',
