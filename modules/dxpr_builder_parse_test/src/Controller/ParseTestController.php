@@ -1,0 +1,118 @@
+<?php
+
+namespace Drupal\dxpr_builder_parse_test\Controller;
+
+use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
+
+/**
+ * Controller for DXPR Builder Parse Test.
+ */
+class ParseTestController extends ControllerBase {
+
+  /**
+   * The entity type manager.
+   *
+   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
+   */
+  protected $entityTypeManager;
+
+  /**
+   * Constructs a new ParseTestController object.
+   *
+   * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
+   *   The entity type manager.
+   */
+  public function __construct(EntityTypeManagerInterface $entity_type_manager) {
+    $this->entityTypeManager = $entity_type_manager;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container) {
+    return new static(
+      $container->get('entity_type.manager')
+    );
+  }
+
+  /**
+   * Returns the parse_html_editor template.
+   */
+  public function parseHtmlEditor() {
+    $node = $this->loadNodeByUuid('33379d0d-44a8-4ccb-ba01-7a239d3f2a1f');
+    if (!$node) {
+      \Drupal::messenger()->addError('Node not found');
+      return [
+        '#theme' => 'parse_html_editor',
+        '#node' => NULL,
+      ];
+    }
+
+    $view_builder = $this->entityTypeManager->getViewBuilder('node');
+    $build = $view_builder->view($node);
+
+    return [
+      '#theme' => 'parse_html_editor',
+      '#node' => $node,
+      '#node_render' => $build,
+      '#attached' => [
+        'library' => [
+          'dxpr_builder_parse_test/parse-test',
+        ],
+      ],
+    ];
+  }
+
+  /**
+   * Returns the parse_html_anon template.
+   */
+  public function parseHtmlAnon() {
+    $node = $this->loadNodeByUuid('33379d0d-44a8-4ccb-ba01-7a239d3f2a1f');
+    if (!$node) {
+      \Drupal::messenger()->addError('Node not found');
+      return [
+        '#theme' => 'parse_html_anon',
+        '#node' => NULL,
+      ];
+    }
+
+    $view_builder = $this->entityTypeManager->getViewBuilder('node');
+    $build = $view_builder->view($node);
+
+    return [
+      '#theme' => 'parse_html_anon',
+      '#node' => $node,
+      '#node_render' => $build,
+      '#attached' => [
+        'library' => [
+          'dxpr_builder_parse_test/parse-test',
+        ],
+      ],
+    ];
+  }
+
+  /**
+   * Loads a node by UUID.
+   *
+   * @param string $uuid
+   *   The UUID of the node to load.
+   *
+   * @return \Drupal\node\NodeInterface|null
+   *   The loaded node or null if not found.
+   */
+  private function loadNodeByUuid($uuid) {
+    $node = \Drupal::entityTypeManager()
+      ->getStorage('node')
+      ->loadByProperties(['uuid' => $uuid]);
+    
+    if (empty($node)) {
+      \Drupal::logger('dxpr_builder_parse_test')->error('Node with UUID @uuid not found', ['@uuid' => $uuid]);
+      return NULL;
+    }
+    
+    return reset($node);
+  }
+
+} 

@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Contains dxpr_builder_parse_test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dxpr_builder_parse_test_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.dxpr_builder_parse_test':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Test module for DXPR Builder HTML parsing functionality.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function dxpr_builder_parse_test_theme() {
+  return [
+    'parse_html_editor' => [
+      'variables' => [
+        'node' => NULL,
+        'node_render' => NULL,
+      ],
+    ],
+    'parse_html_anon' => [
+      'variables' => [
+        'node' => NULL,
+        'node_render' => NULL,
+      ],
+    ],
+  ];
+} 
