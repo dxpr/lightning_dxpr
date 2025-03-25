@@ -16,6 +16,7 @@ install:
   - search
   - webform
   - webform_ui
+  - dxpr_builder_parse_test
 
 themes:
   - bootstrap
