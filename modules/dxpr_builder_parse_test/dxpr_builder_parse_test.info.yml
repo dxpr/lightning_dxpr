@@ -1,0 +1,7 @@
+name: DXPR Builder Parse Test
+type: module
+description: 'Test module for DXPR Builder HTML parsing'
+package: DXPR Example
+core_version_requirement: ^9
+dependencies:
+  - dxpr_builder:dxpr_builder 

@@ -1,0 +1,15 @@
+dxpr_builder_parse_test.parse_html_editor:
+  path: '/parse_html_editor'
+  defaults:
+    _controller: '\Drupal\dxpr_builder_parse_test\Controller\ParseTestController::parseHtmlEditor'
+    _title: 'Parse HTML Editor'
+  requirements:
+    _permission: 'access content'
+
+dxpr_builder_parse_test.parse_html_anon:
+  path: '/parse_html_anon'
+  defaults:
+    _controller: '\Drupal\dxpr_builder_parse_test\Controller\ParseTestController::parseHtmlAnon'
+    _title: 'Parse HTML Anonymous'
+  requirements:
+    _permission: 'access content' 
