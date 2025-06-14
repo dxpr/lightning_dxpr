@@ -45,5 +45,5 @@ default:
   body:
     -
       value: '&nbsp;'
-      format: ''
+      format: 'raw'
       summary: ''

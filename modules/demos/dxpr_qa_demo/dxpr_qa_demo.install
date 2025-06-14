@@ -30,6 +30,7 @@ function dxpr_qa_demo_install() {
   $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.block.block.bootstrap4_search_form');
   $settings = \Drupal::configFactory()->getEditable('block.block.bootstrap4_search_form');
   $settings->setData($cfg->get())->save();
+
   $cfg->delete();
 
   $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.dxpr_builder.settings');
@@ -41,6 +42,31 @@ function dxpr_qa_demo_install() {
   $settings = \Drupal::configFactory()->getEditable('workflows.workflow.editorial');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
+  
+  // Manually configure the body field to be visible (not hidden)
+  $form_display = \Drupal::configFactory()->getEditable('core.entity_form_display.node.drag_and_drop_page.default');
+  
+  // Remove body from hidden section
+  $hidden = $form_display->get('hidden') ?: [];
+  unset($hidden['body']);
+  $form_display->set('hidden', $hidden);
+  
+  // Add body to content section
+  $content = $form_display->get('content') ?: [];
+  $content['body'] = [
+    'type' => 'text_textarea_with_summary',
+    'weight' => 11,
+    'region' => 'content',
+    'settings' => [
+      'rows' => 9,
+      'summary_rows' => 3,
+      'placeholder' => '',
+      'show_summary' => FALSE,
+    ],
+    'third_party_settings' => [],
+  ];
+  $form_display->set('content', $content);
+  $form_display->save();
 
   // generate themesettings css and color module css
   require_once(drupal_get_path('theme', 'dxpr_theme') . '/dxpr_theme_callbacks.inc');
