@@ -1,0 +1,218 @@
+<section class="container py-4">
+  <h1 class="mb-3">Bootstrap 5 Components Showcase</h1>
+  <p class="mb-4">Paragraph with <a href="#">a link</a> and <strong>bold</strong> text.</p>
+
+  <h2>Basic HTML List</h2>
+  <ul class="mb-4">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <h2>Bootstrap Table (.table .table-bordered)</h2>
+  <table class="table table-bordered mb-4">
+    <thead>
+      <tr><th>Header</th><th>Value</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Row 1</td><td>Value 1</td></tr>
+      <tr><td>Row 2</td><td>Value 2</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Bootstrap Button Components (.btn)</h2>
+  <button class="btn btn-primary me-2">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+
+  <h2 class="mt-4">Bootstrap Grid System (.row .col)</h2>
+  <p class="mb-3"><strong>Expected layout:</strong> Equal-width columns that automatically divide available space. The 4-column row shows 25% width each, the 3-column row shows 33.33% width each. Responsive on all screen sizes without breakpoints.</p>
+  <div class="text-center mb-4">
+    <div class="row">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+  <div class="text-center mb-4">
+    <div class="row">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+
+  <h2>Bootstrap Row Columns (.row-cols-*)</h2>
+  <p class="mb-3"><strong>Expected layout:</strong> First example: 2 columns per row (50% each) - 4 items wrap to 2 rows. Second example: 3 columns per row (33.33% each) - 4 items wrap with 3 in first row, 1 in second. Third example: 1 column per row on mobile (100% width), 4 columns per row on medium+ screens (25% each).</p>
+  <div class="container text-center mb-4">
+    <div class="row row-cols-2">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+
+  <div class="container text-center mb-4">
+    <div class="row row-cols-3">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+
+  <div class="container text-center mb-4">
+    <div class="row row-cols-1 row-cols-md-4">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+  </div>
+
+  <h2>Nested Grid with Specific Column Classes (.col-sm-3, .col-8)</h2>
+  <p class="mb-3"><strong>Expected layout:</strong> On mobile: Full-width stacked columns, inner nested columns show 66.67% and 33.33% (col-8/col-4). On small screens+: Left column 25% width (col-sm-3), right column 75% width (col-sm-9), both inner nested columns are 50% each (col-sm-6).</p>
+  <div class="container text-center mb-4">
+    <div class="row">
+      <div class="col-sm-3">
+        Level 1: .col-sm-3
+      </div>
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Nested Grid with Row-Based Classes (.row-cols-*)</h2>
+  <p class="mb-3"><strong>Expected layout:</strong> Identical responsive behavior to the previous example but using row-cols approach. On mobile: Full-width stacked outer columns, inner row creates 3 slots where col-2 takes 66.67% and col-1 takes 33.33%. On small screens+: Left column 25%, right column 75%, inner row creates 2 equal slots of 50% each.</p>
+  <div class="container text-center mb-4">
+    <div class="row">
+      <div class="col-sm-3">
+        Level 1: responsive with .col-sm-3
+      </div>
+      <div class="col-sm-9">
+        <div class="row row-cols-3 row-cols-sm-2">
+          <div class="col-2">
+            Level 2: .row-cols-3 .row-cols-sm-2 with .col-2
+          </div>
+          <div class="col-1">
+            Level 2: .row-cols-3 .row-cols-sm-2 with .col-1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Bootstrap Card Components (.card .card-body)</h2>
+  <div class="row mb-4">
+    <div class="col">
+      <div class="card h-100"><div class="card-body">
+        <h5 class="card-title">Feature 1</h5>
+        <p class="card-text">Short text.</p>
+      </div></div>
+    </div>
+    <div class="col">
+      <div class="card h-100"><div class="card-body">
+        <h5 class="card-title">Feature 2</h5>
+        <p class="card-text">Short text.</p>
+      </div></div>
+    </div>
+    <div class="col">
+      <div class="card h-100"><div class="card-body">
+        <h5 class="card-title">Feature 3</h5>
+        <p class="card-text">Short text.</p>
+      </div></div>
+    </div>
+  </div>
+
+  <h2>Bootstrap Alert Components (.alert)</h2>
+  <div class="alert alert-primary mb-2">Primary alert message</div>
+  <div class="alert alert-success mb-4">Success alert message</div>
+
+  <h2>Bootstrap Progress Bar & Badge Components (.progress .badge)</h2>
+  <div class="progress mb-3">
+    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <p class="mb-4">
+    <span class="badge bg-primary me-2">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+  </p>
+
+  <h2>Bootstrap Breadcrumb Navigation (.breadcrumb)</h2>
+  <nav class="mb-4">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Page</a></li>
+      <li class="breadcrumb-item active">Current</li>
+    </ol>
+  </nav>
+
+  <h2>Bootstrap Tab Navigation (.nav-tabs with data-bs-toggle)</h2>
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">Tab 1</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab">Tab 2</button>
+    </li>
+  </ul>
+  <div class="tab-content mb-4" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel">
+      <p class="mt-3">Content for Tab 1.</p>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel">
+      <p class="mt-3">Content for Tab 2.</p>
+    </div>
+  </div>
+
+  <h2>Bootstrap Accordion Component (.accordion with data-bs-toggle="collapse")</h2>
+  <div class="accordion mb-4" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Section 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">Content for section 1.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Section 2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">Content for section 2.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Bootstrap Image Utilities (.img-fluid .rounded .figure)</h2>
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <img src="https://via.placeholder.com/400x200" class="img-fluid rounded" alt="Placeholder">
+    </div>
+    <div class="col-md-6">
+      <figure class="figure">
+        <img src="https://via.placeholder.com/400x200" class="figure-img img-fluid rounded" alt="Figure">
+        <figcaption class="figure-caption">Image caption text.</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <h2>Bootstrap List Group Component (.list-group)</h2>
+  <ul class="list-group mb-4">
+    <li class="list-group-item active">Active item</li>
+    <li class="list-group-item">Regular item</li>
+    <li class="list-group-item">Another item</li>
+  </ul>
+</section>
