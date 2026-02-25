@@ -53,6 +53,10 @@ install:
   - lightning_media_document
   - lightning_media_image
   - lightning_media_video
+  # jQuery UI modules (required by bootstrap theme on D10)
+  - jquery_ui
+  - jquery_ui_draggable
+  - jquery_ui_resizable
   # DXPR additions
   - field_group
   - media_library_form_element
@@ -61,6 +65,7 @@ install:
   - webform_ui
 
 themes:
+  - bootstrap
   - bootstrap5
   - claro
   - dxpr_theme
