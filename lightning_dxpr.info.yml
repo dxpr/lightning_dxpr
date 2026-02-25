@@ -1,40 +1,75 @@
 name: 'Lightning DXPR'
 type: profile
-version: 9.x-dev
-description: 'A fast and feature-rich Drupal distribution based on Lightning profile.'
-core_version_requirement: '^9'
-
-base profile: lightning
+description: 'A fast and feature-rich Drupal distribution with DXPR no-code page builder.'
+core_version_requirement: '^10.6'
 
 distribution:
   name: DXPR
 
 install:
-  - field_group
-  - dxpr_theme_helper
+  # Core modules
+  - autosave_form
+  - block_content
+  - breakpoint
+  - config
+  - conflict
+  - contextual
+  - datetime
+  - dblog
+  - ckeditor5
+  - editor
+  - entity_block
+  - field_ui
+  - file
+  - help
+  - history
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
   - search
+  - shortcut
+  - taxonomy
+  - text
+  - toolbar
+  - views
+  - views_ui
+  # Contrib modules (from lightning)
+  - diff
+  - image_widget_crop
+  - metatag
+  - moderation_sidebar
+  - pathauto
+  - redirect
+  # Lightning submodules
+  - lightning_core
+  - lightning_media
+  - lightning_workflow
+  - lightning_page
+  - lightning_roles
+  - lightning_media_audio
+  - lightning_media_document
+  - lightning_media_image
+  - lightning_media_video
+  # Contrib replacements for modules removed from D10 core
+  - color
+  - jquery_ui
+  - jquery_ui_draggable
+  - jquery_ui_resizable
+  # DXPR additions
+  - field_group
+  - media_library_form_element
+  - dxpr_theme_helper
   - webform
   - webform_ui
 
 themes:
   - bootstrap
-  - bootstrap4
   - bootstrap5
   - claro
   - dxpr_theme
-
-exclude:
-  - lightning_api
-  - lightning_contact_form
-  - lightning_search
-  - lightning_layout
-  - lightning_banner_block
-  - lightning_landing_page
-  - lightning_map_block
-  - bartik
-  - seven
-  - layout_builder
-  - layout_discovery
 
 config_devel:
   install:

@@ -29,6 +29,7 @@ region_wells:
   sidebar_first: ''
   sidebar_second: ''
   footer: ''
+cdn_provider: ''
 cdn_theme: bootstrap
 cdn_cache_ttl_versions: '604800'
 cdn_cache_ttl_themes: '604800'

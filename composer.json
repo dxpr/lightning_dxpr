@@ -1,17 +1,15 @@
 {
     "name": "dxpr/lightning_dxpr",
     "type": "drupal-profile",
-    "description": "Drupal distribution with DXPR Marketing features, based on Acquia Lightning distribution",
+    "description": "Drupal distribution with DXPR Marketing features and no-code page builder.",
     "license": "GPL-2.0-or-later",
     "keywords": [
         "DXPR",
         "Drupal",
-        "Marketing",
-        "Acquia",
-        "Lightning"
+        "Marketing"
     ],
     "support": {
-        "documentation": "https:/.dxpr.com/hc",
+        "documentation": "https://dxpr.com/hc",
         "issues": "https://dxpr.com/hc/tickets"
     },
     "authors": [
@@ -22,21 +20,44 @@
         }
     ],
     "require": {
+        "drupal/core": "^10.6",
         "cweagans/composer-patches": "^1.6",
-        "dxpr/lightning": "5.2.x-dev",
-        "ckeditor/fakeobjects": "^4.6",
-        "drupal/blazy": "2.16",
+        "drupal/ai": "^1.2",
+        "drupal/ai_provider_dxpr": "^1.0@beta",
+        "drupal/autosave_form": "^1.4",
+        "drupal/blazy": "^2.16",
         "drupal/bootstrap": "^3.0",
-        "drupal/bootstrap4": "^2.0",
-        "drupal/bootstrap5": "^2.0",
-        "drupal/crop": "2.4",
-        "drupal/ctools": "3.9",
-        "drupal/default_content": "2.0.0-alpha2",
+        "drupal/bootstrap5": "^3.0",
+        "drupal/color": "^1.0",
+        "drupal/conflict": "^2.0@alpha",
+        "drupal/crop": "^2.4",
+        "drupal/ctools": "^3.12",
+        "drupal/default_content": "^2.0@alpha",
+        "drupal/diff": "^1.1",
+        "drupal/dxpr_builder": "^2.0",
         "drupal/dxpr_theme": "^1.0",
         "drupal/dxpr_theme_helper": "^1.0",
-        "drupal/field_group": "^3.0",
-        "drupal/webform": "^6.0",
-        "drupal/dxpr_builder": "^2.0"
+        "drupal/entity_block": "^1.0",
+        "drupal/field_group": "^3.4",
+        "drupal/image_widget_crop": "^2.4",
+        "drupal/media_library_form_element": "^2.1",
+        "drupal/inline_entity_form": "^1.0-rc7",
+        "drupal/jquery_ui": "^1.0",
+        "drupal/jquery_ui_draggable": "^2.0",
+        "drupal/jquery_ui_resizable": "^2.0",
+        "drupal/lightning_core": "^6",
+        "drupal/lightning_media": "^5.1",
+        "drupal/lightning_workflow": "^4.0",
+        "drupal/metatag": "^1.22",
+        "drupal/moderation_sidebar": "^1.7",
+        "drupal/page_manager": "^4.0-rc1",
+        "drupal/panelizer": "^5.0",
+        "drupal/pathauto": "^1.11",
+        "drupal/profile_switcher": "^1.0@alpha",
+        "drupal/redirect": "^1.8",
+        "drupal/search_api": "^1.17",
+        "drupal/token": "^1.13",
+        "drupal/webform": "^6.2"
     },
     "extra": {
         "drupal-scaffold": {
@@ -77,11 +98,6 @@
         },
         "patchLevel": {
             "drupal/core": "-p2"
-        },
-        "patches": {
-            "drupal/core": {
-                "1650930 - Use READ COMMITTED by default for MySQL transactions": "https://www.drupal.org/files/issues/2021-10-12/1650930-140.patch"
-            }
         }
     }
 }

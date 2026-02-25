@@ -1,7 +1,7 @@
 name: DXPR Basic Demo
 type: module
 description: DXPR Basic Demo by DXPR.
-core_version_requirement: '^9'
+core_version_requirement: ^10.6
 package: DXPR
 dependencies:
   - drupal:contact
@@ -11,7 +11,6 @@ dependencies:
 config:
   install:
     - dxpr.settings
-    - color.theme.dxpr
     - block.block.basicfooter
     - block.block.dxprfullscreensearch
 default_content:
