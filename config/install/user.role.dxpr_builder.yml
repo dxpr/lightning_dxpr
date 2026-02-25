@@ -11,13 +11,11 @@ label: 'DXPR Builder User'
 weight: 9
 is_admin: null
 permissions:
-  - 'access ckeditor_media_browser entity browser pages'
   - 'access image_browser entity browser pages'
   - 'access media overview'
   - 'access media_browser entity browser pages'
   - 'create media'
   - 'delete media'
-  - 'dropzone upload files'
   - 'edit via dxpr builder'
   - 'edit with dxpr builder'
   - 'update media'

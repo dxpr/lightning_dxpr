@@ -16,6 +16,7 @@ install:
   - contextual
   - datetime
   - dblog
+  - ckeditor5
   - editor
   - entity_block
   - field_ui
