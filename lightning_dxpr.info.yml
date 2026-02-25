@@ -53,7 +53,8 @@ install:
   - lightning_media_document
   - lightning_media_image
   - lightning_media_video
-  # jQuery UI modules (required by bootstrap theme on D10)
+  # Contrib replacements for modules removed from D10 core
+  - color
   - jquery_ui
   - jquery_ui_draggable
   - jquery_ui_resizable
