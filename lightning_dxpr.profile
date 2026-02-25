@@ -5,26 +5,52 @@
  * Enables modules and site configuration for the Lightning DXPR profile.
  */
 
-
+use Drupal\user\RoleInterface;
 
 /**
  * Implements hook_install_tasks().
  */
 function lightning_dxpr_install_tasks(&$install_state) {
+  $tasks = [];
 
-  $tasks = [
-    'lightning_dxpr_demo_select' => [
-      'display_name' => t('Select Demo'),
-      'type' => 'form',
-      'function' => 'Drupal\lightning_dxpr\Form\DemoSelectForm',
-    ],
-    'lightning_dxpr_module_install' => [
-      'display_name' => t('Install additional modules'),
-      'type' => 'batch',
-    ],
+  // Set up base configuration (ported from lightning.profile).
+  if (empty($install_state['config_install_path'])) {
+    $tasks['lightning_dxpr_set_front_page'] = [];
+    $tasks['lightning_dxpr_grant_shortcut_access'] = [];
+  }
+
+  $tasks['lightning_dxpr_demo_select'] = [
+    'display_name' => t('Select Demo'),
+    'type' => 'form',
+    'function' => 'Drupal\lightning_dxpr\Form\DemoSelectForm',
+  ];
+  $tasks['lightning_dxpr_module_install'] = [
+    'display_name' => t('Install additional modules'),
+    'type' => 'batch',
   ];
 
   return $tasks;
+}
+
+/**
+ * Sets the front page path to /node.
+ */
+function lightning_dxpr_set_front_page() {
+  if (\Drupal::moduleHandler()->moduleExists('node')) {
+    \Drupal::configFactory()
+      ->getEditable('system.site')
+      ->set('page.front', '/node')
+      ->save(TRUE);
+  }
+}
+
+/**
+ * Allows authenticated users to use shortcuts.
+ */
+function lightning_dxpr_grant_shortcut_access() {
+  if (\Drupal::moduleHandler()->moduleExists('shortcut')) {
+    user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, ['access shortcuts']);
+  }
 }
 
 /**
@@ -38,10 +64,10 @@ function lightning_dxpr_install_tasks(&$install_state) {
  */
 function lightning_dxpr_module_install(array &$install_state) {
   // Installed separately here so that it can detect and connect any pre-
-  // installed media browsers
-  Drupal::service('module_installer')->install(['dxpr_builder'], TRUE);
-  Drupal::service('module_installer')->install(['dxpr_builder_page'], TRUE);
-  Drupal::service('module_installer')->install(['dxpr_builder_block'], TRUE);
+  // installed media browsers.
+  \Drupal::service('module_installer')->install(['dxpr_builder'], TRUE);
+  \Drupal::service('module_installer')->install(['dxpr_builder_page'], TRUE);
+  \Drupal::service('module_installer')->install(['dxpr_builder_block'], TRUE);
 
   $batch = [];
   if ($install_state['demo_select'] !== 'none') {
@@ -68,8 +94,7 @@ function lightning_dxpr_module_install(array &$install_state) {
  * Performs batch installation of modules.
  */
 function lightning_dxpr_install_module_batch($module, &$context) {
-  // CMS Modules are not available yet.
-  Drupal::service('module_installer')->install([$module], TRUE);
+  \Drupal::service('module_installer')->install([$module], TRUE);
   $context['results'][] = $module;
   $context['message'] = t('Installed %module_name module.', ['%module_name' => $module]);
 }
@@ -78,31 +103,27 @@ function lightning_dxpr_install_module_batch($module, &$context) {
  * Implements callback_batch_operation().
  */
 function lightning_dxpr_cleanup_batch($module, &$context) {
-  Drupal::service('module_installer')->uninstall(['default_content'], FALSE);
+  \Drupal::service('module_installer')->uninstall(['default_content'], FALSE);
 
-  // Update url aliases with menu tokens (only needed for alises that reflect menu structure)
-  $result = \Drupal::entityQuery('node')->execute();
+  // Update url aliases with menu tokens.
+  $result = \Drupal::entityQuery('node')->accessCheck(FALSE)->execute();
   $entity_storage = \Drupal::entityTypeManager()->getStorage('node');
   $entities = $entity_storage->loadMultiple($result);
   foreach ($entities as $entity) {
     \Drupal::service('pathauto.generator')->updateEntityAlias($entity, 'update');
   }
 
-  // We're doing this here because during hook_install it fails due to demo content loading
-  // after installation (when default_content module steps in).
-  $module_path = drupal_get_path('module', $module);
+  // Set the front page from the demo module's front-path.txt.
+  $module_path = \Drupal::service('extension.list.module')->getPath($module);
   if ($path = file_get_contents($module_path . '/front-path.txt')) {
-    if ($nid = Drupal::database()->query("SELECT nid FROM {node} WHERE uuid = '" . $path . "'")->fetchField()) {
-      Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/' . $nid)->save(TRUE);
+    $path = trim($path);
+    $front_page = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['uuid' => $path]);
+    if ($front_page) {
+      $node = reset($front_page);
+      \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/' . $node->id())->save(TRUE);
     }
     else {
-      $front_page = Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['uuid' => $path]);
-      if ($front_page) {
-        Drupal::configFactory()->getEditable('system.site')->set('page.front', $path)->save(TRUE);
-      }
-      else {
-        Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save(TRUE);
-      }
+      \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/')->save(TRUE);
     }
   }
 
