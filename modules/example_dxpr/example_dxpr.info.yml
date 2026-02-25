@@ -3,6 +3,6 @@ type: module
 description: Example module that extends via DXPR Builder API.
 version: 1.0.0
 package: DXPR Example
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^10.6
 dependencies:
   - dxpr_builder:dxpr_builder

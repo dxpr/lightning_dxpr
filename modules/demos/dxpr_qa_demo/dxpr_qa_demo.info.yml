@@ -3,7 +3,7 @@ type: module
 description: Content for QA.
 version: 1.0.0-alpha2
 package: DXPR
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^10.6
 dependencies:
   - drupal:contact
   - drupal:language
@@ -15,14 +15,11 @@ dependencies:
   - dxpr_builder_block:dxpr_builder_block
   - dxpr_builder_page:dxpr_builder_page
   - dxpr_theme_helper:dxpr_theme_helper
-themes:
-  - gin
 config_devel:
   install:
     - block.block.basicfooter
     - block.block.emptydxprbuilderblock
     - block.block.secondarynavigation
-    - color.theme.dxpr
     - dxpr_builder.settings
     - dxpr_theme.settings
     - language.entity.ar

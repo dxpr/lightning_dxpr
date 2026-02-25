@@ -2,7 +2,7 @@ name: DXPR Logistics Demo
 type: module
 version: 8.x-1.0
 description: DXPR Logistics Demo by DXPR.
-core_version_requirement: '^9'
+core_version_requirement: ^10.6
 package: DXPR
 dependencies:
   - drupal:contact
@@ -16,7 +16,6 @@ dependencies:
 config:
   install:
     - dxpr.settings
-    - color.theme.dxpr
     - webform:webform.webform.package_tracking
     - webform:webform.webform.request_a_quote
     - block.block.customersupport
