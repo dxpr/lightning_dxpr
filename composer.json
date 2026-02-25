@@ -22,6 +22,8 @@
     "require": {
         "drupal/core": "^10.6",
         "cweagans/composer-patches": "^1.6",
+        "drupal/ai": "^1.2",
+        "drupal/ai_provider_dxpr": "^1.0@alpha",
         "drupal/autosave_form": "^1.4",
         "drupal/blazy": "^2.16",
         "drupal/bootstrap": "^3.0",
