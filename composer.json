@@ -36,6 +36,7 @@
         "drupal/entity_block": "^1.0",
         "drupal/field_group": "^3.4",
         "drupal/image_widget_crop": "^2.4",
+        "drupal/media_library_form_element": "^2.1",
         "drupal/inline_entity_form": "^1.0-rc7",
         "drupal/lightning_core": "^6",
         "drupal/lightning_media": "^5.1",
