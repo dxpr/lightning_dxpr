@@ -40,7 +40,7 @@
         "drupal/image_widget_crop": "^2.4",
         "drupal/inline_entity_form": "^1.0-rc7",
         "drupal/lightning_core": "^6",
-        "dxpr/lightning_media": "^5.0@alpha",
+        "dxpr/lightning_media": "5.0.x-dev",
         "drupal/lightning_workflow": "^4.0",
         "drupal/metatag": "^1.22",
         "drupal/moderation_sidebar": "^1.7",
