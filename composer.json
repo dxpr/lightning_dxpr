@@ -30,7 +30,7 @@
         "drupal/bootstrap4": "^2.0",
         "drupal/bootstrap5": "^2.0",
         "drupal/crop": "2.4",
-        "drupal/ctools": "3.9",
+        "drupal/ctools": "^3.9",
         "drupal/default_content": "2.0.0-alpha2",
         "drupal/dxpr_theme": "^1.0",
         "drupal/dxpr_theme_helper": "^1.0",
