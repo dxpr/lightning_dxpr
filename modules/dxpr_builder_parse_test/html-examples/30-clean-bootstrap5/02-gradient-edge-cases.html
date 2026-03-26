@@ -41,9 +41,9 @@
     </div>
 
     <div class="col-md-6">
-      <div class="p-4 rounded text-white" style="background-image: linear-gradient(220deg, rgba(12, 74, 110, 0.95) 8%, rgba(59, 130, 246, 0.82) 42%, rgba(167, 139, 250, 0.86) 100%); background-repeat: no-repeat; background-position: center; min-height: 180px;">
-        <h2 class="h5">Case 6: background-image only</h2>
-        <p class="mb-0">Gradient defined on background-image with separate positioning props.</p>
+      <div class="p-4 rounded text-white" style="background-image: linear-gradient(220deg, rgba(12, 74, 110, 0.95) 8%, rgba(59, 130, 246, 0.82) 42%, rgba(167, 139, 250, 0.86) 100%), url('https://promptahuman.com/400x300'); background-repeat: no-repeat; background-position: center; background-size: cover; min-height: 180px;">
+        <h2 class="h5">Case 6: background-image layered</h2>
+        <p class="mb-0">Gradient and URL combined in background-image with separate helper props.</p>
       </div>
     </div>
 
@@ -58,6 +58,20 @@
       <div class="p-4 rounded text-white" style="background-color: #0f172a; background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.92) 50%, rgba(51, 65, 85, 0.9) 100%); min-height: 180px;">
         <h2 class="h5">Case 8: Explicit fallback color + gradient</h2>
         <p class="mb-0">Tests coexistence of background-color and gradient shorthand.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="p-4 rounded text-white" style="background: url('https://promptahuman.com/400x300') center/cover no-repeat, linear-gradient(25deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 64, 175, 0.78) 55%, rgba(14, 165, 233, 0.75) 100%); min-height: 180px;">
+        <h2 class="h5">Case 9: URL first, gradient second</h2>
+        <p class="mb-0">Tests reversed layer order in shorthand background list.</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="p-4 rounded text-white" style="background-image: linear-gradient(to top left, rgba(3, 7, 18, 0.92) 0%, rgba(67, 56, 202, 0.86) 46%, rgba(236, 72, 153, 0.84) 100%), url('https://promptahuman.com/400x300?asset=hero,alt'); background-position: center, center; background-size: cover, cover; background-repeat: no-repeat, no-repeat; min-height: 180px;">
+        <h2 class="h5">Case 10: Layered image with URL containing comma</h2>
+        <p class="mb-0">Exercises parsing with URL query punctuation in multi-layer background-image.</p>
       </div>
     </div>
   </div>
