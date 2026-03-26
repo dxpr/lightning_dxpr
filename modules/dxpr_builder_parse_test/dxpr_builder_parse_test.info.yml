@@ -3,5 +3,6 @@ type: module
 description: 'Test module for DXPR Builder HTML parsing'
 package: DXPR Example
 core_version_requirement: ^9
+configure: parse_html_test
 dependencies:
-  - dxpr_builder:dxpr_builder 
+  - dxpr_builder:dxpr_builder
