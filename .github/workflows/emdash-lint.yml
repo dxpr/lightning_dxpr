@@ -1,0 +1,55 @@
+name: Em dash lint
+
+on: pull_request
+
+jobs:
+  emdash-lint:
+    runs-on: ubicloud-standard-2
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Check for em dashes and double dashes
+      run: |
+        FOUND=0
+        if grep -rn "$(printf '\xe2\x80\x94')" \
+          --include='*.html' \
+          --include='*.md' \
+          --include='*.txt' \
+          --include='*.php' \
+          --include='*.module' \
+          --include='*.install' \
+          --include='*.inc' \
+          --include='*.yml' \
+          --include='*.yaml' \
+          --include='*.twig' \
+          --include='*.js' \
+          --include='*.css' \
+          --exclude-dir='node_modules' \
+          --exclude-dir='vendor' \
+          --exclude-dir='.claude' \
+          --exclude='.gitlab-ci.yml' \
+          --exclude='emdash-lint.yml' \
+          . ; then
+          FOUND=1
+        fi
+        if grep -rn ' -- ' \
+          --include='*.html' \
+          --include='*.md' \
+          --include='*.txt' \
+          --include='*.php' \
+          --include='*.module' \
+          --include='*.install' \
+          --include='*.inc' \
+          --include='*.twig' \
+          --exclude-dir='node_modules' \
+          --exclude-dir='vendor' \
+          --exclude-dir='.claude' \
+          . ; then
+          FOUND=1
+        fi
+        if [ "$FOUND" -eq 1 ]; then
+          echo ""
+          echo "Error: Em dashes or double dashes found in the files listed above."
+          echo "Rephrase to avoid dashes."
+          exit 1
+        fi
