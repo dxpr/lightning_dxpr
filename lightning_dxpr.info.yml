@@ -30,6 +30,7 @@ install:
   - page_cache
   - path
   - search
+  - serialization
   - shortcut
   - taxonomy
   - text
