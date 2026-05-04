@@ -38,6 +38,7 @@
         "drupal/dxpr_theme": "^1.0",
         "drupal/dxpr_theme_helper": "^1.0",
         "drupal/entity_block": "^1.0",
+        "drupal/hal": "^2.0",
         "drupal/field_group": "^3.4",
         "drupal/image_widget_crop": "^2.4",
         "drupal/media_library_form_element": "^2.1",
