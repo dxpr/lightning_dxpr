@@ -8,51 +8,51 @@ weight: 0
 roles:
   - dxpr_builder
 elements:
-  - az_accordion
-  - az_alert
-  - az_blockquote
-  - az_button
-  - az_circle_counter
-  - az_countdown
-  - az_counter
-  - az_html
-  - az_icon
-  - az_image
-  - az_images_carousel
-  - az_jumbotron
-  - az_link
-  - az_map
-  - az_panel
-  - az_progress_bar
-  - az_separator
-  - az_text
-  - az_video
-  - az_video_local
-  - az_well
-  - az_carousel
-  - az_container
-  - az_layers
-  - az_row
-  - az_section
-  - st_social
-  - az_tabs
-  - az_toggle
+  - dxb_accordion
+  - dxb_alert
+  - dxb_blockquote
+  - dxb_button
+  - dxb_circle_counter
+  - dxb_countdown
+  - dxb_counter
+  - dxb_html
+  - dxb_icon
+  - dxb_image
+  - dxb_images_carousel
+  - dxb_jumbotron
+  - dxb_link
+  - dxb_map
+  - dxb_panel
+  - dxb_progress_bar
+  - dxb_separator
+  - dxb_text
+  - dxb_video
+  - dxb_video_local
+  - dxb_well
+  - dxb_carousel
+  - dxb_container
+  - dxb_layers
+  - dxb_row
+  - dxb_section
+  - dxb_social
+  - dxb_tabs
+  - dxb_toggle
 blocks:
-  - 'az_block-block_content:33644f9c-e6d7-4f18-b11f-3bfc160beaf9'
-  - 'az_block-block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
-  - az_block-full_screen_search
-  - az_block-dxpr_theme_helper_user_register
-  - az_block-search_form_block
-  - az_block-system_branding_block
-  - az_block-system_breadcrumb_block
-  - az_block-user_login_block
-  - 'az_block-dxpr_builder_webform:contact'
+  - 'dxb_block-block_content:33644f9c-e6d7-4f18-b11f-3bfc160beaf9'
+  - 'dxb_block-block_content:975f4a06-92f7-4ec8-a4a9-23e75174d2b8'
+  - dxb_block-full_screen_search
+  - dxb_block-dxpr_theme_helper_user_register
+  - dxb_block-search_form_block
+  - dxb_block-system_branding_block
+  - dxb_block-system_breadcrumb_block
+  - dxb_block-user_login_block
+  - 'dxb_block-dxpr_builder_webform:contact'
 views:
-  - az_view-qa_views-exposed_filter
-  - az_view-qa_views-title_view
-  - az_view-watchdog-page
-  - az_view-who_s_new-block_1
-  - az_view-who_s_online-who_s_online_block
+  - dxb_view-qa_views-exposed_filter
+  - dxb_view-qa_views-title_view
+  - dxb_view-watchdog-page
+  - dxb_view-who_s_new-block_1
+  - dxb_view-who_s_online-who_s_online_block
 inline_buttons:
   - Bold
   - Italic

@@ -31,6 +31,6 @@ default:
       value: false
   body:
     -
-      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gbb1ik6eqf" data-azat-pid="gb9vt7hn2s" id="gb9vt7hn2s" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbzabdjdmd" data-azat-pid="gbdgfsnw95" id="gbdgfsnw95" data-azb="az_text" data-azcnt="true"><p style="text-align: center;">Copyright DXPR 2020+</p></div></div></div>'
+      value: '<div class="dxb-element dxb-section" style="" data-dxb-editor-libraries="" data-dxb-id="gbb1ik6eqf" data-dxb-pid="gb9vt7hn2s" id="gb9vt7hn2s" data-dxb="dxb_section"><div class="dxb-ctnr container" data-dxb-cnt="true"><div class="dxb-element dxb-text" style="" data-dxb-id="gbzabdjdmd" data-dxb-pid="gbdgfsnw95" id="gbdgfsnw95" data-dxb="dxb_text" data-dxb-cnt="true"><p style="text-align: center;">Copyright DXPR 2020+</p></div></div></div>'
       format: full_html
       summary: ''

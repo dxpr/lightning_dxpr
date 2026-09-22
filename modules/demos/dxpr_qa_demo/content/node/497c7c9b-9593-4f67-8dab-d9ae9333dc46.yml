@@ -47,6 +47,6 @@ default:
       value: false
   body:
     -
-      value: '<div class="az-element az-section" style="" data-dxpr-builder-libraries="" data-az-id="gb4fvktnn4" data-azat-pid="gbuk08xiff" id="gbuk08xiff" data-azb="az_section"><div class="az-ctnr container" data-azcnt="true"><div class="az-element az-text" style="" data-az-id="gbgfhvpmen" data-azat-pid="gbq4l1kafy" id="gbq4l1kafy" data-azb="az_text" data-azcnt="true"><h2>Test Text Editor Settings Override</h2><ol><li>Click this text to make the inline editor show</li><li>Check the "warning text" is the only option in the Styles dropdown</li></ol></div></div></div>'
+      value: '<div class="dxb-element dxb-section" style="" data-dxb-editor-libraries="" data-dxb-id="gb4fvktnn4" data-dxb-pid="gbuk08xiff" id="gbuk08xiff" data-dxb="dxb_section"><div class="dxb-ctnr container" data-dxb-cnt="true"><div class="dxb-element dxb-text" style="" data-dxb-id="gbgfhvpmen" data-dxb-pid="gbq4l1kafy" id="gbq4l1kafy" data-dxb="dxb_text" data-dxb-cnt="true"><h2>Test Text Editor Settings Override</h2><ol><li>Click this text to make the inline editor show</li><li>Check the "warning text" is the only option in the Styles dropdown</li></ol></div></div></div>'
       format: full_html
       summary: ''
