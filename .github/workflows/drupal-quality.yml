@@ -25,10 +25,14 @@ jobs:
           composer --working-dir="$tools" require 'drupal/coder:^8.3' --no-interaction --no-plugins --no-scripts
           status=0
           "$tools/vendor/bin/phpcs" --standard=Drupal,DrupalPractice \
-            --runtime-set installed_paths "$tools/vendor/drupal/coder/coder_sniffer" \
-            --extensions=php,module,inc,install,profile,theme,test \
-            --ignore='*/vendor/*,*/node_modules/*,*/web/core/*,*/tests/fixtures/*' \
+            --runtime-set installed_paths "$tools/vendor/drupal/coder/coder_sniffer,$tools/vendor/slevomat/coding-standard" \
+            --extensions=php,module,inc,install,profile,theme,test,yml,yaml \
+            --ignore='*/vendor/*,*/node_modules/*,*/web/core/*,*/tests/fixtures/*,*/.github/*' \
             --report=full --report-json="$RUNNER_TEMP/drupal-lint.json" . || status=$?
+          if [[ ! -s "$RUNNER_TEMP/drupal-lint.json" ]]; then
+            echo "::error::PHPCS exited before writing its report"
+            exit 1
+          fi
           php -r '$report = json_decode(file_get_contents($argv[1]), true, 512, JSON_THROW_ON_ERROR); printf("Drupal lint totals: %d errors, %d warnings\n", $report["totals"]["errors"], $report["totals"]["warnings"]);' "$RUNNER_TEMP/drupal-lint.json"
           exit "$status"
 
