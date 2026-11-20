@@ -1,8 +1,7 @@
 name: 'Lightning DXPR'
 type: profile
 description: 'A fast and feature-rich Drupal distribution with DXPR no-code page builder.'
-core_version_requirement: '^10.6'
-
+core_version_requirement: '^11.3 || ^12'
 distribution:
   name: DXPR
 
