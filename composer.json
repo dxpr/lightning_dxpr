@@ -100,7 +100,7 @@
             ]
         },
         "patchLevel": {
-            "drupal/core": "^11.3 || ^12@beta"
+            "drupal/core": "-p2"
         }
     }
 }

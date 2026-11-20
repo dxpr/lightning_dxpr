@@ -1,0 +1,72 @@
+name: Drupal quality
+
+on: [pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  drupal-lint:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          extensions: dom, gd, mbstring, pdo_sqlite, sqlite3
+          tools: composer:v2
+          coverage: none
+      - name: Check Drupal coding standards
+        run: |
+          tools="$(mktemp -d)"
+          composer --working-dir="$tools" require 'drupal/coder:^8.3' --no-interaction --no-plugins --no-scripts
+          status=0
+          "$tools/vendor/bin/phpcs" --standard=Drupal,DrupalPractice \
+            --runtime-set installed_paths "$tools/vendor/drupal/coder/coder_sniffer" \
+            --extensions=php,module,inc,install,profile,theme,test \
+            --ignore='*/vendor/*,*/node_modules/*,*/web/core/*,*/tests/fixtures/*' \
+            --report=full --report-json="$RUNNER_TEMP/drupal-lint.json" . || status=$?
+          php -r '$report = json_decode(file_get_contents($argv[1]), true, 512, JSON_THROW_ON_ERROR); printf("Drupal lint totals: %d errors, %d warnings\n", $report["totals"]["errors"], $report["totals"]["warnings"]);' "$RUNNER_TEMP/drupal-lint.json"
+          exit "$status"
+
+  drupal-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+          extensions: dom, gd, mbstring, pdo_sqlite, sqlite3
+          tools: composer:v2
+          coverage: none
+      - name: Check against Drupal 12
+        run: |
+          site="$(mktemp -d)/site"
+          composer create-project 'drupal/recommended-project:^12@beta' "$site" \
+            --no-install --no-interaction --stability=beta
+          cd "$site"
+          composer config repositories.pr path "$GITHUB_WORKSPACE"
+          php -r '$file = "composer.json"; $data = json_decode(file_get_contents($file), true, 512, JSON_THROW_ON_ERROR); $data["extra"]["installer-paths"] = json_decode($argv[1], true, 512, JSON_THROW_ON_ERROR) + $data["extra"]["installer-paths"]; file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR) . PHP_EOL);' '{"web/profiles/contrib/lightning_dxpr": ["dxpr/lightning_dxpr"]}'
+          composer require 'dxpr/lightning_dxpr:*@dev' --no-update
+          analyse=(web/profiles/contrib/lightning_dxpr)
+          composer require --dev 'phpstan/phpstan:^2' 'mglaman/phpstan-drupal:^2' \
+            'phpstan/phpstan-deprecation-rules:^2' --no-update
+          composer update --no-interaction --prefer-dist --no-progress --no-scripts
+
+          cat > drupal-quality.neon <<'NEON'
+          includes:
+              - vendor/mglaman/phpstan-drupal/extension.neon
+              - vendor/mglaman/phpstan-drupal/rules.neon
+              - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+          parameters:
+              level: 1
+              drupal:
+                  drupal_root: web
+          NEON
+          vendor/bin/phpstan analyse --configuration=drupal-quality.neon --no-progress --memory-limit=1G "${analyse[@]}"
