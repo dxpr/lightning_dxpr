@@ -1,7 +1,14 @@
 <?php
 
+/**
+ * @file
+ */
+
+/**
+ *
+ */
 function dxpr_qa_demo_install() {
-  // override existing configuration objects
+  // Override existing configuration objects.
   $cfg = \Drupal::configFactory()->getEditable('dxpr_qa_demo.dxpr_theme.settings');
   $settings = \Drupal::configFactory()->getEditable('dxpr_theme.settings');
   $settings->setData($cfg->get())->save();
@@ -17,8 +24,8 @@ function dxpr_qa_demo_install() {
   $settings->setData($cfg->get())->save();
   $cfg->delete();
 
-  // generate themesettings css
+  // Generate themesettings css.
   $theme_path = \Drupal::service('extension.list.theme')->getPath('dxpr_theme');
-  require_once($theme_path . '/dxpr_theme_callbacks.inc');
+  require_once $theme_path . '/dxpr_theme_callbacks.inc';
   dxpr_theme_css_cache_build('dxpr_theme');
 }

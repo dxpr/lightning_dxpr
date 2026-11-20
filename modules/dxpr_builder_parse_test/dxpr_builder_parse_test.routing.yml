@@ -4,4 +4,4 @@ parse_html_test:
     _title: 'Parse HTML Test'
     _controller: '\Drupal\dxpr_builder_parse_test\Controller\ParseTestController::parseHtmlTest'
   requirements:
-    _permission: 'access content' 
+    _permission: 'access content'

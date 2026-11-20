@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * @file
+ */
+
+/**
  * Implements hook_page_attachments() for adding CSS.
  */
 function dxpr_qa_demo_page_attachments(array &$attachments) {

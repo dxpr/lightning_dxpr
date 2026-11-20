@@ -1,14 +1,21 @@
 <?php
 
+/**
+ * @file
+ */
+
+/**
+ *
+ */
 function dxpr_basic_demo_install() {
-  // override existing configuration objects
+  // Override existing configuration objects.
   $cfg = \Drupal::configFactory()->getEditable('dxpr_basic_demo.dxpr_theme.settings');
   $settings = \Drupal::configFactory()->getEditable('dxpr_theme.settings');
   $settings->setData($cfg->get())->save();
   $cfg->delete();
 
-  // generate themesettings css and color module css
-  require_once(\Drupal::service('extension.list.theme')->getPath('dxpr_theme') . '/dxpr_theme_callbacks.inc');
+  // Generate themesettings css and color module css.
+  require_once \Drupal::service('extension.list.theme')->getPath('dxpr_theme') . '/dxpr_theme_callbacks.inc';
   dxpr_theme_color_module_css_write('dxpr_theme');
   dxpr_theme_css_cache_build('dxpr_theme');
 }

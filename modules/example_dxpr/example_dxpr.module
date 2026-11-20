@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * @file
+ */
+
 /**
  * Implements hook_dxpr_builder_classes_alter().
  */
