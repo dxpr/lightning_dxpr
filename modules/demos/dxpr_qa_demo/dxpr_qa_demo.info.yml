@@ -3,7 +3,7 @@ type: module
 description: Content for QA.
 version: 1.0.0-alpha2
 package: DXPR
-core_version_requirement: ^10.6
+core_version_requirement: ^10.6 || ^12
 dependencies:
   - drupal:contact
   - drupal:language

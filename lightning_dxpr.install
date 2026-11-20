@@ -9,7 +9,7 @@
  * Implements hook_install().
  */
 function lightning_dxpr_install() {
-  // override existing configuration objects
+  // Override existing configuration objects.
   $cfg = \Drupal::configFactory()->getEditable('lightning_dxpr.system.performance');
   $settings = \Drupal::configFactory()->getEditable('system.performance');
   $settings->setData($cfg->get())->save();

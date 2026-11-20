@@ -47,12 +47,12 @@ class ParseTestController extends ControllerBase {
    *   The processed HTML content with replaced image URLs.
    */
   protected function replaceImageUrls($content) {
-    // Replace src attributes in img tags
+    // Replace src attributes in img tags.
     $content = preg_replace('/src=["\'](.*?)["\']/', 'src="https://promptahuman.com/400x300"', $content);
-    
-    // Replace background-image URLs in style attributes
+
+    // Replace background-image URLs in style attributes.
     $content = preg_replace('/background-image:\s*url\(["\']?(.*?)["\']?\)/', 'background-image: url("https://promptahuman.com/400x300")', $content);
-    
+
     return $content;
   }
 
@@ -72,29 +72,29 @@ class ParseTestController extends ControllerBase {
     $view_builder = $this->entityTypeManager->getViewBuilder('node');
     $build = $view_builder->view($node);
 
-    // Get the module path
+    // Get the module path.
     $module_path = \Drupal::service('module_handler')->getModule('dxpr_builder_parse_test')->getPath();
     $html_examples_path = $module_path . '/html-examples';
 
-    // Initialize array to store examples
+    // Initialize array to store examples.
     $examples = [];
 
-    // Get all directories in html-examples
-    $dirs = array_filter(scandir($html_examples_path), function($item) use ($html_examples_path) {
+    // Get all directories in html-examples.
+    $dirs = array_filter(scandir($html_examples_path), function ($item) use ($html_examples_path) {
       return is_dir($html_examples_path . '/' . $item) && !in_array($item, ['.', '..']);
     });
 
-    // Loop through discovered directories
+    // Loop through discovered directories.
     foreach ($dirs as $dir) {
       $dir_path = $html_examples_path . '/' . $dir;
       $files = scandir($dir_path);
       $examples[$dir] = [];
-      
+
       foreach ($files as $file) {
         if ($file != '.' && $file != '..' && strpos($file, '.html') !== FALSE) {
           $content = file_get_contents($dir_path . '/' . $file);
           if ($content !== FALSE) {
-            // Replace image URLs in the HTML content
+            // Replace image URLs in the HTML content.
             $content = $this->replaceImageUrls($content);
             $examples[$dir][$file] = $content;
           }
@@ -128,13 +128,13 @@ class ParseTestController extends ControllerBase {
     $node = \Drupal::entityTypeManager()
       ->getStorage('node')
       ->loadByProperties(['uuid' => $uuid]);
-    
+
     if (empty($node)) {
       \Drupal::logger('dxpr_builder_parse_test')->error('Node with UUID @uuid not found', ['@uuid' => $uuid]);
       return NULL;
     }
-    
+
     return reset($node);
   }
 
-} 
+}

@@ -20,7 +20,9 @@
         }
     ],
     "require": {
-        "drupal/core": "^10.6",
+        "drupal/history": "^1.0",
+        "drupal/contact": "^1.0",
+        "drupal/core": "^11.3 || ^12@beta",
         "cweagans/composer-patches": "^1.6",
         "drupal/ai": "^1.2",
         "drupal/ai_provider_dxpr": "^1.0@beta",

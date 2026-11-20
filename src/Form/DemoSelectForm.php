@@ -3,7 +3,6 @@
 namespace Drupal\lightning_dxpr\Form;
 
 use Drupal\Core\Form\FormBase;
-use Drupal\Component\Utility\Environment;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
@@ -29,12 +28,12 @@ class DemoSelectForm extends FormBase {
       '#type' => 'radios',
       '#title' => t('Install demo content and configuration'),
       '#default_value' => 'dxpr_basic_demo',
-      '#options' => array(
+      '#options' => [
         'dxpr_basic_demo' => $this->t('Basic demo (1 page, 1 block, 2 menu links, 1 file)'),
         'dxpr_logistics_demo' => $this->t('Logistics Company demo (15 pages, 3 blocks, 15 menu links, 17 files)'),
         'dxpr_qa_demo' => $this->t('Demo with QA testing pages for all elements and features'),
         'none' => $this->t('No demo content'),
-      ),
+      ],
     ];
 
     $form['actions'] = ['#type' => 'actions'];
